@@ -56,13 +56,32 @@ export async function getMockMeta(pageNum: number): Promise<MockMeta | null> {
 
 export async function getMockDemoBundle() {
   return {
+    health: { status: 'ok', mode: 'mock' },
     default_page: 79,
     default_page_id: 79,
-    available_pages: MOCK_PAGES,
     featured_pages: [
-      { page_num: 79, title: 'Unfermented Grape Juice', difficulty: 'easy' },
-      { page_num: 96, title: 'Coffee Cakes (Brioche)', difficulty: 'medium' },
+      {
+        page_id: 79,
+        png_id: '0079',
+        page_num: 79,
+        title: 'Unfermented Grape Juice',
+        recipe_confidence: 0.95,
+        is_recipe_page: true
+      },
+      {
+        page_id: 96,
+        png_id: '0096',
+        page_num: 96,
+        title: 'Coffee Cakes (Brioche)',
+        recipe_confidence: 0.92,
+        is_recipe_page: true
+      },
     ],
+    status: 'ok',
+    message: 'Mock demo data',
+    pages_total: 2,
+    pages_with_images: 2,
+    featured_mode: 'curated_recipe',
   };
 }
 
