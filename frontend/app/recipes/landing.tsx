@@ -19,10 +19,10 @@ export default async function LandingPage({
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-4">
             <p className="text-xs uppercase tracking-[0.3em] text-[#6b8b6f]">
-              Boston Cooking-School Cook Book
+              1896 Historical Cookbook
             </p>
             <h1 className="display-font text-5xl font-semibold text-balance">
-              A polished cookbook with an AI parse layer for 1896 recipes.
+              Written in 1896, Fanny Farmer's <em>Boston Cooking-School Cook Book</em> jumps off the page with an AI parser.
             </h1>
             <p className="max-w-xl text-sm text-[#4b4237]">
               Browse cleaned, searchable recipes and jump into the AI overlay to see how LayoutLMv3 labels and groups
