@@ -1,8 +1,11 @@
 import type { ExtractedRecipe } from "../types";
+import { isMockMode, getMockPrediction, getMockDemoBundle, getAvailableMockPages } from "./mock";
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_BASE_URL?.replace(/\/$/, "") ||
   "http://localhost:8000";
+
+const USE_MOCK = isMockMode();
 
 type FetchOpts = RequestInit & { timeoutMs?: number; retry?: number };
 
@@ -92,6 +95,20 @@ export async function getBostonPagePrediction(
   pageNum: number,
   opts?: { refresh?: boolean; minConf?: number; grouped?: boolean }
 ): Promise<ParseResponse & { image_url_resolved: string }> {
+  // Use mock data if no backend is configured
+  if (USE_MOCK) {
+    const mockData = await getMockPrediction(pageNum);
+    if (!mockData) {
+      throw new Error(`Page ${pageNum} not available in demo mode`);
+    }
+    return {
+      ...mockData,
+      label_map: { id2label: {}, label2id: {} },
+      meta: {},
+      image_url_resolved: `/demo_examples/${pageNum === 79 ? 'example_01' : 'example_02'}/page.png`,
+    } as ParseResponse & { image_url_resolved: string };
+  }
+
   const params = new URLSearchParams();
   if (opts?.refresh) params.set("refresh", "true");
   if (opts?.grouped === false) params.set("grouped", "false");
@@ -127,6 +144,16 @@ export type AvailablePagesResponse = {
 };
 
 export async function getAvailableOverlayPages() {
+  // Use mock data if no backend is configured
+  if (USE_MOCK) {
+    const mockPages = getAvailableMockPages();
+    return {
+      num_pages: mockPages.length,
+      available_page_ids: mockPages,
+      available_png_ids: mockPages.map(p => String(p).padStart(4, '0')),
+    } as AvailablePagesResponse;
+  }
+
   return fetchJson<AvailablePagesResponse>(`${API_BASE}/api/parse/boston/available`, { retry: 1 });
 }
 
@@ -151,6 +178,11 @@ export async function getExtractedRecipe(
 }
 
 export async function getDemoBundle(opts?: { timeoutMs?: number; retry?: number }) {
+  // Use mock data if no backend is configured
+  if (USE_MOCK) {
+    return getMockDemoBundle() as Promise<DemoBundle>;
+  }
+
   return fetchJson<DemoBundle>(`${API_BASE}/api/parse/boston/demo`, {
     retry: 1,
     ...(opts ?? {})

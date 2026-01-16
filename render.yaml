@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: cookbookai-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: "apt-get update && apt-get install -y tesseract-ocr && pip install -r requirements.txt"
+    startCommand: "uvicorn app:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: FRONTEND_ORIGINS
+        sync: false
+      - key: MOCK_INFERENCE
+        value: false
+      - key: WARMUP
+        value: true
+      - key: COOKBOOKAI_PREWARM
+        value: false
+      - key: CACHE_DIR
+        value: /tmp/cache
+    healthCheckPath: /health
