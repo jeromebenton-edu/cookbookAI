@@ -180,6 +180,24 @@ The backend requires ~64GB of model files that aren't in the repository. For ful
 
 See `render.yaml` for backend deployment configuration.
 
+## Teaching Documentation
+
+This project includes comprehensive documentation on real-world ML challenges:
+
+📚 **[Data Quality Teaching Notes](docs/DATA_QUALITY_TEACHING_NOTES.md)** - Essential reading for understanding how this project handles imperfect data:
+
+- **Recipe Variations** - How 1896 cookbook conventions challenge modern ML models
+- **Missing Data** - 13 of 391 recipes (~3%) require manual curation
+- **OCR Quality Issues** - Why Tesseract struggles with historical typography and how LayoutLMv3 remains robust despite garbled text
+
+These teaching moments demonstrate:
+- Real-world ML pipeline challenges
+- Human-in-the-loop necessity (97% automation + 3% manual curation)
+- System thinking and pragmatic tradeoffs
+- Transparent presentation of both successes and limitations
+
+This documentation transforms project limitations into valuable learning opportunities for students studying production ML systems.
+
 ## TODO
 
 - Add more recipe scans and labels.
