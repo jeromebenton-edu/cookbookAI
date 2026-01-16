@@ -69,7 +69,7 @@ Keep your main `.venv` for OCR/weak labeling. If you install Label Studio into t
 pip install --force-reinstall "numpy==1.26.4" "thinc==8.2.4" "spacy==3.7.5"
 ```
 
-## Option 2 pipeline (recipes -> LayoutLMv3 datasets)
+## Recipe Pipeline (recipes -> LayoutLMv3 datasets)
 Run the expanded end-to-end pipeline (render → OCR → detect recipes → weak labels → HF datasets → sanity overlays):
 ```
 python scripts/run_option2_pipeline.py --config configs/option2_pipeline.yaml
