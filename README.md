@@ -139,8 +139,46 @@ Defaults: Backend `http://localhost:8000`, Frontend `http://localhost:3001`. Ove
 
 ## Deployment
 
-- The frontend is ready for Vercel. Import the `frontend/` directory and set env vars.
-- The backend can be deployed separately (Render, Fly, etc.).
+### Frontend-Only Deployment (Recommended for Portfolio)
+
+The frontend includes a **mock API mode** that serves pre-computed predictions for demo pages without requiring a backend. This is perfect for portfolio/teaching demonstrations.
+
+**Deploy to Vercel:**
+
+1. Go to [vercel.com](https://vercel.com) and import your GitHub repository
+2. Configure:
+   - **Root Directory**: `frontend`
+   - **Framework Preset**: Next.js (auto-detected)
+   - **Environment Variables**: Leave `NEXT_PUBLIC_API_BASE_URL` empty to enable mock mode
+3. Deploy
+
+The site will work with:
+- ✅ Full recipe browsing (all curated recipes)
+- ✅ AI parse demo for pages 79 and 96
+- ✅ Compare mode with pre-computed predictions
+- ✅ Zero backend costs
+
+### Full Backend Deployment (Optional)
+
+The backend requires ~64GB of model files that aren't in the repository. For full deployment:
+
+**Option 1: Cloud Storage + Render.com**
+- Upload models to cloud storage (Cloudflare R2, AWS S3)
+- Deploy to Render.com with persistent disk
+- Download models during container startup
+- Requires paid tier ($7/month minimum)
+
+**Option 2: ML-Specific Hosting**
+- Use Modal.com, Hugging Face Spaces, or Replicate
+- These platforms are designed for large model deployments
+- May have free/cheap tiers available
+
+**Option 3: Local Backend**
+- Run backend locally for presentations/development
+- Use `make dev` to start both services
+- Connect frontend via `NEXT_PUBLIC_API_BASE_URL=http://localhost:8000`
+
+See `render.yaml` for backend deployment configuration.
 
 ## TODO
 
