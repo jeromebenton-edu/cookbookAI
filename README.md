@@ -69,7 +69,21 @@ Keep your main `.venv` for OCR/weak labeling. If you install Label Studio into t
 pip install --force-reinstall "numpy==1.26.4" "thinc==8.2.4" "spacy==3.7.5"
 ```
 
-## Recipe Pipeline (recipes -> LayoutLMv3 datasets)
+## Pipeline Phases
+
+### Phase 1: PDF Rendering & OCR
+Render the cookbook PDF to page images and extract text with bounding boxes using Tesseract OCR.
+```bash
+make render-pages  # Render PDF to images
+```
+
+### Phase 2: Initial Dataset Creation
+Build an unlabeled HuggingFace dataset from OCR output (all tokens labeled as `O`).
+```bash
+make build-dataset  # Create initial LayoutLMv3 dataset
+```
+
+### Phase 3: Recipe Detection & Weak Labeling
 Run the expanded end-to-end pipeline (render → OCR → detect recipes → weak labels → HF datasets → sanity overlays):
 ```
 python scripts/run_option2_pipeline.py --config configs/option2_pipeline.yaml
@@ -93,19 +107,19 @@ Defaults: Backend `http://localhost:8000`, Frontend `http://localhost:3001`. Ove
 - `make build-dataset` — OCR rendered pages and build a HuggingFace dataset at `data/datasets/boston_layoutlmv3_full/dataset_dict` (unlabeled pages get `O` labels).
 - `make rebuild-data` — run both steps in order. Use this when the backend health shows an incomplete page count.
 
-## Phase 4 training (LayoutLMv3)
+### Phase 4: Model Training (LayoutLMv3)
 - One-command runner: `python scripts/run_phase4_experiments.py --config configs/phase4_experiment.yaml`
 - Auto highconf regeneration: if the highconf dataset is empty, the runner calls `scripts/regenerate_highconf.py` (or run `make regen-highconf`) to relax structural thresholds until at least the target number of pages pass.
 - Auto inference page selection: `--infer_page_num auto` picks the first page from the validation split (fallback to train) to avoid missing-page errors.
 - Weak-label eval writes JSON/MD/CSV under `data/reports/phase4_runs/<run_id>/evaluation/` without JSON serialization crashes.
 
-## Phase 5.75 (Compare Mode & Corrections)
+### Phase 5: Compare Mode & Corrections
 - Backend recipe endpoint returns per-line confidences (`title_obj`, `ingredients_lines`, `instruction_lines`) with stable IDs and bboxes.
 - Frontend Compare Mode highlights differences (Curated vs AI) with confidence chips and inline edits; export corrected JSON for future training.
 - Demo page (`/demo`) defaults to Compare, pulling featured pages from the API.
 - See `docs/PHASE_5_75_COMPARE_MODE.md` for diff logic and export format.
 
-## Demo Quickstart (Phase 6.25)
+### Phase 6: Production Demo
 - Install Tesseract (`sudo apt-get install tesseract-ocr` or `brew install tesseract`)
 - Activate the venv and install backend deps:
   ```bash
