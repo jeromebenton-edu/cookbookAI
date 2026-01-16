@@ -1,6 +1,6 @@
 # CookbookAI
 
-CookbookAI is a portfolio project that turns the 1918 *Boston Cooking-School Cook Book* into a polished cookbook website with an AI Parse View powered by LayoutLMv3. The repo includes a Next.js frontend, a FastAPI inference service, and scaffolding for labeling and training.
+CookbookAI is a portfolio project that turns the 1896 *Boston Cooking-School Cook Book* into a polished cookbook website with an AI Parse View powered by LayoutLMv3. The repo includes a Next.js frontend, a FastAPI inference service, and scaffolding for labeling and training.
 
 ## Repository Structure
 
