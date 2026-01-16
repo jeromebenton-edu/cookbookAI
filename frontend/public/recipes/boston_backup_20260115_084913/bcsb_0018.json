@@ -1,0 +1,39 @@
+{
+  "id": "bcsb_0018",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Cream of Tomato Soup",
+  "category": "Soups",
+  "tags": ["cream", "starter"],
+  "time": { "prep": "10 min", "cook": "25 min", "total": "35 min" },
+  "servings": "6 servings",
+  "ingredients": [
+    "2 tbsp butter",
+    "1/4 cup minced onion",
+    "2 tbsp flour",
+    "2 cups strained tomatoes",
+    "2 cups hot milk",
+    "1/2 tsp salt",
+    "Pinch baking soda"
+  ],
+  "instructions": [
+    "Cook onion in butter until soft; add flour and blend.",
+    "Add tomatoes and soda; simmer 10 minutes.",
+    "Heat milk separately.",
+    "Combine tomato mixture with hot milk, season, and serve at once."
+  ],
+  "notes": ["Soda prevents milk from curdling."],
+  "source": {
+    "page": 52,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-3.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "corn-bread",
+  "title": "Corn Bread",
+  "description": "Golden skillet bread with a crisp edge and tender crumb.",
+  "category": "Breads",
+  "tags": ["bake", "side", "rustic"],
+  "servings": "Serves 6",
+  "time": {
+    "totalMinutes": 45,
+    "activeMinutes": 15
+  },
+  "ingredients": [
+    "1 cup corn meal",
+    "1 cup flour",
+    "1 tbsp sugar",
+    "1 tsp baking powder",
+    "1 cup milk",
+    "1 egg",
+    "2 tbsp melted butter"
+  ],
+  "instructions": [
+    "Combine corn meal, flour, sugar, and baking powder.",
+    "Whisk milk, egg, and melted butter.",
+    "Stir wet ingredients into dry until just combined.",
+    "Bake in a hot skillet at 400F for 20 minutes."
+  ],
+  "notes": ["Serve with honey butter."],
+  "confidence": 0.81,
+  "source": {
+    "book": "Boston Cooking-School Cook Book (1918)",
+    "page": 122
+  },
+  "ai": {
+    "pageImage": "/recipes/boston/pages/placeholder-4.png",
+    "pageSize": { "width": 900, "height": 1200 },
+    "tokens": [
+      {
+        "id": "cb-1",
+        "text": "Corn",
+        "label": "TITLE",
+        "score": 0.91,
+        "bbox": [150, 120, 210, 150]
+      },
+      {
+        "id": "cb-2",
+        "text": "Bread",
+        "label": "TITLE",
+        "score": 0.9,
+        "bbox": [220, 120, 290, 150]
+      },
+      {
+        "id": "cb-3",
+        "text": "1",
+        "label": "INGREDIENT_LINE",
+        "score": 0.85,
+        "bbox": [130, 320, 140, 340]
+      },
+      {
+        "id": "cb-4",
+        "text": "cup",
+        "label": "INGREDIENT_LINE",
+        "score": 0.84,
+        "bbox": [150, 320, 190, 340]
+      },
+      {
+        "id": "cb-5",
+        "text": "corn",
+        "label": "INGREDIENT_LINE",
+        "score": 0.83,
+        "bbox": [200, 320, 245, 340]
+      },
+      {
+        "id": "cb-6",
+        "text": "meal",
+        "label": "INGREDIENT_LINE",
+        "score": 0.82,
+        "bbox": [255, 320, 295, 340]
+      },
+      {
+        "id": "cb-7",
+        "text": "Combine",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.81,
+        "bbox": [130, 640, 210, 665]
+      },
+      {
+        "id": "cb-8",
+        "text": "corn",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.79,
+        "bbox": [220, 640, 265, 665]
+      },
+      {
+        "id": "cb-9",
+        "text": "meal",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.79,
+        "bbox": [275, 640, 315, 665]
+      },
+      {
+        "id": "cb-10",
+        "text": "Serves",
+        "label": "META",
+        "score": 0.73,
+        "bbox": [130, 900, 190, 925]
+      },
+      {
+        "id": "cb-11",
+        "text": "6",
+        "label": "META",
+        "score": 0.71,
+        "bbox": [195, 900, 205, 925]
+      }
+    ],
+    "fieldConfidence": {
+      "title": 0.9,
+      "ingredients": 0.84,
+      "instructions": 0.79,
+      "servings": 0.72,
+      "time": 0.67
+    },
+    "raw": {
+      "page": 122,
+      "model": "layoutlmv3-recipe",
+      "tokens": 11,
+      "notes": "Mocked from archive"
+    }
+  }
+}

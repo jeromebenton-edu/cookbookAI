@@ -1,0 +1,40 @@
+{
+  "id": "bcsb_0005",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Graham Muffins",
+  "category": "Breads",
+  "tags": ["breakfast", "graham"],
+  "time": { "prep": "10 min", "cook": "18 min", "total": "28 min" },
+  "servings": "12 muffins",
+  "ingredients": [
+    "1 cup graham flour",
+    "1 cup white flour",
+    "1/4 cup molasses",
+    "1 cup milk",
+    "1 egg, beaten",
+    "3 tsp baking powder",
+    "1/2 tsp salt",
+    "2 tbsp melted butter"
+  ],
+  "instructions": [
+    "Combine flours, baking powder, and salt.",
+    "Mix molasses, milk, egg, and melted butter.",
+    "Add liquid to dry ingredients; mix lightly.",
+    "Bake in greased muffin pans at 400F for 18 minutes."
+  ],
+  "notes": ["Molasses adds classic flavor and color."],
+  "source": {
+    "page": 215,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-5.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

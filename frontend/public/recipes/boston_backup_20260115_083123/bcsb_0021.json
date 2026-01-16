@@ -1,0 +1,37 @@
+{
+  "id": "bcsb_0021",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Medium White Sauce",
+  "category": "Sauces",
+  "tags": ["béchamel", "base"],
+  "time": { "prep": "5 min", "cook": "8 min", "total": "13 min" },
+  "servings": "1 cup",
+  "ingredients": [
+    "2 tbsp butter",
+    "2 tbsp flour",
+    "1/2 tsp salt",
+    "1/8 tsp white pepper",
+    "1 cup scalded milk"
+  ],
+  "instructions": [
+    "Melt butter; blend in flour, salt, and pepper.",
+    "Cook until smooth but not browned.",
+    "Add hot milk gradually, stirring constantly.",
+    "Cook 5 minutes until thick and smooth."
+  ],
+  "notes": ["Thin or thicken proportionally for light or heavy sauce."],
+  "source": {
+    "page": 267,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-1.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

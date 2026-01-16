@@ -1,0 +1,134 @@
+{
+  "id": "graham-muffins",
+  "title": "Graham Muffins",
+  "description": "Hearty muffins with graham flour and a hint of molasses.",
+  "category": "Breads",
+  "tags": ["breakfast", "bake", "classic"],
+  "servings": "Serves 8",
+  "time": {
+    "totalMinutes": 35,
+    "activeMinutes": 15
+  },
+  "ingredients": [
+    "1 cup graham flour",
+    "1 cup sifted flour",
+    "2 tbsp brown sugar",
+    "2 tsp baking powder",
+    "1/2 tsp salt",
+    "1 cup milk",
+    "1 egg, beaten",
+    "2 tbsp molasses",
+    "2 tbsp melted butter"
+  ],
+  "instructions": [
+    "Sift dry ingredients together in a mixing bowl.",
+    "Whisk milk, egg, molasses, and melted butter until smooth.",
+    "Combine wet and dry mixtures gently; do not overmix.",
+    "Fill greased muffin cups two-thirds full and bake at 400F for 18 minutes."
+  ],
+  "notes": [
+    "Serve warm with whipped butter.",
+    "Replace molasses with honey for a lighter flavor."
+  ],
+  "confidence": 0.83,
+  "source": {
+    "book": "Boston Cooking-School Cook Book (1918)",
+    "page": 114
+  },
+  "ai": {
+    "pageImage": "/recipes/boston/pages/placeholder-1.png",
+    "pageSize": { "width": 900, "height": 1200 },
+    "tokens": [
+      {
+        "id": "gm-1",
+        "text": "Graham",
+        "label": "TITLE",
+        "score": 0.93,
+        "bbox": [140, 120, 250, 150]
+      },
+      {
+        "id": "gm-2",
+        "text": "Muffins",
+        "label": "TITLE",
+        "score": 0.92,
+        "bbox": [260, 120, 360, 150]
+      },
+      {
+        "id": "gm-3",
+        "text": "1",
+        "label": "INGREDIENT_LINE",
+        "score": 0.87,
+        "bbox": [130, 310, 140, 330]
+      },
+      {
+        "id": "gm-4",
+        "text": "cup",
+        "label": "INGREDIENT_LINE",
+        "score": 0.86,
+        "bbox": [150, 310, 190, 330]
+      },
+      {
+        "id": "gm-5",
+        "text": "graham",
+        "label": "INGREDIENT_LINE",
+        "score": 0.85,
+        "bbox": [200, 310, 270, 330]
+      },
+      {
+        "id": "gm-6",
+        "text": "flour",
+        "label": "INGREDIENT_LINE",
+        "score": 0.84,
+        "bbox": [280, 310, 330, 330]
+      },
+      {
+        "id": "gm-7",
+        "text": "Sift",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.82,
+        "bbox": [130, 620, 175, 645]
+      },
+      {
+        "id": "gm-8",
+        "text": "dry",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.81,
+        "bbox": [185, 620, 220, 645]
+      },
+      {
+        "id": "gm-9",
+        "text": "ingredients",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.8,
+        "bbox": [230, 620, 320, 645]
+      },
+      {
+        "id": "gm-10",
+        "text": "Serves",
+        "label": "META",
+        "score": 0.74,
+        "bbox": [130, 880, 190, 905]
+      },
+      {
+        "id": "gm-11",
+        "text": "8",
+        "label": "META",
+        "score": 0.72,
+        "bbox": [195, 880, 205, 905]
+      }
+    ],
+    "fieldConfidence": {
+      "title": 0.92,
+      "ingredients": 0.86,
+      "instructions": 0.81,
+      "servings": 0.74,
+      "time": 0.68
+    },
+    "raw": {
+      "page": 114,
+      "model": "layoutlmv3-recipe",
+      "tokens": 11,
+      "notes": "Mocked from archive"
+    }
+  }
+}

@@ -1,0 +1,5710 @@
+{
+  "page_num": 151,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0151.png",
+  "image_url": "/api/parse/boston/151/image",
+  "tokens": [
+    {
+      "text": "120",
+      "bbox": [
+        48,
+        35,
+        104,
+        55
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8498892188072205
+    },
+    {
+      "text": "BOSTON",
+      "bbox": [
+        174,
+        38,
+        294,
+        55
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8888285160064697
+    },
+    {
+      "text": "COOKING-SCHOOL",
+      "bbox": [
+        318,
+        33,
+        596,
+        52
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8832834362983704
+    },
+    {
+      "text": "COOK",
+      "bbox": [
+        616,
+        33,
+        700,
+        49
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8980837464332581
+    },
+    {
+      "text": "BOOK.",
+      "bbox": [
+        722,
+        32,
+        818,
+        49
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9010466933250427
+    },
+    {
+      "text": "Clean",
+      "bbox": [
+        48,
+        93,
+        134,
+        111
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9042497873306274
+    },
+    {
+      "text": "and",
+      "bbox": [
+        154,
+        92,
+        208,
+        110
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8976118564605713
+    },
+    {
+      "text": "pick",
+      "bbox": [
+        230,
+        90,
+        292,
+        114
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8919161558151245
+    },
+    {
+      "text": "over",
+      "bbox": [
+        314,
+        96,
+        380,
+        109
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8905941843986511
+    },
+    {
+      "text": "clams,",
+      "bbox": [
+        400,
+        89,
+        494,
+        107
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8921326994895935
+    },
+    {
+      "text": "reserve",
+      "bbox": [
+        518,
+        93,
+        624,
+        106
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8919466137886047
+    },
+    {
+      "text": "liquor,",
+      "bbox": [
+        646,
+        86,
+        744,
+        110
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.90460205078125
+    },
+    {
+      "text": "and",
+      "bbox": [
+        764,
+        84,
+        820,
+        104
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9034035801887512
+    },
+    {
+      "text": "add",
+      "bbox": [
+        840,
+        83,
+        896,
+        103
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.896199643611908
+    },
+    {
+      "text": "to",
+      "bbox": [
+        916,
+        84,
+        946,
+        103
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9013234376907349
+    },
+    {
+      "text": "hard",
+      "bbox": [
+        50,
+        121,
+        116,
+        140
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9015864133834839
+    },
+    {
+      "text": "part",
+      "bbox": [
+        130,
+        123,
+        194,
+        144
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8910361528396606
+    },
+    {
+      "text": "of",
+      "bbox": [
+        206,
+        121,
+        236,
+        138
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.902787446975708
+    },
+    {
+      "text": "clams,",
+      "bbox": [
+        250,
+        120,
+        344,
+        140
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9095051288604736
+    },
+    {
+      "text": "finely",
+      "bbox": [
+        360,
+        118,
+        442,
+        143
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8910626173019409
+    },
+    {
+      "text": "chopped",
+      "bbox": [
+        456,
+        116,
+        596,
+        140
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8952943086624146
+    },
+    {
+      "text": ";",
+      "bbox": [
+        590,
+        101,
+        598,
+        150
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8557290434837341
+    },
+    {
+      "text": "put",
+      "bbox": [
+        616,
+        117,
+        666,
+        140
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8816306591033936
+    },
+    {
+      "text": "aside",
+      "bbox": [
+        680,
+        114,
+        754,
+        133
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9041871428489685
+    },
+    {
+      "text": "soft",
+      "bbox": [
+        768,
+        114,
+        828,
+        131
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9076585173606873
+    },
+    {
+      "text": "part",
+      "bbox": [
+        840,
+        114,
+        904,
+        137
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.89336758852005
+    },
+    {
+      "text": "of",
+      "bbox": [
+        916,
+        113,
+        946,
+        130
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9000928401947021
+    },
+    {
+      "text": "clams,",
+      "bbox": [
+        50,
+        151,
+        144,
+        169
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8797347545623779
+    },
+    {
+      "text": "Heat",
+      "bbox": [
+        184,
+        150,
+        258,
+        168
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8741951584815979
+    },
+    {
+      "text": "slowly",
+      "bbox": [
+        278,
+        147,
+        372,
+        172
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8733627200126648
+    },
+    {
+      "text": "to",
+      "bbox": [
+        392,
+        150,
+        420,
+        165
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8648226261138916
+    },
+    {
+      "text": "boiling",
+      "bbox": [
+        440,
+        145,
+        544,
+        169
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8907354474067688
+    },
+    {
+      "text": "point",
+      "bbox": [
+        564,
+        144,
+        642,
+        169
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8770180940628052
+    },
+    {
+      "text": "clams",
+      "bbox": [
+        658,
+        144,
+        744,
+        162
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8927664756774902
+    },
+    {
+      "text": "and",
+      "bbox": [
+        764,
+        143,
+        818,
+        161
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8893088102340698
+    },
+    {
+      "text": "oysters",
+      "bbox": [
+        838,
+        143,
+        946,
+        167
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8947817087173462
+    },
+    {
+      "text": "with",
+      "bbox": [
+        50,
+        179,
+        114,
+        196
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8562116622924805
+    },
+    {
+      "text": "liquor",
+      "bbox": [
+        168,
+        184,
+        216,
+        196
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8648956418037415
+    },
+    {
+      "text": "from",
+      "bbox": [
+        230,
+        178,
+        302,
+        195
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8680686950683594
+    },
+    {
+      "text": "both,",
+      "bbox": [
+        316,
+        177,
+        390,
+        198
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8498346209526062
+    },
+    {
+      "text": "strain",
+      "bbox": [
+        404,
+        175,
+        490,
+        194
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8594304323196411
+    },
+    {
+      "text": "through",
+      "bbox": [
+        506,
+        174,
+        622,
+        198
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8656442761421204
+    },
+    {
+      "text": "cheese",
+      "bbox": [
+        636,
+        174,
+        734,
+        192
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.875649631023407
+    },
+    {
+      "text": "cloth.",
+      "bbox": [
+        746,
+        172,
+        830,
+        191
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.895112931728363
+    },
+    {
+      "text": "\u201cSeald",
+      "bbox": [
+        866,
+        171,
+        948,
+        189
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8764882683753967
+    },
+    {
+      "text": "milk",
+      "bbox": [
+        50,
+        208,
+        114,
+        226
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8477050065994263
+    },
+    {
+      "text": "with",
+      "bbox": [
+        130,
+        208,
+        194,
+        225
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8442198038101196
+    },
+    {
+      "text": "onion,",
+      "bbox": [
+        204,
+        206,
+        296,
+        228
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8358572125434875
+    },
+    {
+      "text": "mace,",
+      "bbox": [
+        310,
+        211,
+        396,
+        228
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8271614909172058
+    },
+    {
+      "text": "parsley,",
+      "bbox": [
+        408,
+        203,
+        528,
+        228
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8263270854949951
+    },
+    {
+      "text": "and",
+      "bbox": [
+        542,
+        203,
+        594,
+        220
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8411825299263
+    },
+    {
+      "text": "bay",
+      "bbox": [
+        610,
+        202,
+        662,
+        226
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.841413676738739
+    },
+    {
+      "text": "leaf",
+      "bbox": [
+        674,
+        202,
+        746,
+        222
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8602762818336487
+    },
+    {
+      "text": ";",
+      "bbox": [
+        744,
+        188,
+        756,
+        236
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.837682843208313
+    },
+    {
+      "text": "remove",
+      "bbox": [
+        768,
+        206,
+        876,
+        219
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8659401535987854
+    },
+    {
+      "text": "sea-",
+      "bbox": [
+        890,
+        205,
+        948,
+        218
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8697506189346313
+    },
+    {
+      "text": "sonings,",
+      "bbox": [
+        52,
+        237,
+        176,
+        260
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8513115644454956
+    },
+    {
+      "text": "and",
+      "bbox": [
+        192,
+        235,
+        246,
+        253
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8393886089324951
+    },
+    {
+      "text": "add",
+      "bbox": [
+        260,
+        235,
+        314,
+        253
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8482668995857239
+    },
+    {
+      "text": "milk",
+      "bbox": [
+        328,
+        233,
+        394,
+        252
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8381504416465759
+    },
+    {
+      "text": "to",
+      "bbox": [
+        408,
+        235,
+        438,
+        252
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.828191876411438
+    },
+    {
+      "text": "stock.",
+      "bbox": [
+        450,
+        232,
+        540,
+        250
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8696372509002686
+    },
+    {
+      "text": "\u2018Thicken",
+      "bbox": [
+        574,
+        230,
+        696,
+        249
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.890805721282959
+    },
+    {
+      "text": "with",
+      "bbox": [
+        712,
+        230,
+        774,
+        247
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8847012519836426
+    },
+    {
+      "text": "butter",
+      "bbox": [
+        790,
+        229,
+        882,
+        247
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8930596709251404
+    },
+    {
+      "text": "and",
+      "bbox": [
+        896,
+        228,
+        948,
+        246
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8884292840957642
+    },
+    {
+      "text": "flour",
+      "bbox": [
+        52,
+        266,
+        120,
+        284
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.886229395866394
+    },
+    {
+      "text": "cooked",
+      "bbox": [
+        132,
+        264,
+        238,
+        283
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8907399773597717
+    },
+    {
+      "text": "together,",
+      "bbox": [
+        258,
+        263,
+        394,
+        287
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8694441318511963
+    },
+    {
+      "text": "add",
+      "bbox": [
+        408,
+        262,
+        462,
+        280
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8606071472167969
+    },
+    {
+      "text": "soft",
+      "bbox": [
+        484,
+        262,
+        540,
+        280
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8738200664520264
+    },
+    {
+      "text": "part",
+      "bbox": [
+        564,
+        262,
+        626,
+        284
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8593897223472595
+    },
+    {
+      "text": "of",
+      "bbox": [
+        644,
+        260,
+        676,
+        277
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8927872776985168
+    },
+    {
+      "text": "clams,",
+      "bbox": [
+        696,
+        259,
+        790,
+        280
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8905516266822815
+    },
+    {
+      "text": "and",
+      "bbox": [
+        808,
+        257,
+        860,
+        276
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8956338763237
+    },
+    {
+      "text": "cook",
+      "bbox": [
+        880,
+        256,
+        950,
+        276
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9045132398605347
+    },
+    {
+      "text": "two",
+      "bbox": [
+        52,
+        297,
+        108,
+        313
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8646870851516724
+    },
+    {
+      "text": "minutes,",
+      "bbox": [
+        126,
+        294,
+        254,
+        311
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8725430369377136
+    },
+    {
+      "text": "Season",
+      "bbox": [
+        294,
+        291,
+        400,
+        311
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8542708158493042
+    },
+    {
+      "text": "with",
+      "bbox": [
+        414,
+        291,
+        478,
+        308
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8625596165657043
+    },
+    {
+      "text": "salt",
+      "bbox": [
+        498,
+        290,
+        552,
+        308
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8554546236991882
+    },
+    {
+      "text": "and",
+      "bbox": [
+        572,
+        288,
+        626,
+        307
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8752418160438538
+    },
+    {
+      "text": "pepper.",
+      "bbox": [
+        646,
+        294,
+        758,
+        313
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8921576738357544
+    },
+    {
+      "text": "Cream",
+      "bbox": [
+        338,
+        359,
+        434,
+        375
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8365485072135925
+    },
+    {
+      "text": "of",
+      "bbox": [
+        448,
+        356,
+        480,
+        373
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8582306504249573
+    },
+    {
+      "text": "Clam",
+      "bbox": [
+        492,
+        356,
+        570,
+        372
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8479546308517456
+    },
+    {
+      "text": "Soup.",
+      "bbox": [
+        582,
+        355,
+        668,
+        375
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8830381631851196
+    },
+    {
+      "text": "Make",
+      "bbox": [
+        92,
+        403,
+        176,
+        422
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8364099264144897
+    },
+    {
+      "text": "as",
+      "bbox": [
+        196,
+        407,
+        226,
+        420
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8697776794433594
+    },
+    {
+      "text": "French",
+      "bbox": [
+        246,
+        400,
+        352,
+        419
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8530114889144897
+    },
+    {
+      "text": "Oyster",
+      "bbox": [
+        364,
+        400,
+        466,
+        423
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8558606505393982
+    },
+    {
+      "text": "Soup,",
+      "bbox": [
+        482,
+        399,
+        564,
+        422
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8591297268867493
+    },
+    {
+      "text": "using",
+      "bbox": [
+        582,
+        398,
+        662,
+        420
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8630843758583069
+    },
+    {
+      "text": "clams",
+      "bbox": [
+        682,
+        396,
+        766,
+        415
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8695347905158997
+    },
+    {
+      "text": "in",
+      "bbox": [
+        788,
+        396,
+        812,
+        413
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8816425800323486
+    },
+    {
+      "text": "place",
+      "bbox": [
+        834,
+        395,
+        910,
+        419
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8621259331703186
+    },
+    {
+      "text": "of",
+      "bbox": [
+        924,
+        393,
+        954,
+        412
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8796680569648743
+    },
+    {
+      "text": "oysters.",
+      "bbox": [
+        56,
+        434,
+        174,
+        457
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8407086730003357
+    },
+    {
+      "text": "Lobster",
+      "bbox": [
+        382,
+        471,
+        500,
+        487
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8166154623031616
+    },
+    {
+      "text": "Bisque.",
+      "bbox": [
+        520,
+        470,
+        622,
+        490
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7919044494628906
+    },
+    {
+      "text": "2",
+      "bbox": [
+        152,
+        512,
+        168,
+        528
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6712897419929504
+    },
+    {
+      "text": "Ib.",
+      "bbox": [
+        180,
+        511,
+        214,
+        528
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.808510422706604
+    },
+    {
+      "text": "lobster.",
+      "bbox": [
+        228,
+        511,
+        330,
+        528
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8094425201416016
+    },
+    {
+      "text": "44",
+      "bbox": [
+        604,
+        508,
+        632,
+        528
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7462913990020752
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        646,
+        511,
+        694,
+        528
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8172430992126465
+    },
+    {
+      "text": "butter.",
+      "bbox": [
+        706,
+        505,
+        798,
+        522
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8409669399261475
+    },
+    {
+      "text": "2",
+      "bbox": [
+        154,
+        538,
+        170,
+        553
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6594533324241638
+    },
+    {
+      "text": "cups",
+      "bbox": [
+        180,
+        542,
+        242,
+        559
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7685357332229614
+    },
+    {
+      "text": "cold",
+      "bbox": [
+        254,
+        535,
+        308,
+        552
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8011185526847839
+    },
+    {
+      "text": "water.",
+      "bbox": [
+        322,
+        536,
+        406,
+        552
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7946027517318726
+    },
+    {
+      "text": "44",
+      "bbox": [
+        606,
+        533,
+        634,
+        553
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7358382940292358
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        648,
+        536,
+        696,
+        553
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8103404641151428
+    },
+    {
+      "text": "flour.",
+      "bbox": [
+        708,
+        531,
+        778,
+        548
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8274235129356384
+    },
+    {
+      "text": "4",
+      "bbox": [
+        154,
+        563,
+        168,
+        579
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6415150761604309
+    },
+    {
+      "text": "cups",
+      "bbox": [
+        180,
+        567,
+        242,
+        583
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7417472004890442
+    },
+    {
+      "text": "milk.",
+      "bbox": [
+        254,
+        560,
+        326,
+        577
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.771081805229187
+    },
+    {
+      "text": "13g",
+      "bbox": [
+        608,
+        558,
+        650,
+        579
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7567663788795471
+    },
+    {
+      "text": "teaspoons",
+      "bbox": [
+        664,
+        559,
+        796,
+        577
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7851433157920837
+    },
+    {
+      "text": "salt.",
+      "bbox": [
+        806,
+        555,
+        864,
+        572
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8258237838745117
+    },
+    {
+      "text": "Few",
+      "bbox": [
+        344,
+        586,
+        402,
+        603
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7234366536140442
+    },
+    {
+      "text": "grains",
+      "bbox": [
+        414,
+        584,
+        500,
+        607
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7586318850517273
+    },
+    {
+      "text": "of",
+      "bbox": [
+        510,
+        583,
+        538,
+        600
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7725216746330261
+    },
+    {
+      "text": "cayenne.",
+      "bbox": [
+        550,
+        587,
+        668,
+        606
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7865727543830872
+    },
+    {
+      "text": "Remove",
+      "bbox": [
+        100,
+        628,
+        220,
+        647
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7609652876853943
+    },
+    {
+      "text": "meat",
+      "bbox": [
+        240,
+        628,
+        314,
+        645
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7774806618690491
+    },
+    {
+      "text": "from",
+      "bbox": [
+        334,
+        626,
+        404,
+        644
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7895180583000183
+    },
+    {
+      "text": "lobster",
+      "bbox": [
+        424,
+        624,
+        528,
+        643
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7998346090316772
+    },
+    {
+      "text": "shell.",
+      "bbox": [
+        542,
+        621,
+        620,
+        641
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.806206226348877
+    },
+    {
+      "text": "Add",
+      "bbox": [
+        660,
+        621,
+        724,
+        640
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8052754402160645
+    },
+    {
+      "text": "cold",
+      "bbox": [
+        744,
+        620,
+        806,
+        638
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8425189256668091
+    },
+    {
+      "text": "water",
+      "bbox": [
+        828,
+        621,
+        912,
+        638
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.829355776309967
+    },
+    {
+      "text": "to",
+      "bbox": [
+        932,
+        621,
+        962,
+        637
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8070641160011292
+    },
+    {
+      "text": "body",
+      "bbox": [
+        64,
+        657,
+        138,
+        682
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8203322887420654
+    },
+    {
+      "text": "bones",
+      "bbox": [
+        152,
+        657,
+        238,
+        675
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7817999720573425
+    },
+    {
+      "text": "and",
+      "bbox": [
+        252,
+        655,
+        304,
+        674
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7964207530021667
+    },
+    {
+      "text": "tough",
+      "bbox": [
+        320,
+        654,
+        404,
+        678
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8088150024414062
+    },
+    {
+      "text": "end",
+      "bbox": [
+        420,
+        652,
+        474,
+        671
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7768974900245667
+    },
+    {
+      "text": "of",
+      "bbox": [
+        494,
+        652,
+        524,
+        671
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7989108562469482
+    },
+    {
+      "text": "claws,",
+      "bbox": [
+        542,
+        651,
+        636,
+        671
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8133005499839783
+    },
+    {
+      "text": "cut",
+      "bbox": [
+        652,
+        651,
+        698,
+        668
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7891269326210022
+    },
+    {
+      "text": "in",
+      "bbox": [
+        712,
+        650,
+        738,
+        668
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8369640707969666
+    },
+    {
+      "text": "pieces;",
+      "bbox": [
+        754,
+        650,
+        858,
+        674
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8455251455307007
+    },
+    {
+      "text": "bring",
+      "bbox": [
+        882,
+        648,
+        962,
+        671
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8398342728614807
+    },
+    {
+      "text": "slowly",
+      "bbox": [
+        64,
+        685,
+        160,
+        711
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7951974868774414
+    },
+    {
+      "text": "to",
+      "bbox": [
+        174,
+        688,
+        202,
+        703
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7995541095733643
+    },
+    {
+      "text": "boiling",
+      "bbox": [
+        216,
+        684,
+        320,
+        708
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8231301307678223
+    },
+    {
+      "text": "point,",
+      "bbox": [
+        334,
+        682,
+        420,
+        706
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7952132821083069
+    },
+    {
+      "text": "and",
+      "bbox": [
+        434,
+        681,
+        488,
+        701
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.800010621547699
+    },
+    {
+      "text": "cook",
+      "bbox": [
+        502,
+        681,
+        570,
+        699
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8338791131973267
+    },
+    {
+      "text": "twenty",
+      "bbox": [
+        584,
+        682,
+        688,
+        703
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8323885798454285
+    },
+    {
+      "text": "minutes.",
+      "bbox": [
+        702,
+        678,
+        828,
+        696
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8612422347068787
+    },
+    {
+      "text": "Drain,",
+      "bbox": [
+        864,
+        677,
+        960,
+        698
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.85659259557724
+    },
+    {
+      "text": "reserve",
+      "bbox": [
+        66,
+        720,
+        174,
+        733
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8287912607192993
+    },
+    {
+      "text": "liquor,",
+      "bbox": [
+        192,
+        713,
+        290,
+        737
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8178010582923889
+    },
+    {
+      "text": "and",
+      "bbox": [
+        306,
+        712,
+        360,
+        730
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8151295781135559
+    },
+    {
+      "text": "thicken",
+      "bbox": [
+        380,
+        711,
+        490,
+        730
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8346246480941772
+    },
+    {
+      "text": "with",
+      "bbox": [
+        512,
+        709,
+        574,
+        728
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8311847448348999
+    },
+    {
+      "text": "butter",
+      "bbox": [
+        590,
+        709,
+        682,
+        726
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.849503219127655
+    },
+    {
+      "text": "and",
+      "bbox": [
+        700,
+        708,
+        754,
+        726
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8556151390075684
+    },
+    {
+      "text": "flour",
+      "bbox": [
+        772,
+        706,
+        840,
+        725
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8580726385116577
+    },
+    {
+      "text": "cooked",
+      "bbox": [
+        858,
+        705,
+        962,
+        725
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8720526695251465
+    },
+    {
+      "text": "together.",
+      "bbox": [
+        66,
+        745,
+        202,
+        767
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8497273921966553
+    },
+    {
+      "text": "Seald",
+      "bbox": [
+        242,
+        742,
+        324,
+        762
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8326408863067627
+    },
+    {
+      "text": "milk",
+      "bbox": [
+        348,
+        740,
+        412,
+        759
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8368133902549744
+    },
+    {
+      "text": "with",
+      "bbox": [
+        434,
+        739,
+        498,
+        757
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.833778440952301
+    },
+    {
+      "text": "tail",
+      "bbox": [
+        522,
+        739,
+        570,
+        757
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8315333127975464
+    },
+    {
+      "text": "meat",
+      "bbox": [
+        592,
+        739,
+        666,
+        756
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.841941237449646
+    },
+    {
+      "text": "of",
+      "bbox": [
+        688,
+        736,
+        718,
+        754
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8744965195655823
+    },
+    {
+      "text": "lobster,",
+      "bbox": [
+        744,
+        736,
+        856,
+        757
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8699291944503784
+    },
+    {
+      "text": "finely",
+      "bbox": [
+        884,
+        735,
+        964,
+        759
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8454219698905945
+    },
+    {
+      "text": "chopped;",
+      "bbox": [
+        66,
+        773,
+        208,
+        797
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8476952314376831
+    },
+    {
+      "text": "strain,",
+      "bbox": [
+        228,
+        771,
+        326,
+        790
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8280196189880371
+    },
+    {
+      "text": "and",
+      "bbox": [
+        340,
+        770,
+        392,
+        788
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8202638030052185
+    },
+    {
+      "text": "add",
+      "bbox": [
+        408,
+        769,
+        460,
+        787
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8133135437965393
+    },
+    {
+      "text": "to",
+      "bbox": [
+        476,
+        771,
+        504,
+        786
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8353821635246277
+    },
+    {
+      "text": "liquor.",
+      "bbox": [
+        518,
+        767,
+        614,
+        791
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8554016947746277
+    },
+    {
+      "text": "Season",
+      "bbox": [
+        650,
+        766,
+        752,
+        784
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8460697531700134
+    },
+    {
+      "text": "with",
+      "bbox": [
+        764,
+        764,
+        828,
+        783
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.86173015832901
+    },
+    {
+      "text": "salt",
+      "bbox": [
+        842,
+        763,
+        896,
+        781
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8537847995758057
+    },
+    {
+      "text": "and",
+      "bbox": [
+        910,
+        763,
+        964,
+        781
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8630134463310242
+    },
+    {
+      "text": "cayenne;",
+      "bbox": [
+        66,
+        807,
+        206,
+        827
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8208135962486267
+    },
+    {
+      "text": "then",
+      "bbox": [
+        228,
+        801,
+        292,
+        818
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.789138913154602
+    },
+    {
+      "text": "add",
+      "bbox": [
+        314,
+        800,
+        368,
+        817
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8172429203987122
+    },
+    {
+      "text": "tender",
+      "bbox": [
+        388,
+        798,
+        484,
+        817
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8205121755599976
+    },
+    {
+      "text": "claw",
+      "bbox": [
+        508,
+        797,
+        574,
+        815
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8433035016059875
+    },
+    {
+      "text": "meat,",
+      "bbox": [
+        598,
+        797,
+        678,
+        815
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8494758605957031
+    },
+    {
+      "text": "cut",
+      "bbox": [
+        698,
+        796,
+        746,
+        813
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8247088193893433
+    },
+    {
+      "text": "in",
+      "bbox": [
+        768,
+        794,
+        796,
+        811
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8629289269447327
+    },
+    {
+      "text": "dice,",
+      "bbox": [
+        818,
+        793,
+        888,
+        814
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8456574082374573
+    },
+    {
+      "text": "and",
+      "bbox": [
+        910,
+        791,
+        966,
+        810
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8419793844223022
+    },
+    {
+      "text": "body",
+      "bbox": [
+        68,
+        831,
+        142,
+        855
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8226152062416077
+    },
+    {
+      "text": "meat.",
+      "bbox": [
+        156,
+        831,
+        240,
+        848
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8409814238548279
+    },
+    {
+      "text": "When",
+      "bbox": [
+        278,
+        828,
+        368,
+        847
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8113588690757751
+    },
+    {
+      "text": "coral",
+      "bbox": [
+        380,
+        827,
+        454,
+        845
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8028018474578857
+    },
+    {
+      "text": "is",
+      "bbox": [
+        470,
+        827,
+        492,
+        844
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8164474964141846
+    },
+    {
+      "text": "found",
+      "bbox": [
+        508,
+        824,
+        592,
+        844
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8126196265220642
+    },
+    {
+      "text": "in",
+      "bbox": [
+        612,
+        824,
+        638,
+        842
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8492829203605652
+    },
+    {
+      "text": "lobster,",
+      "bbox": [
+        658,
+        824,
+        768,
+        844
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8499937653541565
+    },
+    {
+      "text": "wash,",
+      "bbox": [
+        786,
+        822,
+        868,
+        841
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8517023324966431
+    },
+    {
+      "text": "wipe,",
+      "bbox": [
+        886,
+        821,
+        964,
+        844
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8445209264755249
+    },
+    {
+      "text": "force",
+      "bbox": [
+        72,
+        861,
+        146,
+        878
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8163823485374451
+    },
+    {
+      "text": "through",
+      "bbox": [
+        166,
+        858,
+        282,
+        881
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8189286589622498
+    },
+    {
+      "text": "fine",
+      "bbox": [
+        298,
+        858,
+        350,
+        875
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7953504323959351
+    },
+    {
+      "text": "strainer,",
+      "bbox": [
+        372,
+        856,
+        498,
+        876
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7930982112884521
+    },
+    {
+      "text": "put",
+      "bbox": [
+        514,
+        856,
+        566,
+        878
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7706887125968933
+    },
+    {
+      "text": "in",
+      "bbox": [
+        586,
+        854,
+        610,
+        871
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8204990029335022
+    },
+    {
+      "text": "a",
+      "bbox": [
+        632,
+        858,
+        648,
+        871
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8106863498687744
+    },
+    {
+      "text": "mortar",
+      "bbox": [
+        668,
+        854,
+        770,
+        869
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8341807126998901
+    },
+    {
+      "text": "with",
+      "bbox": [
+        786,
+        851,
+        848,
+        868
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8256098628044128
+    },
+    {
+      "text": "butter,",
+      "bbox": [
+        864,
+        849,
+        966,
+        871
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8284244537353516
+    },
+    {
+      "text": "work",
+      "bbox": [
+        70,
+        888,
+        144,
+        906
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7964329123497009
+    },
+    {
+      "text": "until",
+      "bbox": [
+        156,
+        888,
+        224,
+        906
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8014654517173767
+    },
+    {
+      "text": "well",
+      "bbox": [
+        236,
+        886,
+        296,
+        905
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7837060689926147
+    },
+    {
+      "text": "blended,",
+      "bbox": [
+        310,
+        885,
+        436,
+        905
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7799306511878967
+    },
+    {
+      "text": "then",
+      "bbox": [
+        450,
+        883,
+        514,
+        902
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7448313236236572
+    },
+    {
+      "text": "add",
+      "bbox": [
+        528,
+        882,
+        582,
+        902
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8143907189369202
+    },
+    {
+      "text": "flour,",
+      "bbox": [
+        596,
+        882,
+        670,
+        900
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8192578554153442
+    },
+    {
+      "text": "and",
+      "bbox": [
+        684,
+        881,
+        738,
+        899
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.832945704460144
+    },
+    {
+      "text": "stir",
+      "bbox": [
+        752,
+        879,
+        804,
+        898
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8214764595031738
+    },
+    {
+      "text": "into",
+      "bbox": [
+        816,
+        879,
+        874,
+        898
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8273902535438538
+    },
+    {
+      "text": "soup.",
+      "bbox": [
+        888,
+        883,
+        966,
+        902
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8597431778907776
+    },
+    {
+      "text": "If",
+      "bbox": [
+        74,
+        917,
+        100,
+        936
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7235058546066284
+    },
+    {
+      "text": "a",
+      "bbox": [
+        116,
+        922,
+        132,
+        934
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8118621110916138
+    },
+    {
+      "text": "richer",
+      "bbox": [
+        150,
+        916,
+        238,
+        934
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8229245543479919
+    },
+    {
+      "text": "soup",
+      "bbox": [
+        256,
+        920,
+        326,
+        939
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7834706902503967
+    },
+    {
+      "text": "is",
+      "bbox": [
+        346,
+        915,
+        368,
+        932
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7585891485214233
+    },
+    {
+      "text": "desired,",
+      "bbox": [
+        388,
+        913,
+        506,
+        934
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8122665286064148
+    },
+    {
+      "text": "White",
+      "bbox": [
+        524,
+        910,
+        614,
+        930
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8197454214096069
+    },
+    {
+      "text": "Stock",
+      "bbox": [
+        634,
+        909,
+        716,
+        927
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8410216569900513
+    },
+    {
+      "text": "may",
+      "bbox": [
+        736,
+        913,
+        800,
+        933
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8208229541778564
+    },
+    {
+      "text": "be",
+      "bbox": [
+        814,
+        907,
+        848,
+        926
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8421446681022644
+    },
+    {
+      "text": "used",
+      "bbox": [
+        860,
+        906,
+        928,
+        926
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8344957232475281
+    },
+    {
+      "text": "in",
+      "bbox": [
+        942,
+        906,
+        970,
+        924
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8434692025184631
+    },
+    {
+      "text": "place",
+      "bbox": [
+        72,
+        946,
+        150,
+        970
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7696198225021362
+    },
+    {
+      "text": "of",
+      "bbox": [
+        164,
+        946,
+        194,
+        963
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7849344611167908
+    },
+    {
+      "text": "water.",
+      "bbox": [
+        208,
+        946,
+        300,
+        963
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7847738265991211
+    }
+  ],
+  "grouped": {
+    "TITLE": [
+      {
+        "text": "120",
+        "bbox": [
+          48,
+          35,
+          104,
+          55
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8498892188072205
+      },
+      {
+        "text": "BOSTON",
+        "bbox": [
+          174,
+          38,
+          294,
+          55
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8888285160064697
+      },
+      {
+        "text": "COOKING-SCHOOL",
+        "bbox": [
+          318,
+          33,
+          596,
+          52
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8832834362983704
+      },
+      {
+        "text": "COOK",
+        "bbox": [
+          616,
+          33,
+          700,
+          49
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8980837464332581
+      },
+      {
+        "text": "BOOK.",
+        "bbox": [
+          722,
+          32,
+          818,
+          49
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9010466933250427
+      },
+      {
+        "text": "Clean",
+        "bbox": [
+          48,
+          93,
+          134,
+          111
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9042497873306274
+      },
+      {
+        "text": "and",
+        "bbox": [
+          154,
+          92,
+          208,
+          110
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8976118564605713
+      },
+      {
+        "text": "pick",
+        "bbox": [
+          230,
+          90,
+          292,
+          114
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8919161558151245
+      },
+      {
+        "text": "over",
+        "bbox": [
+          314,
+          96,
+          380,
+          109
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8905941843986511
+      },
+      {
+        "text": "clams,",
+        "bbox": [
+          400,
+          89,
+          494,
+          107
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8921326994895935
+      },
+      {
+        "text": "reserve",
+        "bbox": [
+          518,
+          93,
+          624,
+          106
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8919466137886047
+      },
+      {
+        "text": "liquor,",
+        "bbox": [
+          646,
+          86,
+          744,
+          110
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.90460205078125
+      },
+      {
+        "text": "and",
+        "bbox": [
+          764,
+          84,
+          820,
+          104
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9034035801887512
+      },
+      {
+        "text": "add",
+        "bbox": [
+          840,
+          83,
+          896,
+          103
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.896199643611908
+      },
+      {
+        "text": "to",
+        "bbox": [
+          916,
+          84,
+          946,
+          103
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9013234376907349
+      },
+      {
+        "text": "hard",
+        "bbox": [
+          50,
+          121,
+          116,
+          140
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9015864133834839
+      },
+      {
+        "text": "part",
+        "bbox": [
+          130,
+          123,
+          194,
+          144
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8910361528396606
+      },
+      {
+        "text": "of",
+        "bbox": [
+          206,
+          121,
+          236,
+          138
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.902787446975708
+      },
+      {
+        "text": "clams,",
+        "bbox": [
+          250,
+          120,
+          344,
+          140
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9095051288604736
+      },
+      {
+        "text": "finely",
+        "bbox": [
+          360,
+          118,
+          442,
+          143
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8910626173019409
+      },
+      {
+        "text": "chopped",
+        "bbox": [
+          456,
+          116,
+          596,
+          140
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8952943086624146
+      },
+      {
+        "text": ";",
+        "bbox": [
+          590,
+          101,
+          598,
+          150
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8557290434837341
+      },
+      {
+        "text": "put",
+        "bbox": [
+          616,
+          117,
+          666,
+          140
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8816306591033936
+      },
+      {
+        "text": "aside",
+        "bbox": [
+          680,
+          114,
+          754,
+          133
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9041871428489685
+      },
+      {
+        "text": "soft",
+        "bbox": [
+          768,
+          114,
+          828,
+          131
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9076585173606873
+      },
+      {
+        "text": "part",
+        "bbox": [
+          840,
+          114,
+          904,
+          137
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.89336758852005
+      },
+      {
+        "text": "of",
+        "bbox": [
+          916,
+          113,
+          946,
+          130
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9000928401947021
+      },
+      {
+        "text": "clams,",
+        "bbox": [
+          50,
+          151,
+          144,
+          169
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8797347545623779
+      },
+      {
+        "text": "Heat",
+        "bbox": [
+          184,
+          150,
+          258,
+          168
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8741951584815979
+      },
+      {
+        "text": "slowly",
+        "bbox": [
+          278,
+          147,
+          372,
+          172
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8733627200126648
+      },
+      {
+        "text": "to",
+        "bbox": [
+          392,
+          150,
+          420,
+          165
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8648226261138916
+      },
+      {
+        "text": "boiling",
+        "bbox": [
+          440,
+          145,
+          544,
+          169
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8907354474067688
+      },
+      {
+        "text": "point",
+        "bbox": [
+          564,
+          144,
+          642,
+          169
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8770180940628052
+      },
+      {
+        "text": "clams",
+        "bbox": [
+          658,
+          144,
+          744,
+          162
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8927664756774902
+      },
+      {
+        "text": "and",
+        "bbox": [
+          764,
+          143,
+          818,
+          161
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8893088102340698
+      },
+      {
+        "text": "oysters",
+        "bbox": [
+          838,
+          143,
+          946,
+          167
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8947817087173462
+      },
+      {
+        "text": "with",
+        "bbox": [
+          50,
+          179,
+          114,
+          196
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8562116622924805
+      },
+      {
+        "text": "liquor",
+        "bbox": [
+          168,
+          184,
+          216,
+          196
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8648956418037415
+      },
+      {
+        "text": "from",
+        "bbox": [
+          230,
+          178,
+          302,
+          195
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8680686950683594
+      },
+      {
+        "text": "both,",
+        "bbox": [
+          316,
+          177,
+          390,
+          198
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8498346209526062
+      },
+      {
+        "text": "strain",
+        "bbox": [
+          404,
+          175,
+          490,
+          194
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8594304323196411
+      },
+      {
+        "text": "through",
+        "bbox": [
+          506,
+          174,
+          622,
+          198
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8656442761421204
+      },
+      {
+        "text": "cheese",
+        "bbox": [
+          636,
+          174,
+          734,
+          192
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.875649631023407
+      },
+      {
+        "text": "cloth.",
+        "bbox": [
+          746,
+          172,
+          830,
+          191
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.895112931728363
+      },
+      {
+        "text": "\u201cSeald",
+        "bbox": [
+          866,
+          171,
+          948,
+          189
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8764882683753967
+      },
+      {
+        "text": "milk",
+        "bbox": [
+          50,
+          208,
+          114,
+          226
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8477050065994263
+      },
+      {
+        "text": "with",
+        "bbox": [
+          130,
+          208,
+          194,
+          225
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8442198038101196
+      },
+      {
+        "text": "onion,",
+        "bbox": [
+          204,
+          206,
+          296,
+          228
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8358572125434875
+      },
+      {
+        "text": "mace,",
+        "bbox": [
+          310,
+          211,
+          396,
+          228
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8271614909172058
+      },
+      {
+        "text": "parsley,",
+        "bbox": [
+          408,
+          203,
+          528,
+          228
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8263270854949951
+      },
+      {
+        "text": "and",
+        "bbox": [
+          542,
+          203,
+          594,
+          220
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8411825299263
+      },
+      {
+        "text": "bay",
+        "bbox": [
+          610,
+          202,
+          662,
+          226
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.841413676738739
+      },
+      {
+        "text": "leaf",
+        "bbox": [
+          674,
+          202,
+          746,
+          222
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8602762818336487
+      },
+      {
+        "text": ";",
+        "bbox": [
+          744,
+          188,
+          756,
+          236
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.837682843208313
+      },
+      {
+        "text": "remove",
+        "bbox": [
+          768,
+          206,
+          876,
+          219
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8659401535987854
+      },
+      {
+        "text": "sea-",
+        "bbox": [
+          890,
+          205,
+          948,
+          218
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8697506189346313
+      },
+      {
+        "text": "sonings,",
+        "bbox": [
+          52,
+          237,
+          176,
+          260
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8513115644454956
+      },
+      {
+        "text": "and",
+        "bbox": [
+          192,
+          235,
+          246,
+          253
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8393886089324951
+      },
+      {
+        "text": "add",
+        "bbox": [
+          260,
+          235,
+          314,
+          253
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8482668995857239
+      },
+      {
+        "text": "milk",
+        "bbox": [
+          328,
+          233,
+          394,
+          252
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8381504416465759
+      },
+      {
+        "text": "to",
+        "bbox": [
+          408,
+          235,
+          438,
+          252
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.828191876411438
+      },
+      {
+        "text": "stock.",
+        "bbox": [
+          450,
+          232,
+          540,
+          250
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8696372509002686
+      },
+      {
+        "text": "\u2018Thicken",
+        "bbox": [
+          574,
+          230,
+          696,
+          249
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.890805721282959
+      },
+      {
+        "text": "with",
+        "bbox": [
+          712,
+          230,
+          774,
+          247
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8847012519836426
+      },
+      {
+        "text": "butter",
+        "bbox": [
+          790,
+          229,
+          882,
+          247
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8930596709251404
+      },
+      {
+        "text": "and",
+        "bbox": [
+          896,
+          228,
+          948,
+          246
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8884292840957642
+      },
+      {
+        "text": "flour",
+        "bbox": [
+          52,
+          266,
+          120,
+          284
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.886229395866394
+      },
+      {
+        "text": "cooked",
+        "bbox": [
+          132,
+          264,
+          238,
+          283
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8907399773597717
+      },
+      {
+        "text": "together,",
+        "bbox": [
+          258,
+          263,
+          394,
+          287
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8694441318511963
+      },
+      {
+        "text": "add",
+        "bbox": [
+          408,
+          262,
+          462,
+          280
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8606071472167969
+      },
+      {
+        "text": "soft",
+        "bbox": [
+          484,
+          262,
+          540,
+          280
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8738200664520264
+      },
+      {
+        "text": "part",
+        "bbox": [
+          564,
+          262,
+          626,
+          284
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8593897223472595
+      },
+      {
+        "text": "of",
+        "bbox": [
+          644,
+          260,
+          676,
+          277
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8927872776985168
+      },
+      {
+        "text": "clams,",
+        "bbox": [
+          696,
+          259,
+          790,
+          280
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8905516266822815
+      },
+      {
+        "text": "and",
+        "bbox": [
+          808,
+          257,
+          860,
+          276
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8956338763237
+      },
+      {
+        "text": "cook",
+        "bbox": [
+          880,
+          256,
+          950,
+          276
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9045132398605347
+      },
+      {
+        "text": "two",
+        "bbox": [
+          52,
+          297,
+          108,
+          313
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8646870851516724
+      },
+      {
+        "text": "minutes,",
+        "bbox": [
+          126,
+          294,
+          254,
+          311
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8725430369377136
+      },
+      {
+        "text": "Season",
+        "bbox": [
+          294,
+          291,
+          400,
+          311
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8542708158493042
+      },
+      {
+        "text": "with",
+        "bbox": [
+          414,
+          291,
+          478,
+          308
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8625596165657043
+      },
+      {
+        "text": "salt",
+        "bbox": [
+          498,
+          290,
+          552,
+          308
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8554546236991882
+      },
+      {
+        "text": "and",
+        "bbox": [
+          572,
+          288,
+          626,
+          307
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8752418160438538
+      },
+      {
+        "text": "pepper.",
+        "bbox": [
+          646,
+          294,
+          758,
+          313
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8921576738357544
+      },
+      {
+        "text": "Cream",
+        "bbox": [
+          338,
+          359,
+          434,
+          375
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8365485072135925
+      },
+      {
+        "text": "of",
+        "bbox": [
+          448,
+          356,
+          480,
+          373
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8582306504249573
+      },
+      {
+        "text": "Clam",
+        "bbox": [
+          492,
+          356,
+          570,
+          372
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8479546308517456
+      },
+      {
+        "text": "Soup.",
+        "bbox": [
+          582,
+          355,
+          668,
+          375
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8830381631851196
+      },
+      {
+        "text": "Make",
+        "bbox": [
+          92,
+          403,
+          176,
+          422
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8364099264144897
+      },
+      {
+        "text": "as",
+        "bbox": [
+          196,
+          407,
+          226,
+          420
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8697776794433594
+      },
+      {
+        "text": "French",
+        "bbox": [
+          246,
+          400,
+          352,
+          419
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8530114889144897
+      },
+      {
+        "text": "Oyster",
+        "bbox": [
+          364,
+          400,
+          466,
+          423
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8558606505393982
+      },
+      {
+        "text": "Soup,",
+        "bbox": [
+          482,
+          399,
+          564,
+          422
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8591297268867493
+      },
+      {
+        "text": "using",
+        "bbox": [
+          582,
+          398,
+          662,
+          420
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8630843758583069
+      },
+      {
+        "text": "clams",
+        "bbox": [
+          682,
+          396,
+          766,
+          415
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8695347905158997
+      },
+      {
+        "text": "in",
+        "bbox": [
+          788,
+          396,
+          812,
+          413
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8816425800323486
+      },
+      {
+        "text": "place",
+        "bbox": [
+          834,
+          395,
+          910,
+          419
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8621259331703186
+      },
+      {
+        "text": "of",
+        "bbox": [
+          924,
+          393,
+          954,
+          412
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8796680569648743
+      },
+      {
+        "text": "oysters.",
+        "bbox": [
+          56,
+          434,
+          174,
+          457
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8407086730003357
+      },
+      {
+        "text": "Lobster",
+        "bbox": [
+          382,
+          471,
+          500,
+          487
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8166154623031616
+      },
+      {
+        "text": "Bisque.",
+        "bbox": [
+          520,
+          470,
+          622,
+          490
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7919044494628906
+      },
+      {
+        "text": "2",
+        "bbox": [
+          152,
+          512,
+          168,
+          528
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6712897419929504
+      },
+      {
+        "text": "Ib.",
+        "bbox": [
+          180,
+          511,
+          214,
+          528
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.808510422706604
+      },
+      {
+        "text": "lobster.",
+        "bbox": [
+          228,
+          511,
+          330,
+          528
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8094425201416016
+      },
+      {
+        "text": "44",
+        "bbox": [
+          604,
+          508,
+          632,
+          528
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7462913990020752
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          646,
+          511,
+          694,
+          528
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8172430992126465
+      },
+      {
+        "text": "butter.",
+        "bbox": [
+          706,
+          505,
+          798,
+          522
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8409669399261475
+      },
+      {
+        "text": "2",
+        "bbox": [
+          154,
+          538,
+          170,
+          553
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6594533324241638
+      },
+      {
+        "text": "cups",
+        "bbox": [
+          180,
+          542,
+          242,
+          559
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7685357332229614
+      },
+      {
+        "text": "cold",
+        "bbox": [
+          254,
+          535,
+          308,
+          552
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8011185526847839
+      },
+      {
+        "text": "water.",
+        "bbox": [
+          322,
+          536,
+          406,
+          552
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7946027517318726
+      },
+      {
+        "text": "44",
+        "bbox": [
+          606,
+          533,
+          634,
+          553
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7358382940292358
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          648,
+          536,
+          696,
+          553
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8103404641151428
+      },
+      {
+        "text": "flour.",
+        "bbox": [
+          708,
+          531,
+          778,
+          548
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8274235129356384
+      },
+      {
+        "text": "4",
+        "bbox": [
+          154,
+          563,
+          168,
+          579
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6415150761604309
+      },
+      {
+        "text": "cups",
+        "bbox": [
+          180,
+          567,
+          242,
+          583
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7417472004890442
+      },
+      {
+        "text": "milk.",
+        "bbox": [
+          254,
+          560,
+          326,
+          577
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.771081805229187
+      },
+      {
+        "text": "13g",
+        "bbox": [
+          608,
+          558,
+          650,
+          579
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7567663788795471
+      },
+      {
+        "text": "teaspoons",
+        "bbox": [
+          664,
+          559,
+          796,
+          577
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7851433157920837
+      },
+      {
+        "text": "salt.",
+        "bbox": [
+          806,
+          555,
+          864,
+          572
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8258237838745117
+      },
+      {
+        "text": "Few",
+        "bbox": [
+          344,
+          586,
+          402,
+          603
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7234366536140442
+      },
+      {
+        "text": "grains",
+        "bbox": [
+          414,
+          584,
+          500,
+          607
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7586318850517273
+      },
+      {
+        "text": "of",
+        "bbox": [
+          510,
+          583,
+          538,
+          600
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7725216746330261
+      },
+      {
+        "text": "cayenne.",
+        "bbox": [
+          550,
+          587,
+          668,
+          606
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7865727543830872
+      },
+      {
+        "text": "Remove",
+        "bbox": [
+          100,
+          628,
+          220,
+          647
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7609652876853943
+      },
+      {
+        "text": "meat",
+        "bbox": [
+          240,
+          628,
+          314,
+          645
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7774806618690491
+      },
+      {
+        "text": "from",
+        "bbox": [
+          334,
+          626,
+          404,
+          644
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7895180583000183
+      },
+      {
+        "text": "lobster",
+        "bbox": [
+          424,
+          624,
+          528,
+          643
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7998346090316772
+      },
+      {
+        "text": "shell.",
+        "bbox": [
+          542,
+          621,
+          620,
+          641
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.806206226348877
+      },
+      {
+        "text": "Add",
+        "bbox": [
+          660,
+          621,
+          724,
+          640
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8052754402160645
+      },
+      {
+        "text": "cold",
+        "bbox": [
+          744,
+          620,
+          806,
+          638
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8425189256668091
+      },
+      {
+        "text": "water",
+        "bbox": [
+          828,
+          621,
+          912,
+          638
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.829355776309967
+      },
+      {
+        "text": "to",
+        "bbox": [
+          932,
+          621,
+          962,
+          637
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8070641160011292
+      },
+      {
+        "text": "body",
+        "bbox": [
+          64,
+          657,
+          138,
+          682
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8203322887420654
+      },
+      {
+        "text": "bones",
+        "bbox": [
+          152,
+          657,
+          238,
+          675
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7817999720573425
+      },
+      {
+        "text": "and",
+        "bbox": [
+          252,
+          655,
+          304,
+          674
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7964207530021667
+      },
+      {
+        "text": "tough",
+        "bbox": [
+          320,
+          654,
+          404,
+          678
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8088150024414062
+      },
+      {
+        "text": "end",
+        "bbox": [
+          420,
+          652,
+          474,
+          671
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7768974900245667
+      },
+      {
+        "text": "of",
+        "bbox": [
+          494,
+          652,
+          524,
+          671
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7989108562469482
+      },
+      {
+        "text": "claws,",
+        "bbox": [
+          542,
+          651,
+          636,
+          671
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8133005499839783
+      },
+      {
+        "text": "cut",
+        "bbox": [
+          652,
+          651,
+          698,
+          668
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7891269326210022
+      },
+      {
+        "text": "in",
+        "bbox": [
+          712,
+          650,
+          738,
+          668
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8369640707969666
+      },
+      {
+        "text": "pieces;",
+        "bbox": [
+          754,
+          650,
+          858,
+          674
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8455251455307007
+      },
+      {
+        "text": "bring",
+        "bbox": [
+          882,
+          648,
+          962,
+          671
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8398342728614807
+      },
+      {
+        "text": "slowly",
+        "bbox": [
+          64,
+          685,
+          160,
+          711
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7951974868774414
+      },
+      {
+        "text": "to",
+        "bbox": [
+          174,
+          688,
+          202,
+          703
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7995541095733643
+      },
+      {
+        "text": "boiling",
+        "bbox": [
+          216,
+          684,
+          320,
+          708
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8231301307678223
+      },
+      {
+        "text": "point,",
+        "bbox": [
+          334,
+          682,
+          420,
+          706
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7952132821083069
+      },
+      {
+        "text": "and",
+        "bbox": [
+          434,
+          681,
+          488,
+          701
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.800010621547699
+      },
+      {
+        "text": "cook",
+        "bbox": [
+          502,
+          681,
+          570,
+          699
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8338791131973267
+      },
+      {
+        "text": "twenty",
+        "bbox": [
+          584,
+          682,
+          688,
+          703
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8323885798454285
+      },
+      {
+        "text": "minutes.",
+        "bbox": [
+          702,
+          678,
+          828,
+          696
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8612422347068787
+      },
+      {
+        "text": "Drain,",
+        "bbox": [
+          864,
+          677,
+          960,
+          698
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.85659259557724
+      },
+      {
+        "text": "reserve",
+        "bbox": [
+          66,
+          720,
+          174,
+          733
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8287912607192993
+      },
+      {
+        "text": "liquor,",
+        "bbox": [
+          192,
+          713,
+          290,
+          737
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8178010582923889
+      },
+      {
+        "text": "and",
+        "bbox": [
+          306,
+          712,
+          360,
+          730
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8151295781135559
+      },
+      {
+        "text": "thicken",
+        "bbox": [
+          380,
+          711,
+          490,
+          730
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8346246480941772
+      },
+      {
+        "text": "with",
+        "bbox": [
+          512,
+          709,
+          574,
+          728
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8311847448348999
+      },
+      {
+        "text": "butter",
+        "bbox": [
+          590,
+          709,
+          682,
+          726
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.849503219127655
+      },
+      {
+        "text": "and",
+        "bbox": [
+          700,
+          708,
+          754,
+          726
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8556151390075684
+      },
+      {
+        "text": "flour",
+        "bbox": [
+          772,
+          706,
+          840,
+          725
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8580726385116577
+      },
+      {
+        "text": "cooked",
+        "bbox": [
+          858,
+          705,
+          962,
+          725
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8720526695251465
+      },
+      {
+        "text": "together.",
+        "bbox": [
+          66,
+          745,
+          202,
+          767
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8497273921966553
+      },
+      {
+        "text": "Seald",
+        "bbox": [
+          242,
+          742,
+          324,
+          762
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8326408863067627
+      },
+      {
+        "text": "milk",
+        "bbox": [
+          348,
+          740,
+          412,
+          759
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8368133902549744
+      },
+      {
+        "text": "with",
+        "bbox": [
+          434,
+          739,
+          498,
+          757
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.833778440952301
+      },
+      {
+        "text": "tail",
+        "bbox": [
+          522,
+          739,
+          570,
+          757
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8315333127975464
+      },
+      {
+        "text": "meat",
+        "bbox": [
+          592,
+          739,
+          666,
+          756
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.841941237449646
+      },
+      {
+        "text": "of",
+        "bbox": [
+          688,
+          736,
+          718,
+          754
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8744965195655823
+      },
+      {
+        "text": "lobster,",
+        "bbox": [
+          744,
+          736,
+          856,
+          757
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8699291944503784
+      },
+      {
+        "text": "finely",
+        "bbox": [
+          884,
+          735,
+          964,
+          759
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8454219698905945
+      },
+      {
+        "text": "chopped;",
+        "bbox": [
+          66,
+          773,
+          208,
+          797
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8476952314376831
+      },
+      {
+        "text": "strain,",
+        "bbox": [
+          228,
+          771,
+          326,
+          790
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8280196189880371
+      },
+      {
+        "text": "and",
+        "bbox": [
+          340,
+          770,
+          392,
+          788
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8202638030052185
+      },
+      {
+        "text": "add",
+        "bbox": [
+          408,
+          769,
+          460,
+          787
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8133135437965393
+      },
+      {
+        "text": "to",
+        "bbox": [
+          476,
+          771,
+          504,
+          786
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8353821635246277
+      },
+      {
+        "text": "liquor.",
+        "bbox": [
+          518,
+          767,
+          614,
+          791
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8554016947746277
+      },
+      {
+        "text": "Season",
+        "bbox": [
+          650,
+          766,
+          752,
+          784
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8460697531700134
+      },
+      {
+        "text": "with",
+        "bbox": [
+          764,
+          764,
+          828,
+          783
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.86173015832901
+      },
+      {
+        "text": "salt",
+        "bbox": [
+          842,
+          763,
+          896,
+          781
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8537847995758057
+      },
+      {
+        "text": "and",
+        "bbox": [
+          910,
+          763,
+          964,
+          781
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8630134463310242
+      },
+      {
+        "text": "cayenne;",
+        "bbox": [
+          66,
+          807,
+          206,
+          827
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8208135962486267
+      },
+      {
+        "text": "then",
+        "bbox": [
+          228,
+          801,
+          292,
+          818
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.789138913154602
+      },
+      {
+        "text": "add",
+        "bbox": [
+          314,
+          800,
+          368,
+          817
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8172429203987122
+      },
+      {
+        "text": "tender",
+        "bbox": [
+          388,
+          798,
+          484,
+          817
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8205121755599976
+      },
+      {
+        "text": "claw",
+        "bbox": [
+          508,
+          797,
+          574,
+          815
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8433035016059875
+      },
+      {
+        "text": "meat,",
+        "bbox": [
+          598,
+          797,
+          678,
+          815
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8494758605957031
+      },
+      {
+        "text": "cut",
+        "bbox": [
+          698,
+          796,
+          746,
+          813
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8247088193893433
+      },
+      {
+        "text": "in",
+        "bbox": [
+          768,
+          794,
+          796,
+          811
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8629289269447327
+      },
+      {
+        "text": "dice,",
+        "bbox": [
+          818,
+          793,
+          888,
+          814
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8456574082374573
+      },
+      {
+        "text": "and",
+        "bbox": [
+          910,
+          791,
+          966,
+          810
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8419793844223022
+      },
+      {
+        "text": "body",
+        "bbox": [
+          68,
+          831,
+          142,
+          855
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8226152062416077
+      },
+      {
+        "text": "meat.",
+        "bbox": [
+          156,
+          831,
+          240,
+          848
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8409814238548279
+      },
+      {
+        "text": "When",
+        "bbox": [
+          278,
+          828,
+          368,
+          847
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8113588690757751
+      },
+      {
+        "text": "coral",
+        "bbox": [
+          380,
+          827,
+          454,
+          845
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8028018474578857
+      },
+      {
+        "text": "is",
+        "bbox": [
+          470,
+          827,
+          492,
+          844
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8164474964141846
+      },
+      {
+        "text": "found",
+        "bbox": [
+          508,
+          824,
+          592,
+          844
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8126196265220642
+      },
+      {
+        "text": "in",
+        "bbox": [
+          612,
+          824,
+          638,
+          842
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8492829203605652
+      },
+      {
+        "text": "lobster,",
+        "bbox": [
+          658,
+          824,
+          768,
+          844
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8499937653541565
+      },
+      {
+        "text": "wash,",
+        "bbox": [
+          786,
+          822,
+          868,
+          841
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8517023324966431
+      },
+      {
+        "text": "wipe,",
+        "bbox": [
+          886,
+          821,
+          964,
+          844
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8445209264755249
+      },
+      {
+        "text": "force",
+        "bbox": [
+          72,
+          861,
+          146,
+          878
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8163823485374451
+      },
+      {
+        "text": "through",
+        "bbox": [
+          166,
+          858,
+          282,
+          881
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8189286589622498
+      },
+      {
+        "text": "fine",
+        "bbox": [
+          298,
+          858,
+          350,
+          875
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7953504323959351
+      },
+      {
+        "text": "strainer,",
+        "bbox": [
+          372,
+          856,
+          498,
+          876
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7930982112884521
+      },
+      {
+        "text": "put",
+        "bbox": [
+          514,
+          856,
+          566,
+          878
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7706887125968933
+      },
+      {
+        "text": "in",
+        "bbox": [
+          586,
+          854,
+          610,
+          871
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8204990029335022
+      },
+      {
+        "text": "a",
+        "bbox": [
+          632,
+          858,
+          648,
+          871
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8106863498687744
+      },
+      {
+        "text": "mortar",
+        "bbox": [
+          668,
+          854,
+          770,
+          869
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8341807126998901
+      },
+      {
+        "text": "with",
+        "bbox": [
+          786,
+          851,
+          848,
+          868
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8256098628044128
+      },
+      {
+        "text": "butter,",
+        "bbox": [
+          864,
+          849,
+          966,
+          871
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8284244537353516
+      },
+      {
+        "text": "work",
+        "bbox": [
+          70,
+          888,
+          144,
+          906
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7964329123497009
+      },
+      {
+        "text": "until",
+        "bbox": [
+          156,
+          888,
+          224,
+          906
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8014654517173767
+      },
+      {
+        "text": "well",
+        "bbox": [
+          236,
+          886,
+          296,
+          905
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7837060689926147
+      },
+      {
+        "text": "blended,",
+        "bbox": [
+          310,
+          885,
+          436,
+          905
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7799306511878967
+      },
+      {
+        "text": "then",
+        "bbox": [
+          450,
+          883,
+          514,
+          902
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7448313236236572
+      },
+      {
+        "text": "add",
+        "bbox": [
+          528,
+          882,
+          582,
+          902
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8143907189369202
+      },
+      {
+        "text": "flour,",
+        "bbox": [
+          596,
+          882,
+          670,
+          900
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8192578554153442
+      },
+      {
+        "text": "and",
+        "bbox": [
+          684,
+          881,
+          738,
+          899
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.832945704460144
+      },
+      {
+        "text": "stir",
+        "bbox": [
+          752,
+          879,
+          804,
+          898
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8214764595031738
+      },
+      {
+        "text": "into",
+        "bbox": [
+          816,
+          879,
+          874,
+          898
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8273902535438538
+      },
+      {
+        "text": "soup.",
+        "bbox": [
+          888,
+          883,
+          966,
+          902
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8597431778907776
+      },
+      {
+        "text": "If",
+        "bbox": [
+          74,
+          917,
+          100,
+          936
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7235058546066284
+      },
+      {
+        "text": "a",
+        "bbox": [
+          116,
+          922,
+          132,
+          934
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8118621110916138
+      },
+      {
+        "text": "richer",
+        "bbox": [
+          150,
+          916,
+          238,
+          934
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8229245543479919
+      },
+      {
+        "text": "soup",
+        "bbox": [
+          256,
+          920,
+          326,
+          939
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7834706902503967
+      },
+      {
+        "text": "is",
+        "bbox": [
+          346,
+          915,
+          368,
+          932
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7585891485214233
+      },
+      {
+        "text": "desired,",
+        "bbox": [
+          388,
+          913,
+          506,
+          934
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8122665286064148
+      },
+      {
+        "text": "White",
+        "bbox": [
+          524,
+          910,
+          614,
+          930
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8197454214096069
+      },
+      {
+        "text": "Stock",
+        "bbox": [
+          634,
+          909,
+          716,
+          927
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8410216569900513
+      },
+      {
+        "text": "may",
+        "bbox": [
+          736,
+          913,
+          800,
+          933
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8208229541778564
+      },
+      {
+        "text": "be",
+        "bbox": [
+          814,
+          907,
+          848,
+          926
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8421446681022644
+      },
+      {
+        "text": "used",
+        "bbox": [
+          860,
+          906,
+          928,
+          926
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8344957232475281
+      },
+      {
+        "text": "in",
+        "bbox": [
+          942,
+          906,
+          970,
+          924
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8434692025184631
+      },
+      {
+        "text": "place",
+        "bbox": [
+          72,
+          946,
+          150,
+          970
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7696198225021362
+      },
+      {
+        "text": "of",
+        "bbox": [
+          164,
+          946,
+          194,
+          963
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7849344611167908
+      },
+      {
+        "text": "water.",
+        "bbox": [
+          208,
+          946,
+          300,
+          963
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7847738265991211
+      }
+    ]
+  },
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_boston_stageB_full_20260106_171601/layoutlmv3_boston_final",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_full/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "TITLE",
+      "1": "INGREDIENT_LINE",
+      "2": "INSTRUCTION_STEP",
+      "3": "TIME",
+      "4": "TEMP",
+      "5": "SERVINGS",
+      "6": "O"
+    },
+    "label2id": {
+      "TITLE": 0,
+      "INGREDIENT_LINE": 1,
+      "INSTRUCTION_STEP": 2,
+      "TIME": 3,
+      "TEMP": 4,
+      "SERVINGS": 5,
+      "O": 6
+    }
+  },
+  "is_recipe_page": true,
+  "recipe_confidence": 0.7398,
+  "label_counts": {
+    "TITLE": 236
+  },
+  "title": "clams,",
+  "avg_token_confidence": 0.8375,
+  "recipe_token_ratio": 1.0,
+  "recipe_conf_version": 2,
+  "recipe_like": true
+}

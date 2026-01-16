@@ -1,0 +1,38 @@
+{
+  "id": "bcsb_0025",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Roast Chicken",
+  "category": "Mains",
+  "tags": ["poultry", "roast"],
+  "time": { "prep": "20 min", "cook": "1 hr 15 min", "total": "1 hr 35 min" },
+  "servings": "4 servings",
+  "ingredients": [
+    "1 dressed chicken (3 lb)",
+    "2 tbsp butter",
+    "1 tsp salt",
+    "1/4 tsp pepper",
+    "1 cup bread stuffing (optional)",
+    "1/2 cup stock or water"
+  ],
+  "instructions": [
+    "Clean and stuff chicken if desired; truss securely.",
+    "Rub with softened butter, salt, and pepper.",
+    "Roast at 375F for about 1 hour 15 minutes, basting every 15 minutes with drippings and stock.",
+    "Serve with pan gravy."
+  ],
+  "notes": ["Start roasting breast-side down for juicier meat."],
+  "source": {
+    "page": 180,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-5.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

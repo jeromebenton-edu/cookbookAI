@@ -1,0 +1,873 @@
+{
+  "page_num": 2,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0002.png",
+  "image_url": "/api/parse/boston/2/image",
+  "tokens": [
+    {
+      "text": "aaa",
+      "bbox": [
+        614,
+        0,
+        677,
+        10
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.4947965145111084
+    },
+    {
+      "text": "wo",
+      "bbox": [
+        574,
+        21,
+        618,
+        40
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.502524197101593
+    },
+    {
+      "text": "THE",
+      "bbox": [
+        468,
+        40,
+        544,
+        52
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4749240279197693
+    },
+    {
+      "text": "(4",
+      "bbox": [
+        708,
+        28,
+        765,
+        71
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.47021055221557617
+    },
+    {
+      "text": "/",
+      "bbox": [
+        553,
+        51,
+        578,
+        58
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.5224510431289673
+    },
+    {
+      "text": "o",
+      "bbox": [
+        544,
+        63,
+        572,
+        78
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5169594883918762
+    },
+    {
+      "text": "BOSTON",
+      "bbox": [
+        24,
+        95,
+        322,
+        151
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.610554575920105
+    },
+    {
+      "text": "COOKING-SCHOOI:",
+      "bbox": [
+        361,
+        104,
+        949,
+        170
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.709574282169342
+    },
+    {
+      "text": "2",
+      "bbox": [
+        578,
+        196,
+        581,
+        197
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7222011089324951
+    },
+    {
+      "text": "oN",
+      "bbox": [
+        614,
+        189,
+        660,
+        197
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4892222583293915
+    },
+    {
+      "text": "DR",
+      "bbox": [
+        685,
+        191,
+        776,
+        201
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.577453076839447
+    },
+    {
+      "text": "COOK",
+      "bbox": [
+        185,
+        234,
+        465,
+        293
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6501877307891846
+    },
+    {
+      "text": "BOOK.",
+      "bbox": [
+        521,
+        208,
+        824,
+        273
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6318389177322388
+    },
+    {
+      "text": "{",
+      "bbox": [
+        108,
+        352,
+        110,
+        368
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7844441533088684
+    },
+    {
+      "text": "j",
+      "bbox": [
+        108,
+        378,
+        114,
+        408
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.6977300047874451
+    },
+    {
+      "text": ".",
+      "bbox": [
+        317,
+        395,
+        320,
+        396
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.8022039532661438
+    },
+    {
+      "text": "BY",
+      "bbox": [
+        480,
+        389,
+        518,
+        402
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.5299355387687683
+    },
+    {
+      "text": "1",
+      "bbox": [
+        110,
+        443,
+        116,
+        457
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.751960039138794
+    },
+    {
+      "text": "FANNIE",
+      "bbox": [
+        184,
+        435,
+        353,
+        451
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5569282174110413
+    },
+    {
+      "text": "MERRITT",
+      "bbox": [
+        389,
+        436,
+        590,
+        453
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6042343974113464
+    },
+    {
+      "text": "FARMER,",
+      "bbox": [
+        624,
+        437,
+        818,
+        458
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7183369994163513
+    },
+    {
+      "text": "PRINCIPAL",
+      "bbox": [
+        238,
+        482,
+        348,
+        491
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5324220657348633
+    },
+    {
+      "text": "OF",
+      "bbox": [
+        358,
+        483,
+        388,
+        492
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4658728837966919
+    },
+    {
+      "text": "THE",
+      "bbox": [
+        398,
+        484,
+        440,
+        492
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.4498009979724884
+    },
+    {
+      "text": "BOSTON",
+      "bbox": [
+        452,
+        484,
+        537,
+        493
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4773477613925934
+    },
+    {
+      "text": "COOKING-SCHOOL.",
+      "bbox": [
+        550,
+        484,
+        757,
+        494
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6138055324554443
+    },
+    {
+      "text": ",",
+      "bbox": [
+        120,
+        853,
+        124,
+        860
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.8171114921569824
+    },
+    {
+      "text": "BOSTON:",
+      "bbox": [
+        381,
+        850,
+        596,
+        868
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.46996766328811646
+    },
+    {
+      "text": "LITTLE,",
+      "bbox": [
+        190,
+        883,
+        326,
+        902
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5102445483207703
+    },
+    {
+      "text": "BROWN,",
+      "bbox": [
+        348,
+        884,
+        486,
+        904
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.48607170581817627
+    },
+    {
+      "text": "AND",
+      "bbox": [
+        506,
+        886,
+        582,
+        901
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.47098544239997864
+    },
+    {
+      "text": "COMPANY.",
+      "bbox": [
+        608,
+        887,
+        789,
+        902
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6082158088684082
+    },
+    {
+      "text": "1896.",
+      "bbox": [
+        452,
+        921,
+        530,
+        940
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.6081616878509521
+    },
+    {
+      "text": ";",
+      "bbox": [
+        749,
+        917,
+        752,
+        918
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7791110277175903
+    }
+  ],
+  "grouped": {
+    "INGREDIENT_LINE": [
+      {
+        "text": "aaa",
+        "bbox": [
+          614,
+          0,
+          677,
+          10
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.4947965145111084
+      },
+      {
+        "text": "wo",
+        "bbox": [
+          574,
+          21,
+          618,
+          40
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.502524197101593
+      },
+      {
+        "text": "/",
+        "bbox": [
+          553,
+          51,
+          578,
+          58
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.5224510431289673
+      },
+      {
+        "text": "2",
+        "bbox": [
+          578,
+          196,
+          581,
+          197
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7222011089324951
+      },
+      {
+        "text": "{",
+        "bbox": [
+          108,
+          352,
+          110,
+          368
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7844441533088684
+      },
+      {
+        "text": "j",
+        "bbox": [
+          108,
+          378,
+          114,
+          408
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.6977300047874451
+      },
+      {
+        "text": ".",
+        "bbox": [
+          317,
+          395,
+          320,
+          396
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.8022039532661438
+      },
+      {
+        "text": "BY",
+        "bbox": [
+          480,
+          389,
+          518,
+          402
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.5299355387687683
+      },
+      {
+        "text": "1",
+        "bbox": [
+          110,
+          443,
+          116,
+          457
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.751960039138794
+      },
+      {
+        "text": "THE",
+        "bbox": [
+          398,
+          484,
+          440,
+          492
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.4498009979724884
+      },
+      {
+        "text": ",",
+        "bbox": [
+          120,
+          853,
+          124,
+          860
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.8171114921569824
+      },
+      {
+        "text": "1896.",
+        "bbox": [
+          452,
+          921,
+          530,
+          940
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.6081616878509521
+      },
+      {
+        "text": ";",
+        "bbox": [
+          749,
+          917,
+          752,
+          918
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7791110277175903
+      }
+    ],
+    "TITLE": [
+      {
+        "text": "THE",
+        "bbox": [
+          468,
+          40,
+          544,
+          52
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4749240279197693
+      },
+      {
+        "text": "(4",
+        "bbox": [
+          708,
+          28,
+          765,
+          71
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.47021055221557617
+      },
+      {
+        "text": "o",
+        "bbox": [
+          544,
+          63,
+          572,
+          78
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5169594883918762
+      },
+      {
+        "text": "BOSTON",
+        "bbox": [
+          24,
+          95,
+          322,
+          151
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.610554575920105
+      },
+      {
+        "text": "COOKING-SCHOOI:",
+        "bbox": [
+          361,
+          104,
+          949,
+          170
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.709574282169342
+      },
+      {
+        "text": "oN",
+        "bbox": [
+          614,
+          189,
+          660,
+          197
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4892222583293915
+      },
+      {
+        "text": "DR",
+        "bbox": [
+          685,
+          191,
+          776,
+          201
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.577453076839447
+      },
+      {
+        "text": "COOK",
+        "bbox": [
+          185,
+          234,
+          465,
+          293
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6501877307891846
+      },
+      {
+        "text": "BOOK.",
+        "bbox": [
+          521,
+          208,
+          824,
+          273
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6318389177322388
+      },
+      {
+        "text": "FANNIE",
+        "bbox": [
+          184,
+          435,
+          353,
+          451
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5569282174110413
+      },
+      {
+        "text": "MERRITT",
+        "bbox": [
+          389,
+          436,
+          590,
+          453
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6042343974113464
+      },
+      {
+        "text": "FARMER,",
+        "bbox": [
+          624,
+          437,
+          818,
+          458
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7183369994163513
+      },
+      {
+        "text": "PRINCIPAL",
+        "bbox": [
+          238,
+          482,
+          348,
+          491
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5324220657348633
+      },
+      {
+        "text": "OF",
+        "bbox": [
+          358,
+          483,
+          388,
+          492
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4658728837966919
+      },
+      {
+        "text": "BOSTON",
+        "bbox": [
+          452,
+          484,
+          537,
+          493
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4773477613925934
+      },
+      {
+        "text": "COOKING-SCHOOL.",
+        "bbox": [
+          550,
+          484,
+          757,
+          494
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6138055324554443
+      },
+      {
+        "text": "BOSTON:",
+        "bbox": [
+          381,
+          850,
+          596,
+          868
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.46996766328811646
+      },
+      {
+        "text": "LITTLE,",
+        "bbox": [
+          190,
+          883,
+          326,
+          902
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5102445483207703
+      },
+      {
+        "text": "BROWN,",
+        "bbox": [
+          348,
+          884,
+          486,
+          904
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.48607170581817627
+      },
+      {
+        "text": "AND",
+        "bbox": [
+          506,
+          886,
+          582,
+          901
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.47098544239997864
+      },
+      {
+        "text": "COMPANY.",
+        "bbox": [
+          608,
+          887,
+          789,
+          902
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6082158088684082
+      }
+    ]
+  },
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_boston_stageB_full_20260106_171601/layoutlmv3_boston_final",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_full/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "TITLE",
+      "1": "INGREDIENT_LINE",
+      "2": "INSTRUCTION_STEP",
+      "3": "TIME",
+      "4": "TEMP",
+      "5": "SERVINGS",
+      "6": "O"
+    },
+    "label2id": {
+      "TITLE": 0,
+      "INGREDIENT_LINE": 1,
+      "INSTRUCTION_STEP": 2,
+      "TIME": 3,
+      "TEMP": 4,
+      "SERVINGS": 5,
+      "O": 6
+    }
+  },
+  "is_recipe_page": false,
+  "recipe_confidence": 0.0,
+  "label_counts": {
+    "INGREDIENT_LINE": 13,
+    "TITLE": 21
+  },
+  "ingredient_token_count": 13,
+  "instruction_token_count": 0,
+  "title_token_count": 21,
+  "title": "FARMER,",
+  "avg_token_confidence": 0.5914,
+  "recipe_token_ratio": 1.0,
+  "recipe_conf_version": 3,
+  "recipe_like": false,
+  "recipe_score_components": {
+    "ingredient_score": 0.1625,
+    "instruction_score": 0.0,
+    "title_penalty": 0.525
+  }
+}

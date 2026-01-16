@@ -1,0 +1,5664 @@
+{
+  "page_num": 451,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0451.png",
+  "image_url": "/api/parse/boston/451/image",
+  "tokens": [
+    {
+      "text": "420",
+      "bbox": [
+        44,
+        26,
+        100,
+        41
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.4550008177757263
+    },
+    {
+      "text": "BOSTON",
+      "bbox": [
+        164,
+        27,
+        284,
+        40
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.5700497627258301
+    },
+    {
+      "text": "COOKING-SCHOOL",
+      "bbox": [
+        304,
+        22,
+        580,
+        38
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.6181898713111877
+    },
+    {
+      "text": "COOK",
+      "bbox": [
+        600,
+        20,
+        684,
+        33
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.5853167176246643
+    },
+    {
+      "text": "BOOK.",
+      "bbox": [
+        706,
+        20,
+        802,
+        32
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.6221438050270081
+    },
+    {
+      "text": "Blection",
+      "bbox": [
+        368,
+        73,
+        496,
+        87
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.8261522054672241
+    },
+    {
+      "text": "Cake.",
+      "bbox": [
+        514,
+        71,
+        600,
+        84
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.8036949634552002
+    },
+    {
+      "text": "1g",
+      "bbox": [
+        114,
+        111,
+        138,
+        127
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9597204923629761
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        150,
+        114,
+        198,
+        126
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.958652675151825
+    },
+    {
+      "text": "butter.",
+      "bbox": [
+        210,
+        108,
+        300,
+        122
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9596077799797058
+    },
+    {
+      "text": "8",
+      "bbox": [
+        574,
+        105,
+        588,
+        116
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9573778510093689
+    },
+    {
+      "text": "finely",
+      "bbox": [
+        600,
+        102,
+        670,
+        119
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9613651633262634
+    },
+    {
+      "text": "chopped",
+      "bbox": [
+        686,
+        101,
+        796,
+        118
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9578437805175781
+    },
+    {
+      "text": "figs.",
+      "bbox": [
+        810,
+        101,
+        864,
+        117
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9610450863838196
+    },
+    {
+      "text": "1",
+      "bbox": [
+        112,
+        131,
+        122,
+        143
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9576569199562073
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        136,
+        133,
+        184,
+        147
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9613404870033264
+    },
+    {
+      "text": "bread",
+      "bbox": [
+        194,
+        128,
+        272,
+        142
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.962102472782135
+    },
+    {
+      "text": "dough.",
+      "bbox": [
+        282,
+        126,
+        372,
+        144
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9621608257293701
+    },
+    {
+      "text": "114",
+      "bbox": [
+        576,
+        124,
+        616,
+        141
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.960155725479126
+    },
+    {
+      "text": "cups",
+      "bbox": [
+        630,
+        126,
+        690,
+        140
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9619332551956177
+    },
+    {
+      "text": "flour.",
+      "bbox": [
+        702,
+        122,
+        772,
+        135
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9626961350440979
+    },
+    {
+      "text": "\u2018",
+      "bbox": [
+        992,
+        122,
+        1000,
+        131
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9616303443908691
+    },
+    {
+      "text": "Legg.",
+      "bbox": [
+        114,
+        151,
+        190,
+        167
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9614384174346924
+    },
+    {
+      "text": "3g",
+      "bbox": [
+        574,
+        145,
+        600,
+        161
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9621978998184204
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        612,
+        144,
+        732,
+        160
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9627823233604431
+    },
+    {
+      "text": "soda.",
+      "bbox": [
+        744,
+        141,
+        808,
+        153
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9626602530479431
+    },
+    {
+      "text": "1",
+      "bbox": [
+        114,
+        171,
+        124,
+        184
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9566713571548462
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        138,
+        174,
+        186,
+        187
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9613615274429321
+    },
+    {
+      "text": "brown",
+      "bbox": [
+        196,
+        169,
+        282,
+        183
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9621628522872925
+    },
+    {
+      "text": "sugar.",
+      "bbox": [
+        294,
+        171,
+        374,
+        185
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9631950259208679
+    },
+    {
+      "text": "1",
+      "bbox": [
+        576,
+        165,
+        582,
+        177
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9583937525749207
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        598,
+        166,
+        716,
+        180
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9629490375518799
+    },
+    {
+      "text": "cinnamon.",
+      "bbox": [
+        728,
+        161,
+        868,
+        175
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.96305912733078
+    },
+    {
+      "text": "44",
+      "bbox": [
+        114,
+        192,
+        140,
+        208
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.956788182258606
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        154,
+        194,
+        202,
+        208
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9605319499969482
+    },
+    {
+      "text": "sour",
+      "bbox": [
+        212,
+        193,
+        270,
+        202
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9617429971694946
+    },
+    {
+      "text": "milk.",
+      "bbox": [
+        280,
+        187,
+        350,
+        202
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9621114134788513
+    },
+    {
+      "text": "1",
+      "bbox": [
+        574,
+        185,
+        600,
+        201
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9582607746124268
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        614,
+        185,
+        732,
+        200
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9627677798271179
+    },
+    {
+      "text": "clove.",
+      "bbox": [
+        744,
+        182,
+        820,
+        195
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9640743732452393
+    },
+    {
+      "text": "24",
+      "bbox": [
+        116,
+        211,
+        144,
+        228
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.954450786113739
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        154,
+        214,
+        202,
+        228
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9596981406211853
+    },
+    {
+      "text": "raisins",
+      "bbox": [
+        214,
+        209,
+        304,
+        222
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9623512625694275
+    },
+    {
+      "text": "seeded",
+      "bbox": [
+        314,
+        208,
+        404,
+        221
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9581127762794495
+    },
+    {
+      "text": "and",
+      "bbox": [
+        414,
+        207,
+        464,
+        220
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9589507579803467
+    },
+    {
+      "text": "4",
+      "bbox": [
+        566,
+        192,
+        588,
+        227
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9580022692680359
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        614,
+        205,
+        734,
+        220
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9616894125938416
+    },
+    {
+      "text": "mace.",
+      "bbox": [
+        746,
+        207,
+        822,
+        216
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.962694525718689
+    },
+    {
+      "text": "cut",
+      "bbox": [
+        176,
+        231,
+        218,
+        244
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9500392079353333
+    },
+    {
+      "text": "in",
+      "bbox": [
+        228,
+        230,
+        254,
+        243
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9492795467376709
+    },
+    {
+      "text": "pieces.",
+      "bbox": [
+        266,
+        229,
+        354,
+        246
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.95119309425354
+    },
+    {
+      "text": "14",
+      "bbox": [
+        572,
+        226,
+        600,
+        242
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9516444802284241
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        614,
+        226,
+        732,
+        242
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9573202729225159
+    },
+    {
+      "text": "nutineg.",
+      "bbox": [
+        744,
+        225,
+        854,
+        238
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9595239162445068
+    },
+    {
+      "text": "1",
+      "bbox": [
+        390,
+        248,
+        398,
+        261
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9362086057662964
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        412,
+        250,
+        530,
+        264
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9543944597244263
+    },
+    {
+      "text": "salt.",
+      "bbox": [
+        542,
+        245,
+        598,
+        259
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9526174068450928
+    },
+    {
+      "text": "Work",
+      "bbox": [
+        92,
+        285,
+        176,
+        299
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9059727191925049
+    },
+    {
+      "text": "butter",
+      "bbox": [
+        196,
+        285,
+        288,
+        298
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9094690680503845
+    },
+    {
+      "text": "into",
+      "bbox": [
+        308,
+        283,
+        366,
+        297
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9050559401512146
+    },
+    {
+      "text": "dough,",
+      "bbox": [
+        384,
+        281,
+        476,
+        299
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9067693948745728
+    },
+    {
+      "text": "using",
+      "bbox": [
+        502,
+        280,
+        580,
+        297
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8924752473831177
+    },
+    {
+      "text": "the",
+      "bbox": [
+        602,
+        279,
+        648,
+        292
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8944586515426636
+    },
+    {
+      "text": "band.",
+      "bbox": [
+        672,
+        278,
+        752,
+        291
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8924306631088257
+    },
+    {
+      "text": "Add",
+      "bbox": [
+        802,
+        276,
+        864,
+        290
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8921915292739868
+    },
+    {
+      "text": "egg",
+      "bbox": [
+        884,
+        279,
+        936,
+        294
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8898122310638428
+    },
+    {
+      "text": "well",
+      "bbox": [
+        58,
+        308,
+        114,
+        323
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.6708734035491943
+    },
+    {
+      "text": "beaten,",
+      "bbox": [
+        134,
+        308,
+        242,
+        324
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5332565307617188
+    },
+    {
+      "text": "sugar,",
+      "bbox": [
+        256,
+        309,
+        348,
+        324
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5285214781761169
+    },
+    {
+      "text": "milk,",
+      "bbox": [
+        366,
+        304,
+        440,
+        321
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.4990220069885254
+    },
+    {
+      "text": "fruit",
+      "bbox": [
+        462,
+        303,
+        528,
+        317
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.46104079484939575
+    },
+    {
+      "text": "dredged",
+      "bbox": [
+        552,
+        300,
+        672,
+        320
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.4996141195297241
+    },
+    {
+      "text": "with",
+      "bbox": [
+        690,
+        299,
+        754,
+        314
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5014714002609253
+    },
+    {
+      "text": "two",
+      "bbox": [
+        782,
+        302,
+        834,
+        313
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5211685299873352
+    },
+    {
+      "text": "table-",
+      "bbox": [
+        852,
+        297,
+        936,
+        313
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5652494430541992
+    },
+    {
+      "text": "spoons",
+      "bbox": [
+        58,
+        335,
+        158,
+        350
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5809270739555359
+    },
+    {
+      "text": "flour,",
+      "bbox": [
+        178,
+        330,
+        252,
+        347
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5991174578666687
+    },
+    {
+      "text": "and",
+      "bbox": [
+        268,
+        329,
+        322,
+        343
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5848520398139954
+    },
+    {
+      "text": "flour",
+      "bbox": [
+        342,
+        328,
+        408,
+        341
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5923909544944763
+    },
+    {
+      "text": "mixed",
+      "bbox": [
+        426,
+        325,
+        514,
+        340
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5965999364852905
+    },
+    {
+      "text": "and",
+      "bbox": [
+        534,
+        324,
+        588,
+        339
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6001056432723999
+    },
+    {
+      "text": "sifted",
+      "bbox": [
+        608,
+        323,
+        690,
+        338
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5928016901016235
+    },
+    {
+      "text": "with",
+      "bbox": [
+        708,
+        322,
+        770,
+        337
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6113808751106262
+    },
+    {
+      "text": "remaining",
+      "bbox": [
+        790,
+        321,
+        938,
+        339
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6482964158058167
+    },
+    {
+      "text": "ingredients.",
+      "bbox": [
+        60,
+        354,
+        234,
+        373
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7116391062736511
+    },
+    {
+      "text": "Put",
+      "bbox": [
+        274,
+        351,
+        328,
+        366
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6650185585021973
+    },
+    {
+      "text": "into",
+      "bbox": [
+        344,
+        350,
+        400,
+        365
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6619789600372314
+    },
+    {
+      "text": "a",
+      "bbox": [
+        418,
+        355,
+        434,
+        364
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6347726583480835
+    },
+    {
+      "text": "well-buttered",
+      "bbox": [
+        452,
+        347,
+        648,
+        363
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6330488324165344
+    },
+    {
+      "text": "bread",
+      "bbox": [
+        668,
+        345,
+        748,
+        359
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6145681738853455
+    },
+    {
+      "text": "pan,",
+      "bbox": [
+        768,
+        349,
+        830,
+        363
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6362597942352295
+    },
+    {
+      "text": "cover,",
+      "bbox": [
+        848,
+        347,
+        938,
+        360
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6633241176605225
+    },
+    {
+      "text": "\u2018and",
+      "bbox": [
+        60,
+        376,
+        112,
+        391
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6372742652893066
+    },
+    {
+      "text": "let",
+      "bbox": [
+        126,
+        376,
+        164,
+        390
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6211607456207275
+    },
+    {
+      "text": "rise",
+      "bbox": [
+        176,
+        375,
+        228,
+        390
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6250451803207397
+    },
+    {
+      "text": "one",
+      "bbox": [
+        242,
+        378,
+        292,
+        389
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.633773684501648
+    },
+    {
+      "text": "and",
+      "bbox": [
+        310,
+        373,
+        364,
+        388
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6319704651832581
+    },
+    {
+      "text": "one-fourth",
+      "bbox": [
+        376,
+        371,
+        534,
+        386
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6560732126235962
+    },
+    {
+      "text": "hours.",
+      "bbox": [
+        552,
+        371,
+        642,
+        384
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6403579711914062
+    },
+    {
+      "text": "Bake",
+      "bbox": [
+        682,
+        368,
+        756,
+        382
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6196151375770569
+    },
+    {
+      "text": "one",
+      "bbox": [
+        768,
+        372,
+        820,
+        381
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6472618579864502
+    },
+    {
+      "text": "hour",
+      "bbox": [
+        834,
+        367,
+        900,
+        381
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.642388105392456
+    },
+    {
+      "text": "in",
+      "bbox": [
+        912,
+        366,
+        940,
+        380
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6620785593986511
+    },
+    {
+      "text": "\u2018a",
+      "bbox": [
+        60,
+        404,
+        76,
+        415
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6719801425933838
+    },
+    {
+      "text": "slow",
+      "bbox": [
+        88,
+        399,
+        154,
+        414
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6602665781974792
+    },
+    {
+      "text": "oven.",
+      "bbox": [
+        166,
+        402,
+        246,
+        412
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6714390516281128
+    },
+    {
+      "text": "Cover",
+      "bbox": [
+        284,
+        397,
+        372,
+        411
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6756877899169922
+    },
+    {
+      "text": "with",
+      "bbox": [
+        386,
+        394,
+        450,
+        409
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6808252930641174
+    },
+    {
+      "text": "Boiled",
+      "bbox": [
+        464,
+        393,
+        556,
+        409
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7807128429412842
+    },
+    {
+      "text": "Milk",
+      "bbox": [
+        570,
+        392,
+        638,
+        407
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7909050583839417
+    },
+    {
+      "text": "Frosting.",
+      "bbox": [
+        654,
+        391,
+        788,
+        409
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7668558955192566
+    },
+    {
+      "text": "One",
+      "bbox": [
+        386,
+        453,
+        444,
+        467
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.6369166374206543
+    },
+    {
+      "text": "Bgg",
+      "bbox": [
+        464,
+        452,
+        520,
+        468
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.7214503884315491
+    },
+    {
+      "text": "Cake.",
+      "bbox": [
+        540,
+        451,
+        624,
+        464
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.6541435718536377
+    },
+    {
+      "text": "j",
+      "bbox": [
+        986,
+        446,
+        1000,
+        467
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6315847039222717
+    },
+    {
+      "text": "44",
+      "bbox": [
+        128,
+        489,
+        154,
+        505
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.515882670879364
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        166,
+        492,
+        214,
+        505
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.56988126039505
+    },
+    {
+      "text": "of",
+      "bbox": [
+        224,
+        486,
+        252,
+        501
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.4974946677684784
+    },
+    {
+      "text": "butter.",
+      "bbox": [
+        262,
+        486,
+        354,
+        500
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5515852570533752
+    },
+    {
+      "text": "44",
+      "bbox": [
+        530,
+        484,
+        556,
+        500
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.4826650619506836
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        570,
+        485,
+        618,
+        498
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5416250228881836
+    },
+    {
+      "text": "of",
+      "bbox": [
+        628,
+        480,
+        656,
+        494
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.4797346889972687
+    },
+    {
+      "text": "milk.",
+      "bbox": [
+        668,
+        479,
+        736,
+        494
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5316466093063354
+    },
+    {
+      "text": "44",
+      "bbox": [
+        130,
+        510,
+        156,
+        526
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5039346218109131
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        168,
+        511,
+        216,
+        526
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5573002696037292
+    },
+    {
+      "text": "sugar.",
+      "bbox": [
+        226,
+        510,
+        308,
+        524
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5712527632713318
+    },
+    {
+      "text": "14g",
+      "bbox": [
+        530,
+        503,
+        574,
+        520
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5153008103370667
+    },
+    {
+      "text": "cups",
+      "bbox": [
+        584,
+        506,
+        646,
+        519
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5537839531898499
+    },
+    {
+      "text": "flour.",
+      "bbox": [
+        656,
+        501,
+        726,
+        514
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6087291836738586
+    },
+    {
+      "text": "Legg.",
+      "bbox": [
+        130,
+        529,
+        208,
+        546
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5853350162506104
+    },
+    {
+      "text": "214",
+      "bbox": [
+        532,
+        523,
+        576,
+        540
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.48109227418899536
+    },
+    {
+      "text": "teaspoons",
+      "bbox": [
+        590,
+        523,
+        722,
+        539
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5171626806259155
+    },
+    {
+      "text": "baking",
+      "bbox": [
+        732,
+        520,
+        828,
+        537
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.4698922336101532
+    },
+    {
+      "text": "powder.",
+      "bbox": [
+        838,
+        518,
+        944,
+        537
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5831117033958435
+    },
+    {
+      "text": "Cream",
+      "bbox": [
+        104,
+        563,
+        200,
+        578
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.913054883480072
+    },
+    {
+      "text": "the",
+      "bbox": [
+        222,
+        561,
+        268,
+        576
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9131346344947815
+    },
+    {
+      "text": "butter,",
+      "bbox": [
+        288,
+        561,
+        388,
+        576
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9111372232437134
+    },
+    {
+      "text": "add",
+      "bbox": [
+        404,
+        549,
+        456,
+        573
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9107990860939026
+    },
+    {
+      "text": "sugar",
+      "bbox": [
+        478,
+        561,
+        560,
+        575
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9059122800827026
+    },
+    {
+      "text": "gradually,",
+      "bbox": [
+        578,
+        555,
+        728,
+        574
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9048183560371399
+    },
+    {
+      "text": "and",
+      "bbox": [
+        744,
+        554,
+        796,
+        569
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8986772894859314
+    },
+    {
+      "text": "egg",
+      "bbox": [
+        818,
+        557,
+        870,
+        572
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9018659591674805
+    },
+    {
+      "text": "well",
+      "bbox": [
+        890,
+        552,
+        948,
+        566
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.897173285484314
+    },
+    {
+      "text": "beaten.",
+      "bbox": [
+        70,
+        587,
+        176,
+        600
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8790568113327026
+    },
+    {
+      "text": "Mix",
+      "bbox": [
+        216,
+        584,
+        276,
+        599
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.7195157408714294
+    },
+    {
+      "text": "and",
+      "bbox": [
+        286,
+        583,
+        340,
+        598
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.6000288724899292
+    },
+    {
+      "text": "sift",
+      "bbox": [
+        354,
+        582,
+        402,
+        597
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5820647478103638
+    },
+    {
+      "text": "flour",
+      "bbox": [
+        416,
+        581,
+        484,
+        596
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.4902188777923584
+    },
+    {
+      "text": "and",
+      "bbox": [
+        496,
+        580,
+        548,
+        595
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5261840224266052
+    },
+    {
+      "text": "baking",
+      "bbox": [
+        562,
+        579,
+        664,
+        597
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5238081812858582
+    },
+    {
+      "text": "powder,",
+      "bbox": [
+        674,
+        578,
+        790,
+        597
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.584952712059021
+    },
+    {
+      "text": "add",
+      "bbox": [
+        804,
+        575,
+        858,
+        591
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5138036608695984
+    },
+    {
+      "text": "alter-",
+      "bbox": [
+        870,
+        575,
+        950,
+        590
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5105953216552734
+    },
+    {
+      "text": "nately",
+      "bbox": [
+        72,
+        608,
+        162,
+        627
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.727100133895874
+    },
+    {
+      "text": "with",
+      "bbox": [
+        174,
+        607,
+        238,
+        622
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6815549731254578
+    },
+    {
+      "text": "milk",
+      "bbox": [
+        250,
+        606,
+        316,
+        621
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6869192123413086
+    },
+    {
+      "text": "to",
+      "bbox": [
+        330,
+        607,
+        358,
+        619
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7138248682022095
+    },
+    {
+      "text": "first",
+      "bbox": [
+        372,
+        605,
+        430,
+        619
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7092963457107544
+    },
+    {
+      "text": "mixture.",
+      "bbox": [
+        446,
+        604,
+        572,
+        618
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7350584864616394
+    },
+    {
+      "text": "Bake",
+      "bbox": [
+        612,
+        600,
+        684,
+        616
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6787091493606567
+    },
+    {
+      "text": "thirty",
+      "bbox": [
+        698,
+        600,
+        782,
+        618
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6884871125221252
+    },
+    {
+      "text": "minutes",
+      "bbox": [
+        796,
+        598,
+        910,
+        613
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6429829597473145
+    },
+    {
+      "text": "in",
+      "bbox": [
+        924,
+        598,
+        950,
+        611
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6898314952850342
+    },
+    {
+      "text": "a",
+      "bbox": [
+        38,
+        636,
+        88,
+        665
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7267709970474243
+    },
+    {
+      "text": "shallow",
+      "bbox": [
+        100,
+        631,
+        210,
+        645
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.712892472743988
+    },
+    {
+      "text": "pan.",
+      "bbox": [
+        226,
+        634,
+        288,
+        648
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7382389903068542
+    },
+    {
+      "text": "Spread",
+      "bbox": [
+        328,
+        627,
+        430,
+        647
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7285984754562378
+    },
+    {
+      "text": "with",
+      "bbox": [
+        444,
+        626,
+        506,
+        641
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7228090167045593
+    },
+    {
+      "text": "Chocolate",
+      "bbox": [
+        520,
+        624,
+        668,
+        642
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7445937395095825
+    },
+    {
+      "text": "Frosting.",
+      "bbox": [
+        684,
+        623,
+        818,
+        640
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.8063451051712036
+    },
+    {
+      "text": "3",
+      "bbox": [
+        982,
+        607,
+        998,
+        627
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.68564772605896
+    },
+    {
+      "text": "=",
+      "bbox": [
+        566,
+        651,
+        592,
+        660
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.729207456111908
+    },
+    {
+      "text": "Chocolate",
+      "bbox": [
+        386,
+        682,
+        536,
+        695
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.734971821308136
+    },
+    {
+      "text": "Cake.",
+      "bbox": [
+        558,
+        680,
+        642,
+        693
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.6965562701225281
+    },
+    {
+      "text": "8",
+      "bbox": [
+        136,
+        721,
+        152,
+        734
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7094884514808655
+    },
+    {
+      "text": "tablespoons",
+      "bbox": [
+        162,
+        720,
+        320,
+        737
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7302055358886719
+    },
+    {
+      "text": "butter",
+      "bbox": [
+        330,
+        718,
+        414,
+        731
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7293000221252441
+    },
+    {
+      "text": "114",
+      "bbox": [
+        544,
+        717,
+        582,
+        731
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7246421575546265
+    },
+    {
+      "text": "cups",
+      "bbox": [
+        598,
+        719,
+        656,
+        731
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7353042960166931
+    },
+    {
+      "text": "flour.",
+      "bbox": [
+        668,
+        713,
+        738,
+        727
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7461978197097778
+    },
+    {
+      "text": "46",
+      "bbox": [
+        140,
+        743,
+        166,
+        759
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6935487985610962
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        178,
+        744,
+        226,
+        757
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7520036101341248
+    },
+    {
+      "text": "sugar.",
+      "bbox": [
+        238,
+        743,
+        318,
+        756
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7525514364242554
+    },
+    {
+      "text": "2",
+      "bbox": [
+        544,
+        736,
+        552,
+        748
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6453779935836792
+    },
+    {
+      "text": "teaspoons",
+      "bbox": [
+        570,
+        736,
+        700,
+        752
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7374547123908997
+    },
+    {
+      "text": "baking",
+      "bbox": [
+        712,
+        733,
+        806,
+        750
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7383650541305542
+    },
+    {
+      "text": "powder.",
+      "bbox": [
+        818,
+        731,
+        916,
+        750
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7451487183570862
+    },
+    {
+      "text": "1",
+      "bbox": [
+        546,
+        755,
+        556,
+        769
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6613332629203796
+    },
+    {
+      "text": "square",
+      "bbox": [
+        572,
+        759,
+        660,
+        772
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7458916306495667
+    },
+    {
+      "text": "chocolate",
+      "bbox": [
+        670,
+        753,
+        796,
+        766
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7429530024528503
+    },
+    {
+      "text": "melted.",
+      "bbox": [
+        810,
+        752,
+        908,
+        765
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7495967149734497
+    },
+    {
+      "text": "Legg.",
+      "bbox": [
+        140,
+        762,
+        220,
+        778
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7641647458076477
+    },
+    {
+      "text": "\\",
+      "bbox": [
+        132,
+        768,
+        154,
+        805
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7341877818107605
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        180,
+        785,
+        228,
+        798
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7602529525756836
+    },
+    {
+      "text": "milk.",
+      "bbox": [
+        240,
+        779,
+        310,
+        792
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7566653490066528
+    },
+    {
+      "text": "Cream",
+      "bbox": [
+        114,
+        816,
+        208,
+        831
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8983004689216614
+    },
+    {
+      "text": "the",
+      "bbox": [
+        224,
+        815,
+        268,
+        829
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9012489318847656
+    },
+    {
+      "text": "butter,",
+      "bbox": [
+        282,
+        814,
+        382,
+        830
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8985621929168701
+    },
+    {
+      "text": "add",
+      "bbox": [
+        398,
+        812,
+        450,
+        826
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8987603783607483
+    },
+    {
+      "text": "one-half",
+      "bbox": [
+        464,
+        809,
+        586,
+        825
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8946695923805237
+    },
+    {
+      "text": "sugar,",
+      "bbox": [
+        604,
+        813,
+        694,
+        826
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8897773027420044
+    },
+    {
+      "text": "egg",
+      "bbox": [
+        710,
+        812,
+        762,
+        826
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8905495405197144
+    },
+    {
+      "text": "well",
+      "bbox": [
+        776,
+        807,
+        832,
+        821
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8815792202949524
+    },
+    {
+      "text": "beaten,",
+      "bbox": [
+        852,
+        807,
+        958,
+        822
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8851701617240906
+    },
+    {
+      "text": "and",
+      "bbox": [
+        82,
+        839,
+        132,
+        854
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8475717306137085
+    },
+    {
+      "text": "remaining",
+      "bbox": [
+        160,
+        837,
+        308,
+        855
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.7919074892997742
+    },
+    {
+      "text": "sugar.",
+      "bbox": [
+        330,
+        840,
+        420,
+        854
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5377659797668457
+    },
+    {
+      "text": "Mix",
+      "bbox": [
+        470,
+        833,
+        528,
+        848
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.47802215814590454
+    },
+    {
+      "text": "and",
+      "bbox": [
+        550,
+        832,
+        604,
+        847
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5208709836006165
+    },
+    {
+      "text": "sift",
+      "bbox": [
+        626,
+        832,
+        676,
+        846
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6027355790138245
+    },
+    {
+      "text": "flour",
+      "bbox": [
+        698,
+        831,
+        762,
+        845
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.49250656366348267
+    },
+    {
+      "text": "and",
+      "bbox": [
+        786,
+        830,
+        838,
+        845
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5162545442581177
+    },
+    {
+      "text": "baking",
+      "bbox": [
+        862,
+        829,
+        962,
+        847
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5390069484710693
+    },
+    {
+      "text": "powder,",
+      "bbox": [
+        82,
+        861,
+        198,
+        881
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6936960220336914
+    },
+    {
+      "text": "add",
+      "bbox": [
+        214,
+        859,
+        266,
+        874
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6473581194877625
+    },
+    {
+      "text": "alternately",
+      "bbox": [
+        280,
+        858,
+        422,
+        874
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7221603989601135
+    },
+    {
+      "text": "with",
+      "bbox": [
+        456,
+        857,
+        518,
+        871
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6891577839851379
+    },
+    {
+      "text": "milk",
+      "bbox": [
+        532,
+        855,
+        596,
+        869
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6993173956871033
+    },
+    {
+      "text": "to",
+      "bbox": [
+        610,
+        856,
+        638,
+        868
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7047755718231201
+    },
+    {
+      "text": "first",
+      "bbox": [
+        652,
+        855,
+        710,
+        868
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7056304216384888
+    },
+    {
+      "text": "mixture.",
+      "bbox": [
+        724,
+        854,
+        850,
+        867
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7190378904342651
+    },
+    {
+      "text": "\u2018Then",
+      "bbox": [
+        884,
+        851,
+        960,
+        866
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7475777864456177
+    },
+    {
+      "text": "\u2018add",
+      "bbox": [
+        82,
+        884,
+        136,
+        900
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7309537529945374
+    },
+    {
+      "text": "chocolate",
+      "bbox": [
+        156,
+        883,
+        294,
+        898
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7288444638252258
+    },
+    {
+      "text": "and",
+      "bbox": [
+        316,
+        881,
+        368,
+        897
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7155665159225464
+    },
+    {
+      "text": "vanilla.",
+      "bbox": [
+        394,
+        880,
+        500,
+        894
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7466003894805908
+    },
+    {
+      "text": "Bake",
+      "bbox": [
+        554,
+        877,
+        626,
+        892
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7034180760383606
+    },
+    {
+      "text": "thirty",
+      "bbox": [
+        652,
+        876,
+        736,
+        895
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6863659024238586
+    },
+    {
+      "text": "minites",
+      "bbox": [
+        762,
+        875,
+        878,
+        890
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7044410705566406
+    },
+    {
+      "text": "in",
+      "bbox": [
+        900,
+        874,
+        926,
+        889
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7072104811668396
+    },
+    {
+      "text": "a",
+      "bbox": [
+        948,
+        877,
+        964,
+        889
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7306439280509949
+    },
+    {
+      "text": "shallow",
+      "bbox": [
+        82,
+        907,
+        190,
+        921
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7176321744918823
+    },
+    {
+      "text": "pan.",
+      "bbox": [
+        212,
+        910,
+        272,
+        925
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.7581160664558411
+    }
+  ],
+  "grouped": {
+    "O": [
+      {
+        "text": "420",
+        "bbox": [
+          44,
+          26,
+          100,
+          41
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.4550008177757263
+      },
+      {
+        "text": "beaten,",
+        "bbox": [
+          134,
+          308,
+          242,
+          324
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5332565307617188
+      },
+      {
+        "text": "sugar,",
+        "bbox": [
+          256,
+          309,
+          348,
+          324
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5285214781761169
+      },
+      {
+        "text": "milk,",
+        "bbox": [
+          366,
+          304,
+          440,
+          321
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.4990220069885254
+      },
+      {
+        "text": "fruit",
+        "bbox": [
+          462,
+          303,
+          528,
+          317
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.46104079484939575
+      },
+      {
+        "text": "dredged",
+        "bbox": [
+          552,
+          300,
+          672,
+          320
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.4996141195297241
+      },
+      {
+        "text": "with",
+        "bbox": [
+          690,
+          299,
+          754,
+          314
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5014714002609253
+      },
+      {
+        "text": "two",
+        "bbox": [
+          782,
+          302,
+          834,
+          313
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5211685299873352
+      },
+      {
+        "text": "table-",
+        "bbox": [
+          852,
+          297,
+          936,
+          313
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5652494430541992
+      },
+      {
+        "text": "spoons",
+        "bbox": [
+          58,
+          335,
+          158,
+          350
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5809270739555359
+      },
+      {
+        "text": "flour,",
+        "bbox": [
+          178,
+          330,
+          252,
+          347
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5991174578666687
+      },
+      {
+        "text": "and",
+        "bbox": [
+          268,
+          329,
+          322,
+          343
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5848520398139954
+      },
+      {
+        "text": "flour",
+        "bbox": [
+          342,
+          328,
+          408,
+          341
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5923909544944763
+      },
+      {
+        "text": "mixed",
+        "bbox": [
+          426,
+          325,
+          514,
+          340
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5965999364852905
+      },
+      {
+        "text": "and",
+        "bbox": [
+          534,
+          324,
+          588,
+          339
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6001056432723999
+      },
+      {
+        "text": "sifted",
+        "bbox": [
+          608,
+          323,
+          690,
+          338
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5928016901016235
+      },
+      {
+        "text": "with",
+        "bbox": [
+          708,
+          322,
+          770,
+          337
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6113808751106262
+      },
+      {
+        "text": "remaining",
+        "bbox": [
+          790,
+          321,
+          938,
+          339
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6482964158058167
+      },
+      {
+        "text": "ingredients.",
+        "bbox": [
+          60,
+          354,
+          234,
+          373
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7116391062736511
+      },
+      {
+        "text": "Put",
+        "bbox": [
+          274,
+          351,
+          328,
+          366
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6650185585021973
+      },
+      {
+        "text": "into",
+        "bbox": [
+          344,
+          350,
+          400,
+          365
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6619789600372314
+      },
+      {
+        "text": "a",
+        "bbox": [
+          418,
+          355,
+          434,
+          364
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6347726583480835
+      },
+      {
+        "text": "well-buttered",
+        "bbox": [
+          452,
+          347,
+          648,
+          363
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6330488324165344
+      },
+      {
+        "text": "bread",
+        "bbox": [
+          668,
+          345,
+          748,
+          359
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6145681738853455
+      },
+      {
+        "text": "pan,",
+        "bbox": [
+          768,
+          349,
+          830,
+          363
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6362597942352295
+      },
+      {
+        "text": "cover,",
+        "bbox": [
+          848,
+          347,
+          938,
+          360
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6633241176605225
+      },
+      {
+        "text": "\u2018and",
+        "bbox": [
+          60,
+          376,
+          112,
+          391
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6372742652893066
+      },
+      {
+        "text": "let",
+        "bbox": [
+          126,
+          376,
+          164,
+          390
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6211607456207275
+      },
+      {
+        "text": "rise",
+        "bbox": [
+          176,
+          375,
+          228,
+          390
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6250451803207397
+      },
+      {
+        "text": "one",
+        "bbox": [
+          242,
+          378,
+          292,
+          389
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.633773684501648
+      },
+      {
+        "text": "and",
+        "bbox": [
+          310,
+          373,
+          364,
+          388
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6319704651832581
+      },
+      {
+        "text": "one-fourth",
+        "bbox": [
+          376,
+          371,
+          534,
+          386
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6560732126235962
+      },
+      {
+        "text": "hours.",
+        "bbox": [
+          552,
+          371,
+          642,
+          384
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6403579711914062
+      },
+      {
+        "text": "Bake",
+        "bbox": [
+          682,
+          368,
+          756,
+          382
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6196151375770569
+      },
+      {
+        "text": "one",
+        "bbox": [
+          768,
+          372,
+          820,
+          381
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6472618579864502
+      },
+      {
+        "text": "hour",
+        "bbox": [
+          834,
+          367,
+          900,
+          381
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.642388105392456
+      },
+      {
+        "text": "in",
+        "bbox": [
+          912,
+          366,
+          940,
+          380
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6620785593986511
+      },
+      {
+        "text": "\u2018a",
+        "bbox": [
+          60,
+          404,
+          76,
+          415
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6719801425933838
+      },
+      {
+        "text": "slow",
+        "bbox": [
+          88,
+          399,
+          154,
+          414
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6602665781974792
+      },
+      {
+        "text": "oven.",
+        "bbox": [
+          166,
+          402,
+          246,
+          412
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6714390516281128
+      },
+      {
+        "text": "Cover",
+        "bbox": [
+          284,
+          397,
+          372,
+          411
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6756877899169922
+      },
+      {
+        "text": "with",
+        "bbox": [
+          386,
+          394,
+          450,
+          409
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6808252930641174
+      },
+      {
+        "text": "Boiled",
+        "bbox": [
+          464,
+          393,
+          556,
+          409
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7807128429412842
+      },
+      {
+        "text": "Milk",
+        "bbox": [
+          570,
+          392,
+          638,
+          407
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7909050583839417
+      },
+      {
+        "text": "Frosting.",
+        "bbox": [
+          654,
+          391,
+          788,
+          409
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7668558955192566
+      },
+      {
+        "text": "j",
+        "bbox": [
+          986,
+          446,
+          1000,
+          467
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6315847039222717
+      },
+      {
+        "text": "44",
+        "bbox": [
+          128,
+          489,
+          154,
+          505
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.515882670879364
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          166,
+          492,
+          214,
+          505
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.56988126039505
+      },
+      {
+        "text": "of",
+        "bbox": [
+          224,
+          486,
+          252,
+          501
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.4974946677684784
+      },
+      {
+        "text": "butter.",
+        "bbox": [
+          262,
+          486,
+          354,
+          500
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5515852570533752
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          570,
+          485,
+          618,
+          498
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5416250228881836
+      },
+      {
+        "text": "of",
+        "bbox": [
+          628,
+          480,
+          656,
+          494
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.4797346889972687
+      },
+      {
+        "text": "milk.",
+        "bbox": [
+          668,
+          479,
+          736,
+          494
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5316466093063354
+      },
+      {
+        "text": "44",
+        "bbox": [
+          130,
+          510,
+          156,
+          526
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5039346218109131
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          168,
+          511,
+          216,
+          526
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5573002696037292
+      },
+      {
+        "text": "sugar.",
+        "bbox": [
+          226,
+          510,
+          308,
+          524
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5712527632713318
+      },
+      {
+        "text": "14g",
+        "bbox": [
+          530,
+          503,
+          574,
+          520
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5153008103370667
+      },
+      {
+        "text": "cups",
+        "bbox": [
+          584,
+          506,
+          646,
+          519
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5537839531898499
+      },
+      {
+        "text": "flour.",
+        "bbox": [
+          656,
+          501,
+          726,
+          514
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6087291836738586
+      },
+      {
+        "text": "Legg.",
+        "bbox": [
+          130,
+          529,
+          208,
+          546
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5853350162506104
+      },
+      {
+        "text": "214",
+        "bbox": [
+          532,
+          523,
+          576,
+          540
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.48109227418899536
+      },
+      {
+        "text": "teaspoons",
+        "bbox": [
+          590,
+          523,
+          722,
+          539
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5171626806259155
+      },
+      {
+        "text": "powder.",
+        "bbox": [
+          838,
+          518,
+          944,
+          537
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5831117033958435
+      },
+      {
+        "text": "and",
+        "bbox": [
+          496,
+          580,
+          548,
+          595
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5261840224266052
+      },
+      {
+        "text": "baking",
+        "bbox": [
+          562,
+          579,
+          664,
+          597
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5238081812858582
+      },
+      {
+        "text": "powder,",
+        "bbox": [
+          674,
+          578,
+          790,
+          597
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.584952712059021
+      },
+      {
+        "text": "add",
+        "bbox": [
+          804,
+          575,
+          858,
+          591
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5138036608695984
+      },
+      {
+        "text": "alter-",
+        "bbox": [
+          870,
+          575,
+          950,
+          590
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5105953216552734
+      },
+      {
+        "text": "nately",
+        "bbox": [
+          72,
+          608,
+          162,
+          627
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.727100133895874
+      },
+      {
+        "text": "with",
+        "bbox": [
+          174,
+          607,
+          238,
+          622
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6815549731254578
+      },
+      {
+        "text": "milk",
+        "bbox": [
+          250,
+          606,
+          316,
+          621
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6869192123413086
+      },
+      {
+        "text": "to",
+        "bbox": [
+          330,
+          607,
+          358,
+          619
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7138248682022095
+      },
+      {
+        "text": "first",
+        "bbox": [
+          372,
+          605,
+          430,
+          619
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7092963457107544
+      },
+      {
+        "text": "mixture.",
+        "bbox": [
+          446,
+          604,
+          572,
+          618
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7350584864616394
+      },
+      {
+        "text": "Bake",
+        "bbox": [
+          612,
+          600,
+          684,
+          616
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6787091493606567
+      },
+      {
+        "text": "thirty",
+        "bbox": [
+          698,
+          600,
+          782,
+          618
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6884871125221252
+      },
+      {
+        "text": "minutes",
+        "bbox": [
+          796,
+          598,
+          910,
+          613
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6429829597473145
+      },
+      {
+        "text": "in",
+        "bbox": [
+          924,
+          598,
+          950,
+          611
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6898314952850342
+      },
+      {
+        "text": "a",
+        "bbox": [
+          38,
+          636,
+          88,
+          665
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7267709970474243
+      },
+      {
+        "text": "shallow",
+        "bbox": [
+          100,
+          631,
+          210,
+          645
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.712892472743988
+      },
+      {
+        "text": "pan.",
+        "bbox": [
+          226,
+          634,
+          288,
+          648
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7382389903068542
+      },
+      {
+        "text": "Spread",
+        "bbox": [
+          328,
+          627,
+          430,
+          647
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7285984754562378
+      },
+      {
+        "text": "with",
+        "bbox": [
+          444,
+          626,
+          506,
+          641
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7228090167045593
+      },
+      {
+        "text": "Chocolate",
+        "bbox": [
+          520,
+          624,
+          668,
+          642
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7445937395095825
+      },
+      {
+        "text": "Frosting.",
+        "bbox": [
+          684,
+          623,
+          818,
+          640
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.8063451051712036
+      },
+      {
+        "text": "3",
+        "bbox": [
+          982,
+          607,
+          998,
+          627
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.68564772605896
+      },
+      {
+        "text": "=",
+        "bbox": [
+          566,
+          651,
+          592,
+          660
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.729207456111908
+      },
+      {
+        "text": "8",
+        "bbox": [
+          136,
+          721,
+          152,
+          734
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7094884514808655
+      },
+      {
+        "text": "tablespoons",
+        "bbox": [
+          162,
+          720,
+          320,
+          737
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7302055358886719
+      },
+      {
+        "text": "butter",
+        "bbox": [
+          330,
+          718,
+          414,
+          731
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7293000221252441
+      },
+      {
+        "text": "114",
+        "bbox": [
+          544,
+          717,
+          582,
+          731
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7246421575546265
+      },
+      {
+        "text": "cups",
+        "bbox": [
+          598,
+          719,
+          656,
+          731
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7353042960166931
+      },
+      {
+        "text": "flour.",
+        "bbox": [
+          668,
+          713,
+          738,
+          727
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7461978197097778
+      },
+      {
+        "text": "46",
+        "bbox": [
+          140,
+          743,
+          166,
+          759
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6935487985610962
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          178,
+          744,
+          226,
+          757
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7520036101341248
+      },
+      {
+        "text": "sugar.",
+        "bbox": [
+          238,
+          743,
+          318,
+          756
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7525514364242554
+      },
+      {
+        "text": "2",
+        "bbox": [
+          544,
+          736,
+          552,
+          748
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6453779935836792
+      },
+      {
+        "text": "teaspoons",
+        "bbox": [
+          570,
+          736,
+          700,
+          752
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7374547123908997
+      },
+      {
+        "text": "baking",
+        "bbox": [
+          712,
+          733,
+          806,
+          750
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7383650541305542
+      },
+      {
+        "text": "powder.",
+        "bbox": [
+          818,
+          731,
+          916,
+          750
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7451487183570862
+      },
+      {
+        "text": "1",
+        "bbox": [
+          546,
+          755,
+          556,
+          769
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6613332629203796
+      },
+      {
+        "text": "square",
+        "bbox": [
+          572,
+          759,
+          660,
+          772
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7458916306495667
+      },
+      {
+        "text": "chocolate",
+        "bbox": [
+          670,
+          753,
+          796,
+          766
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7429530024528503
+      },
+      {
+        "text": "melted.",
+        "bbox": [
+          810,
+          752,
+          908,
+          765
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7495967149734497
+      },
+      {
+        "text": "Legg.",
+        "bbox": [
+          140,
+          762,
+          220,
+          778
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7641647458076477
+      },
+      {
+        "text": "\\",
+        "bbox": [
+          132,
+          768,
+          154,
+          805
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7341877818107605
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          180,
+          785,
+          228,
+          798
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7602529525756836
+      },
+      {
+        "text": "milk.",
+        "bbox": [
+          240,
+          779,
+          310,
+          792
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7566653490066528
+      },
+      {
+        "text": "Mix",
+        "bbox": [
+          470,
+          833,
+          528,
+          848
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.47802215814590454
+      },
+      {
+        "text": "sift",
+        "bbox": [
+          626,
+          832,
+          676,
+          846
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6027355790138245
+      },
+      {
+        "text": "flour",
+        "bbox": [
+          698,
+          831,
+          762,
+          845
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.49250656366348267
+      },
+      {
+        "text": "and",
+        "bbox": [
+          786,
+          830,
+          838,
+          845
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5162545442581177
+      },
+      {
+        "text": "baking",
+        "bbox": [
+          862,
+          829,
+          962,
+          847
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5390069484710693
+      },
+      {
+        "text": "powder,",
+        "bbox": [
+          82,
+          861,
+          198,
+          881
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6936960220336914
+      },
+      {
+        "text": "add",
+        "bbox": [
+          214,
+          859,
+          266,
+          874
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6473581194877625
+      },
+      {
+        "text": "alternately",
+        "bbox": [
+          280,
+          858,
+          422,
+          874
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7221603989601135
+      },
+      {
+        "text": "with",
+        "bbox": [
+          456,
+          857,
+          518,
+          871
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6891577839851379
+      },
+      {
+        "text": "milk",
+        "bbox": [
+          532,
+          855,
+          596,
+          869
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6993173956871033
+      },
+      {
+        "text": "to",
+        "bbox": [
+          610,
+          856,
+          638,
+          868
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7047755718231201
+      },
+      {
+        "text": "first",
+        "bbox": [
+          652,
+          855,
+          710,
+          868
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7056304216384888
+      },
+      {
+        "text": "mixture.",
+        "bbox": [
+          724,
+          854,
+          850,
+          867
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7190378904342651
+      },
+      {
+        "text": "\u2018Then",
+        "bbox": [
+          884,
+          851,
+          960,
+          866
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7475777864456177
+      },
+      {
+        "text": "\u2018add",
+        "bbox": [
+          82,
+          884,
+          136,
+          900
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7309537529945374
+      },
+      {
+        "text": "chocolate",
+        "bbox": [
+          156,
+          883,
+          294,
+          898
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7288444638252258
+      },
+      {
+        "text": "and",
+        "bbox": [
+          316,
+          881,
+          368,
+          897
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7155665159225464
+      },
+      {
+        "text": "vanilla.",
+        "bbox": [
+          394,
+          880,
+          500,
+          894
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7466003894805908
+      },
+      {
+        "text": "Bake",
+        "bbox": [
+          554,
+          877,
+          626,
+          892
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7034180760383606
+      },
+      {
+        "text": "thirty",
+        "bbox": [
+          652,
+          876,
+          736,
+          895
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6863659024238586
+      },
+      {
+        "text": "minites",
+        "bbox": [
+          762,
+          875,
+          878,
+          890
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7044410705566406
+      },
+      {
+        "text": "in",
+        "bbox": [
+          900,
+          874,
+          926,
+          889
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7072104811668396
+      },
+      {
+        "text": "a",
+        "bbox": [
+          948,
+          877,
+          964,
+          889
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7306439280509949
+      },
+      {
+        "text": "shallow",
+        "bbox": [
+          82,
+          907,
+          190,
+          921
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7176321744918823
+      },
+      {
+        "text": "pan.",
+        "bbox": [
+          212,
+          910,
+          272,
+          925
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.7581160664558411
+      }
+    ],
+    "PAGE_HEADER": [
+      {
+        "text": "BOSTON",
+        "bbox": [
+          164,
+          27,
+          284,
+          40
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.5700497627258301
+      },
+      {
+        "text": "COOKING-SCHOOL",
+        "bbox": [
+          304,
+          22,
+          580,
+          38
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.6181898713111877
+      },
+      {
+        "text": "COOK",
+        "bbox": [
+          600,
+          20,
+          684,
+          33
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.5853167176246643
+      },
+      {
+        "text": "BOOK.",
+        "bbox": [
+          706,
+          20,
+          802,
+          32
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.6221438050270081
+      }
+    ],
+    "RECIPE_TITLE": [
+      {
+        "text": "Blection",
+        "bbox": [
+          368,
+          73,
+          496,
+          87
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.8261522054672241
+      },
+      {
+        "text": "Cake.",
+        "bbox": [
+          514,
+          71,
+          600,
+          84
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.8036949634552002
+      },
+      {
+        "text": "One",
+        "bbox": [
+          386,
+          453,
+          444,
+          467
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.6369166374206543
+      },
+      {
+        "text": "Bgg",
+        "bbox": [
+          464,
+          452,
+          520,
+          468
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.7214503884315491
+      },
+      {
+        "text": "Cake.",
+        "bbox": [
+          540,
+          451,
+          624,
+          464
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.6541435718536377
+      },
+      {
+        "text": "Chocolate",
+        "bbox": [
+          386,
+          682,
+          536,
+          695
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.734971821308136
+      },
+      {
+        "text": "Cake.",
+        "bbox": [
+          558,
+          680,
+          642,
+          693
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.6965562701225281
+      }
+    ],
+    "INGREDIENT_LINE": [
+      {
+        "text": "1g",
+        "bbox": [
+          114,
+          111,
+          138,
+          127
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9597204923629761
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          150,
+          114,
+          198,
+          126
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.958652675151825
+      },
+      {
+        "text": "butter.",
+        "bbox": [
+          210,
+          108,
+          300,
+          122
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9596077799797058
+      },
+      {
+        "text": "8",
+        "bbox": [
+          574,
+          105,
+          588,
+          116
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9573778510093689
+      },
+      {
+        "text": "finely",
+        "bbox": [
+          600,
+          102,
+          670,
+          119
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9613651633262634
+      },
+      {
+        "text": "chopped",
+        "bbox": [
+          686,
+          101,
+          796,
+          118
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9578437805175781
+      },
+      {
+        "text": "figs.",
+        "bbox": [
+          810,
+          101,
+          864,
+          117
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9610450863838196
+      },
+      {
+        "text": "1",
+        "bbox": [
+          112,
+          131,
+          122,
+          143
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9576569199562073
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          136,
+          133,
+          184,
+          147
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9613404870033264
+      },
+      {
+        "text": "bread",
+        "bbox": [
+          194,
+          128,
+          272,
+          142
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.962102472782135
+      },
+      {
+        "text": "dough.",
+        "bbox": [
+          282,
+          126,
+          372,
+          144
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9621608257293701
+      },
+      {
+        "text": "114",
+        "bbox": [
+          576,
+          124,
+          616,
+          141
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.960155725479126
+      },
+      {
+        "text": "cups",
+        "bbox": [
+          630,
+          126,
+          690,
+          140
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9619332551956177
+      },
+      {
+        "text": "flour.",
+        "bbox": [
+          702,
+          122,
+          772,
+          135
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9626961350440979
+      },
+      {
+        "text": "\u2018",
+        "bbox": [
+          992,
+          122,
+          1000,
+          131
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9616303443908691
+      },
+      {
+        "text": "Legg.",
+        "bbox": [
+          114,
+          151,
+          190,
+          167
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9614384174346924
+      },
+      {
+        "text": "3g",
+        "bbox": [
+          574,
+          145,
+          600,
+          161
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9621978998184204
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          612,
+          144,
+          732,
+          160
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9627823233604431
+      },
+      {
+        "text": "soda.",
+        "bbox": [
+          744,
+          141,
+          808,
+          153
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9626602530479431
+      },
+      {
+        "text": "1",
+        "bbox": [
+          114,
+          171,
+          124,
+          184
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9566713571548462
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          138,
+          174,
+          186,
+          187
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9613615274429321
+      },
+      {
+        "text": "brown",
+        "bbox": [
+          196,
+          169,
+          282,
+          183
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9621628522872925
+      },
+      {
+        "text": "sugar.",
+        "bbox": [
+          294,
+          171,
+          374,
+          185
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9631950259208679
+      },
+      {
+        "text": "1",
+        "bbox": [
+          576,
+          165,
+          582,
+          177
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9583937525749207
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          598,
+          166,
+          716,
+          180
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9629490375518799
+      },
+      {
+        "text": "cinnamon.",
+        "bbox": [
+          728,
+          161,
+          868,
+          175
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.96305912733078
+      },
+      {
+        "text": "44",
+        "bbox": [
+          114,
+          192,
+          140,
+          208
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.956788182258606
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          154,
+          194,
+          202,
+          208
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9605319499969482
+      },
+      {
+        "text": "sour",
+        "bbox": [
+          212,
+          193,
+          270,
+          202
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9617429971694946
+      },
+      {
+        "text": "milk.",
+        "bbox": [
+          280,
+          187,
+          350,
+          202
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9621114134788513
+      },
+      {
+        "text": "1",
+        "bbox": [
+          574,
+          185,
+          600,
+          201
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9582607746124268
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          614,
+          185,
+          732,
+          200
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9627677798271179
+      },
+      {
+        "text": "clove.",
+        "bbox": [
+          744,
+          182,
+          820,
+          195
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9640743732452393
+      },
+      {
+        "text": "24",
+        "bbox": [
+          116,
+          211,
+          144,
+          228
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.954450786113739
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          154,
+          214,
+          202,
+          228
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9596981406211853
+      },
+      {
+        "text": "raisins",
+        "bbox": [
+          214,
+          209,
+          304,
+          222
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9623512625694275
+      },
+      {
+        "text": "seeded",
+        "bbox": [
+          314,
+          208,
+          404,
+          221
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9581127762794495
+      },
+      {
+        "text": "and",
+        "bbox": [
+          414,
+          207,
+          464,
+          220
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9589507579803467
+      },
+      {
+        "text": "4",
+        "bbox": [
+          566,
+          192,
+          588,
+          227
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9580022692680359
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          614,
+          205,
+          734,
+          220
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9616894125938416
+      },
+      {
+        "text": "mace.",
+        "bbox": [
+          746,
+          207,
+          822,
+          216
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.962694525718689
+      },
+      {
+        "text": "cut",
+        "bbox": [
+          176,
+          231,
+          218,
+          244
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9500392079353333
+      },
+      {
+        "text": "in",
+        "bbox": [
+          228,
+          230,
+          254,
+          243
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9492795467376709
+      },
+      {
+        "text": "pieces.",
+        "bbox": [
+          266,
+          229,
+          354,
+          246
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.95119309425354
+      },
+      {
+        "text": "14",
+        "bbox": [
+          572,
+          226,
+          600,
+          242
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9516444802284241
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          614,
+          226,
+          732,
+          242
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9573202729225159
+      },
+      {
+        "text": "nutineg.",
+        "bbox": [
+          744,
+          225,
+          854,
+          238
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9595239162445068
+      },
+      {
+        "text": "1",
+        "bbox": [
+          390,
+          248,
+          398,
+          261
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9362086057662964
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          412,
+          250,
+          530,
+          264
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9543944597244263
+      },
+      {
+        "text": "salt.",
+        "bbox": [
+          542,
+          245,
+          598,
+          259
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9526174068450928
+      },
+      {
+        "text": "44",
+        "bbox": [
+          530,
+          484,
+          556,
+          500
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.4826650619506836
+      },
+      {
+        "text": "baking",
+        "bbox": [
+          732,
+          520,
+          828,
+          537
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.4698922336101532
+      }
+    ],
+    "INSTRUCTION_STEP": [
+      {
+        "text": "Work",
+        "bbox": [
+          92,
+          285,
+          176,
+          299
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9059727191925049
+      },
+      {
+        "text": "butter",
+        "bbox": [
+          196,
+          285,
+          288,
+          298
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9094690680503845
+      },
+      {
+        "text": "into",
+        "bbox": [
+          308,
+          283,
+          366,
+          297
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9050559401512146
+      },
+      {
+        "text": "dough,",
+        "bbox": [
+          384,
+          281,
+          476,
+          299
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9067693948745728
+      },
+      {
+        "text": "using",
+        "bbox": [
+          502,
+          280,
+          580,
+          297
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8924752473831177
+      },
+      {
+        "text": "the",
+        "bbox": [
+          602,
+          279,
+          648,
+          292
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8944586515426636
+      },
+      {
+        "text": "band.",
+        "bbox": [
+          672,
+          278,
+          752,
+          291
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8924306631088257
+      },
+      {
+        "text": "Add",
+        "bbox": [
+          802,
+          276,
+          864,
+          290
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8921915292739868
+      },
+      {
+        "text": "egg",
+        "bbox": [
+          884,
+          279,
+          936,
+          294
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8898122310638428
+      },
+      {
+        "text": "well",
+        "bbox": [
+          58,
+          308,
+          114,
+          323
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.6708734035491943
+      },
+      {
+        "text": "Cream",
+        "bbox": [
+          104,
+          563,
+          200,
+          578
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.913054883480072
+      },
+      {
+        "text": "the",
+        "bbox": [
+          222,
+          561,
+          268,
+          576
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9131346344947815
+      },
+      {
+        "text": "butter,",
+        "bbox": [
+          288,
+          561,
+          388,
+          576
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9111372232437134
+      },
+      {
+        "text": "add",
+        "bbox": [
+          404,
+          549,
+          456,
+          573
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9107990860939026
+      },
+      {
+        "text": "sugar",
+        "bbox": [
+          478,
+          561,
+          560,
+          575
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9059122800827026
+      },
+      {
+        "text": "gradually,",
+        "bbox": [
+          578,
+          555,
+          728,
+          574
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9048183560371399
+      },
+      {
+        "text": "and",
+        "bbox": [
+          744,
+          554,
+          796,
+          569
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8986772894859314
+      },
+      {
+        "text": "egg",
+        "bbox": [
+          818,
+          557,
+          870,
+          572
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9018659591674805
+      },
+      {
+        "text": "well",
+        "bbox": [
+          890,
+          552,
+          948,
+          566
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.897173285484314
+      },
+      {
+        "text": "beaten.",
+        "bbox": [
+          70,
+          587,
+          176,
+          600
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8790568113327026
+      },
+      {
+        "text": "Mix",
+        "bbox": [
+          216,
+          584,
+          276,
+          599
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.7195157408714294
+      },
+      {
+        "text": "and",
+        "bbox": [
+          286,
+          583,
+          340,
+          598
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.6000288724899292
+      },
+      {
+        "text": "sift",
+        "bbox": [
+          354,
+          582,
+          402,
+          597
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5820647478103638
+      },
+      {
+        "text": "flour",
+        "bbox": [
+          416,
+          581,
+          484,
+          596
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.4902188777923584
+      },
+      {
+        "text": "Cream",
+        "bbox": [
+          114,
+          816,
+          208,
+          831
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8983004689216614
+      },
+      {
+        "text": "the",
+        "bbox": [
+          224,
+          815,
+          268,
+          829
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9012489318847656
+      },
+      {
+        "text": "butter,",
+        "bbox": [
+          282,
+          814,
+          382,
+          830
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8985621929168701
+      },
+      {
+        "text": "add",
+        "bbox": [
+          398,
+          812,
+          450,
+          826
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8987603783607483
+      },
+      {
+        "text": "one-half",
+        "bbox": [
+          464,
+          809,
+          586,
+          825
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8946695923805237
+      },
+      {
+        "text": "sugar,",
+        "bbox": [
+          604,
+          813,
+          694,
+          826
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8897773027420044
+      },
+      {
+        "text": "egg",
+        "bbox": [
+          710,
+          812,
+          762,
+          826
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8905495405197144
+      },
+      {
+        "text": "well",
+        "bbox": [
+          776,
+          807,
+          832,
+          821
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8815792202949524
+      },
+      {
+        "text": "beaten,",
+        "bbox": [
+          852,
+          807,
+          958,
+          822
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8851701617240906
+      },
+      {
+        "text": "and",
+        "bbox": [
+          82,
+          839,
+          132,
+          854
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8475717306137085
+      },
+      {
+        "text": "remaining",
+        "bbox": [
+          160,
+          837,
+          308,
+          855
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.7919074892997742
+      },
+      {
+        "text": "sugar.",
+        "bbox": [
+          330,
+          840,
+          420,
+          854
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5377659797668457
+      },
+      {
+        "text": "and",
+        "bbox": [
+          550,
+          832,
+          604,
+          847
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5208709836006165
+      }
+    ]
+  },
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_v3_manual_59pages_balanced",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_v3_manual_expanded2/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "PAGE_HEADER",
+      "1": "SECTION_HEADER",
+      "2": "RECIPE_TITLE",
+      "3": "INGREDIENT_LINE",
+      "4": "INSTRUCTION_STEP",
+      "5": "TIME",
+      "6": "TEMP",
+      "7": "SERVINGS",
+      "8": "NOTE",
+      "9": "O"
+    },
+    "label2id": {
+      "PAGE_HEADER": 0,
+      "SECTION_HEADER": 1,
+      "RECIPE_TITLE": 2,
+      "INGREDIENT_LINE": 3,
+      "INSTRUCTION_STEP": 4,
+      "TIME": 5,
+      "TEMP": 6,
+      "SERVINGS": 7,
+      "NOTE": 8,
+      "O": 9
+    }
+  },
+  "is_recipe_page": false,
+  "recipe_confidence": 0.5312,
+  "label_counts": {
+    "O": 133,
+    "PAGE_HEADER": 4,
+    "RECIPE_TITLE": 7,
+    "INGREDIENT_LINE": 52,
+    "INSTRUCTION_STEP": 37
+  },
+  "ingredient_token_count": 52,
+  "instruction_token_count": 37,
+  "title_token_count": 0,
+  "title": "",
+  "avg_token_confidence": 0.8729,
+  "recipe_token_ratio": 0.4292,
+  "recipe_conf_version": 3,
+  "recipe_like": false,
+  "recipe_score_components": {
+    "ingredient_score": 0.65,
+    "instruction_score": 0.3083,
+    "title_penalty": 0.0
+  }
+}

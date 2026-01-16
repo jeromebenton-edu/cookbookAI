@@ -1,0 +1,37 @@
+{
+  "id": "bcsb_0001",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Popovers",
+  "category": "Breads",
+  "tags": ["breakfast", "classic"],
+  "time": { "prep": "10 min", "cook": "35 min", "total": "45 min" },
+  "servings": "6 popovers",
+  "ingredients": [
+    "1 cup flour",
+    "1 cup milk",
+    "2 eggs",
+    "1/2 tsp salt",
+    "1 tbsp melted butter"
+  ],
+  "instructions": [
+    "Beat eggs slightly with salt.",
+    "Add milk gradually, then flour to make a smooth batter.",
+    "Stir in melted butter.",
+    "Pour into hot greased iron gem pans and bake at 425F for 35 minutes."
+  ],
+  "notes": ["Serve immediately while puffed."],
+  "source": {
+    "page": 33,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-1.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

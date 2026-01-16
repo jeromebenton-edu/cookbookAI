@@ -1,0 +1,40 @@
+{
+  "id": "bcsb_0004",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Corn Bread",
+  "category": "Breads",
+  "tags": ["side", "rustic"],
+  "time": { "prep": "10 min", "cook": "20 min", "total": "30 min" },
+  "servings": "1 pan",
+  "ingredients": [
+    "1 cup corn meal",
+    "1 cup flour",
+    "1 tbsp sugar",
+    "1 tsp salt",
+    "3 tsp baking powder",
+    "1 cup milk",
+    "1 egg, beaten",
+    "2 tbsp melted butter"
+  ],
+  "instructions": [
+    "Mix corn meal, flour, sugar, salt, and baking powder.",
+    "Combine milk, egg, and melted butter.",
+    "Stir liquid into dry ingredients until just blended.",
+    "Pour into hot greased pan and bake at 400F for 20 minutes."
+  ],
+  "notes": ["Serve warm with butter or honey."],
+  "source": {
+    "page": 122,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-4.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

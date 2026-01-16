@@ -1,0 +1,1421 @@
+{
+  "page_num": 79,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0079.png",
+  "image_url": "/api/parse/boston/79/image",
+  "tokens": [
+    {
+      "text": "48",
+      "bbox": [
+        100,
+        18,
+        136,
+        35
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.48408129811286926
+    },
+    {
+      "text": "BOSTON",
+      "bbox": [
+        224,
+        21,
+        338,
+        34
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.5879188776016235
+    },
+    {
+      "text": "COOKING-SCHOOL",
+      "bbox": [
+        358,
+        20,
+        624,
+        34
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.6471875309944153
+    },
+    {
+      "text": "COOK",
+      "bbox": [
+        644,
+        18,
+        724,
+        31
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.5893107652664185
+    },
+    {
+      "text": "BOOK.",
+      "bbox": [
+        744,
+        17,
+        836,
+        30
+      ],
+      "pred_label": "PAGE_HEADER",
+      "pred_id": 0,
+      "confidence": 0.6302581429481506
+    },
+    {
+      "text": "\u2018Unfermented",
+      "bbox": [
+        334,
+        65,
+        526,
+        79
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.8282537460327148
+    },
+    {
+      "text": "Grape",
+      "bbox": [
+        538,
+        65,
+        624,
+        80
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.8049659132957458
+    },
+    {
+      "text": "Juice.",
+      "bbox": [
+        636,
+        63,
+        720,
+        76
+      ],
+      "pred_label": "RECIPE_TITLE",
+      "pred_id": 2,
+      "confidence": 0.8175473213195801
+    },
+    {
+      "text": "10",
+      "bbox": [
+        284,
+        96,
+        310,
+        111
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9475932121276855
+    },
+    {
+      "text": "Ibs.",
+      "bbox": [
+        322,
+        96,
+        366,
+        109
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9532676935195923
+    },
+    {
+      "text": "grapes.",
+      "bbox": [
+        378,
+        100,
+        470,
+        114
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9569377303123474
+    },
+    {
+      "text": "1",
+      "bbox": [
+        610,
+        95,
+        618,
+        108
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9555617570877075
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        632,
+        99,
+        678,
+        111
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9556906223297119
+    },
+    {
+      "text": "water.",
+      "bbox": [
+        690,
+        95,
+        770,
+        107
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9563864469528198
+    },
+    {
+      "text": "8",
+      "bbox": [
+        446,
+        117,
+        460,
+        130
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9509071111679077
+    },
+    {
+      "text": "Ibs.",
+      "bbox": [
+        472,
+        115,
+        516,
+        130
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.956464946269989
+    },
+    {
+      "text": "sugar.",
+      "bbox": [
+        530,
+        120,
+        608,
+        132
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 3,
+      "confidence": 0.9578360319137573
+    },
+    {
+      "text": "Put",
+      "bbox": [
+        138,
+        150,
+        190,
+        164
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.902341902256012
+    },
+    {
+      "text": "grapes",
+      "bbox": [
+        200,
+        153,
+        296,
+        167
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9036467671394348
+    },
+    {
+      "text": "and",
+      "bbox": [
+        308,
+        147,
+        358,
+        163
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9080915451049805
+    },
+    {
+      "text": "water",
+      "bbox": [
+        372,
+        148,
+        452,
+        161
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9062591791152954
+    },
+    {
+      "text": "in",
+      "bbox": [
+        470,
+        147,
+        494,
+        161
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.9024455547332764
+    },
+    {
+      "text": "granite",
+      "bbox": [
+        514,
+        146,
+        614,
+        165
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8930796384811401
+    },
+    {
+      "text": "stew-pan.",
+      "bbox": [
+        628,
+        147,
+        764,
+        164
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8897852301597595
+    },
+    {
+      "text": "Heat",
+      "bbox": [
+        804,
+        145,
+        874,
+        159
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8836478590965271
+    },
+    {
+      "text": "until",
+      "bbox": [
+        886,
+        144,
+        952,
+        158
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8840169310569763
+    },
+    {
+      "text": "stones",
+      "bbox": [
+        106,
+        173,
+        196,
+        186
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8678398728370667
+    },
+    {
+      "text": "and",
+      "bbox": [
+        208,
+        171,
+        260,
+        185
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.7505494952201843
+    },
+    {
+      "text": "pulp",
+      "bbox": [
+        272,
+        171,
+        334,
+        190
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.4772087335586548
+    },
+    {
+      "text": "separate;",
+      "bbox": [
+        348,
+        174,
+        440,
+        189
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.524429976940155
+    },
+    {
+      "text": "then",
+      "bbox": [
+        516,
+        170,
+        564,
+        184
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.48174089193344116
+    },
+    {
+      "text": "strain",
+      "bbox": [
+        584,
+        169,
+        666,
+        183
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5537763237953186
+    },
+    {
+      "text": "through",
+      "bbox": [
+        684,
+        167,
+        794,
+        185
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5866838097572327
+    },
+    {
+      "text": "jelly-bag,",
+      "bbox": [
+        814,
+        166,
+        948,
+        185
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6192730665206909
+    },
+    {
+      "text": "add",
+      "bbox": [
+        106,
+        195,
+        156,
+        209
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8709291219711304
+    },
+    {
+      "text": "sugar,",
+      "bbox": [
+        176,
+        198,
+        264,
+        212
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8507308959960938
+    },
+    {
+      "text": "heat",
+      "bbox": [
+        284,
+        193,
+        346,
+        208
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.8330014944076538
+    },
+    {
+      "text": "to",
+      "bbox": [
+        366,
+        195,
+        394,
+        208
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.7876680493354797
+    },
+    {
+      "text": "boiling-point,",
+      "bbox": [
+        412,
+        192,
+        604,
+        210
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.6456019878387451
+    },
+    {
+      "text": "and",
+      "bbox": [
+        620,
+        191,
+        670,
+        205
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5556755661964417
+    },
+    {
+      "text": "bottle.",
+      "bbox": [
+        692,
+        190,
+        784,
+        204
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.4913756549358368
+    },
+    {
+      "text": "This",
+      "bbox": [
+        818,
+        190,
+        882,
+        204
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.6147196292877197
+    },
+    {
+      "text": "will",
+      "bbox": [
+        902,
+        189,
+        952,
+        203
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5532175898551941
+    },
+    {
+      "text": "make",
+      "bbox": [
+        106,
+        216,
+        182,
+        231
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5497497320175171
+    },
+    {
+      "text": "one",
+      "bbox": [
+        194,
+        221,
+        242,
+        231
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.5873507857322693
+    },
+    {
+      "text": "gallon.",
+      "bbox": [
+        254,
+        216,
+        352,
+        235
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5207279920578003
+    },
+    {
+      "text": "When",
+      "bbox": [
+        388,
+        215,
+        472,
+        230
+      ],
+      "pred_label": "INSTRUCTION_STEP",
+      "pred_id": 4,
+      "confidence": 0.4729630947113037
+    },
+    {
+      "text": "served,",
+      "bbox": [
+        486,
+        215,
+        588,
+        231
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.582756519317627
+    },
+    {
+      "text": "it",
+      "bbox": [
+        600,
+        215,
+        620,
+        228
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5079982280731201
+    },
+    {
+      "text": "should",
+      "bbox": [
+        632,
+        213,
+        724,
+        228
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5371036529541016
+    },
+    {
+      "text": "be",
+      "bbox": [
+        738,
+        212,
+        770,
+        226
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5701970458030701
+    },
+    {
+      "text": "diluted",
+      "bbox": [
+        782,
+        212,
+        880,
+        226
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.4602932631969452
+    },
+    {
+      "text": "one-",
+      "bbox": [
+        892,
+        216,
+        952,
+        226
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.6227099299430847
+    },
+    {
+      "text": "half",
+      "bbox": [
+        106,
+        239,
+        162,
+        254
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.48737382888793945
+    },
+    {
+      "text": "with",
+      "bbox": [
+        172,
+        239,
+        236,
+        254
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5196569561958313
+    },
+    {
+      "text": "water.",
+      "bbox": [
+        248,
+        241,
+        334,
+        254
+      ],
+      "pred_label": "O",
+      "pred_id": 9,
+      "confidence": 0.5949376821517944
+    }
+  ],
+  "grouped": {
+    "PAGE_HEADER": [
+      {
+        "text": "48",
+        "bbox": [
+          100,
+          18,
+          136,
+          35
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.48408129811286926
+      },
+      {
+        "text": "BOSTON",
+        "bbox": [
+          224,
+          21,
+          338,
+          34
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.5879188776016235
+      },
+      {
+        "text": "COOKING-SCHOOL",
+        "bbox": [
+          358,
+          20,
+          624,
+          34
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.6471875309944153
+      },
+      {
+        "text": "COOK",
+        "bbox": [
+          644,
+          18,
+          724,
+          31
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.5893107652664185
+      },
+      {
+        "text": "BOOK.",
+        "bbox": [
+          744,
+          17,
+          836,
+          30
+        ],
+        "pred_label": "PAGE_HEADER",
+        "pred_id": 0,
+        "confidence": 0.6302581429481506
+      }
+    ],
+    "RECIPE_TITLE": [
+      {
+        "text": "\u2018Unfermented",
+        "bbox": [
+          334,
+          65,
+          526,
+          79
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.8282537460327148
+      },
+      {
+        "text": "Grape",
+        "bbox": [
+          538,
+          65,
+          624,
+          80
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.8049659132957458
+      },
+      {
+        "text": "Juice.",
+        "bbox": [
+          636,
+          63,
+          720,
+          76
+        ],
+        "pred_label": "RECIPE_TITLE",
+        "pred_id": 2,
+        "confidence": 0.8175473213195801
+      }
+    ],
+    "INGREDIENT_LINE": [
+      {
+        "text": "10",
+        "bbox": [
+          284,
+          96,
+          310,
+          111
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9475932121276855
+      },
+      {
+        "text": "Ibs.",
+        "bbox": [
+          322,
+          96,
+          366,
+          109
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9532676935195923
+      },
+      {
+        "text": "grapes.",
+        "bbox": [
+          378,
+          100,
+          470,
+          114
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9569377303123474
+      },
+      {
+        "text": "1",
+        "bbox": [
+          610,
+          95,
+          618,
+          108
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9555617570877075
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          632,
+          99,
+          678,
+          111
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9556906223297119
+      },
+      {
+        "text": "water.",
+        "bbox": [
+          690,
+          95,
+          770,
+          107
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9563864469528198
+      },
+      {
+        "text": "8",
+        "bbox": [
+          446,
+          117,
+          460,
+          130
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9509071111679077
+      },
+      {
+        "text": "Ibs.",
+        "bbox": [
+          472,
+          115,
+          516,
+          130
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.956464946269989
+      },
+      {
+        "text": "sugar.",
+        "bbox": [
+          530,
+          120,
+          608,
+          132
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 3,
+        "confidence": 0.9578360319137573
+      }
+    ],
+    "INSTRUCTION_STEP": [
+      {
+        "text": "Put",
+        "bbox": [
+          138,
+          150,
+          190,
+          164
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.902341902256012
+      },
+      {
+        "text": "grapes",
+        "bbox": [
+          200,
+          153,
+          296,
+          167
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9036467671394348
+      },
+      {
+        "text": "and",
+        "bbox": [
+          308,
+          147,
+          358,
+          163
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9080915451049805
+      },
+      {
+        "text": "water",
+        "bbox": [
+          372,
+          148,
+          452,
+          161
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9062591791152954
+      },
+      {
+        "text": "in",
+        "bbox": [
+          470,
+          147,
+          494,
+          161
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.9024455547332764
+      },
+      {
+        "text": "granite",
+        "bbox": [
+          514,
+          146,
+          614,
+          165
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8930796384811401
+      },
+      {
+        "text": "stew-pan.",
+        "bbox": [
+          628,
+          147,
+          764,
+          164
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8897852301597595
+      },
+      {
+        "text": "Heat",
+        "bbox": [
+          804,
+          145,
+          874,
+          159
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8836478590965271
+      },
+      {
+        "text": "until",
+        "bbox": [
+          886,
+          144,
+          952,
+          158
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8840169310569763
+      },
+      {
+        "text": "stones",
+        "bbox": [
+          106,
+          173,
+          196,
+          186
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8678398728370667
+      },
+      {
+        "text": "and",
+        "bbox": [
+          208,
+          171,
+          260,
+          185
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.7505494952201843
+      },
+      {
+        "text": "pulp",
+        "bbox": [
+          272,
+          171,
+          334,
+          190
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.4772087335586548
+      },
+      {
+        "text": "separate;",
+        "bbox": [
+          348,
+          174,
+          440,
+          189
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.524429976940155
+      },
+      {
+        "text": "add",
+        "bbox": [
+          106,
+          195,
+          156,
+          209
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8709291219711304
+      },
+      {
+        "text": "sugar,",
+        "bbox": [
+          176,
+          198,
+          264,
+          212
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8507308959960938
+      },
+      {
+        "text": "heat",
+        "bbox": [
+          284,
+          193,
+          346,
+          208
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.8330014944076538
+      },
+      {
+        "text": "to",
+        "bbox": [
+          366,
+          195,
+          394,
+          208
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.7876680493354797
+      },
+      {
+        "text": "boiling-point,",
+        "bbox": [
+          412,
+          192,
+          604,
+          210
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.6456019878387451
+      },
+      {
+        "text": "and",
+        "bbox": [
+          620,
+          191,
+          670,
+          205
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5556755661964417
+      },
+      {
+        "text": "bottle.",
+        "bbox": [
+          692,
+          190,
+          784,
+          204
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.4913756549358368
+      },
+      {
+        "text": "This",
+        "bbox": [
+          818,
+          190,
+          882,
+          204
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.6147196292877197
+      },
+      {
+        "text": "will",
+        "bbox": [
+          902,
+          189,
+          952,
+          203
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5532175898551941
+      },
+      {
+        "text": "make",
+        "bbox": [
+          106,
+          216,
+          182,
+          231
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5497497320175171
+      },
+      {
+        "text": "one",
+        "bbox": [
+          194,
+          221,
+          242,
+          231
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.5873507857322693
+      },
+      {
+        "text": "When",
+        "bbox": [
+          388,
+          215,
+          472,
+          230
+        ],
+        "pred_label": "INSTRUCTION_STEP",
+        "pred_id": 4,
+        "confidence": 0.4729630947113037
+      }
+    ],
+    "O": [
+      {
+        "text": "then",
+        "bbox": [
+          516,
+          170,
+          564,
+          184
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.48174089193344116
+      },
+      {
+        "text": "strain",
+        "bbox": [
+          584,
+          169,
+          666,
+          183
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5537763237953186
+      },
+      {
+        "text": "through",
+        "bbox": [
+          684,
+          167,
+          794,
+          185
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5866838097572327
+      },
+      {
+        "text": "jelly-bag,",
+        "bbox": [
+          814,
+          166,
+          948,
+          185
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6192730665206909
+      },
+      {
+        "text": "gallon.",
+        "bbox": [
+          254,
+          216,
+          352,
+          235
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5207279920578003
+      },
+      {
+        "text": "served,",
+        "bbox": [
+          486,
+          215,
+          588,
+          231
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.582756519317627
+      },
+      {
+        "text": "it",
+        "bbox": [
+          600,
+          215,
+          620,
+          228
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5079982280731201
+      },
+      {
+        "text": "should",
+        "bbox": [
+          632,
+          213,
+          724,
+          228
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5371036529541016
+      },
+      {
+        "text": "be",
+        "bbox": [
+          738,
+          212,
+          770,
+          226
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5701970458030701
+      },
+      {
+        "text": "diluted",
+        "bbox": [
+          782,
+          212,
+          880,
+          226
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.4602932631969452
+      },
+      {
+        "text": "one-",
+        "bbox": [
+          892,
+          216,
+          952,
+          226
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.6227099299430847
+      },
+      {
+        "text": "half",
+        "bbox": [
+          106,
+          239,
+          162,
+          254
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.48737382888793945
+      },
+      {
+        "text": "with",
+        "bbox": [
+          172,
+          239,
+          236,
+          254
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5196569561958313
+      },
+      {
+        "text": "water.",
+        "bbox": [
+          248,
+          241,
+          334,
+          254
+        ],
+        "pred_label": "O",
+        "pred_id": 9,
+        "confidence": 0.5949376821517944
+      }
+    ]
+  },
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_v3_manual_59pages_balanced",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_v3_manual_expanded2/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "PAGE_HEADER",
+      "1": "SECTION_HEADER",
+      "2": "RECIPE_TITLE",
+      "3": "INGREDIENT_LINE",
+      "4": "INSTRUCTION_STEP",
+      "5": "TIME",
+      "6": "TEMP",
+      "7": "SERVINGS",
+      "8": "NOTE",
+      "9": "O"
+    },
+    "label2id": {
+      "PAGE_HEADER": 0,
+      "SECTION_HEADER": 1,
+      "RECIPE_TITLE": 2,
+      "INGREDIENT_LINE": 3,
+      "INSTRUCTION_STEP": 4,
+      "TIME": 5,
+      "TEMP": 6,
+      "SERVINGS": 7,
+      "NOTE": 8,
+      "O": 9
+    }
+  },
+  "page": {
+    "width": 500,
+    "height": 846,
+    "coordSpace": "pixel"
+  },
+  "is_recipe_page": true,
+  "recipe_confidence": 0.6295,
+  "label_counts": {
+    "PAGE_HEADER": 5,
+    "RECIPE_TITLE": 3,
+    "INGREDIENT_LINE": 9,
+    "INSTRUCTION_STEP": 25,
+    "O": 14
+  },
+  "ingredient_token_count": 9,
+  "instruction_token_count": 25,
+  "title_token_count": 3,
+  "title": "\u2018Unfermented",
+  "avg_token_confidence": 0.7735,
+  "recipe_token_ratio": 0.75,
+  "recipe_conf_version": 3,
+  "recipe_like": true,
+  "recipe_score_components": {
+    "ingredient_score": 0.36,
+    "instruction_score": 0.8333,
+    "title_penalty": 0.075
+  }
+}

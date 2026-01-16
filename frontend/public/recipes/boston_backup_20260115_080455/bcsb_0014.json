@@ -1,0 +1,38 @@
+{
+  "id": "bcsb_0014",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Baked Rice Pudding",
+  "category": "Desserts",
+  "tags": ["pudding", "comfort"],
+  "time": { "prep": "10 min", "cook": "2 hr", "total": "2 hr 10 min" },
+  "servings": "6 servings",
+  "ingredients": [
+    "1/4 cup rice",
+    "1/2 cup sugar",
+    "1/4 tsp salt",
+    "1/4 tsp nutmeg",
+    "4 cups milk",
+    "1 tbsp butter"
+  ],
+  "instructions": [
+    "Wash rice and place in buttered baking dish.",
+    "Add sugar, salt, nutmeg, milk, and butter.",
+    "Bake slowly at 300F for about 2 hours, stirring during first 30 minutes.",
+    "Serve warm or cold."
+  ],
+  "notes": ["Long slow baking gives creamy texture."],
+  "source": {
+    "page": 389,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-4.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

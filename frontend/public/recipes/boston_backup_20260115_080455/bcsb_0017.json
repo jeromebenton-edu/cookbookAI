@@ -1,0 +1,38 @@
+{
+  "id": "bcsb_0017",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Boston Baked Beans",
+  "category": "Mains",
+  "tags": ["beans", "slow"],
+  "time": { "prep": "12 hr soak", "cook": "6 hr", "total": "18 hr" },
+  "servings": "8 servings",
+  "ingredients": [
+    "2 cups dried navy beans",
+    "1/2 lb salt pork, scored",
+    "1/4 cup molasses",
+    "1 tsp dry mustard",
+    "1 tsp salt",
+    "Boiling water"
+  ],
+  "instructions": [
+    "Soak beans overnight; parboil until skins burst.",
+    "Place beans in bean pot with salt pork on top.",
+    "Mix molasses, mustard, and salt with bean liquor; pour over.",
+    "Cover and bake slowly at 300F for 6 hours, adding water as needed."
+  ],
+  "notes": ["Uncover last hour for a browned top."],
+  "source": {
+    "page": 27,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-2.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

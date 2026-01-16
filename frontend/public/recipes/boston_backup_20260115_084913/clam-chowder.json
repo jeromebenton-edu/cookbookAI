@@ -1,0 +1,115 @@
+{
+  "id": "clam-chowder",
+  "title": "Clam Chowder",
+  "description": "A creamy New England soup with clams and potatoes.",
+  "category": "Soups",
+  "tags": ["comfort", "stew", "classic"],
+  "servings": "Serves 6",
+  "time": {
+    "totalMinutes": 60,
+    "activeMinutes": 25
+  },
+  "ingredients": [
+    "2 cups clams with liquor",
+    "2 cups diced potatoes",
+    "1 cup onion, chopped",
+    "2 tbsp butter",
+    "2 cups milk",
+    "1/2 cup cream",
+    "Salt and pepper"
+  ],
+  "instructions": [
+    "Simmer potatoes and onion until tender.",
+    "Add clams and liquor, cook gently for 5 minutes.",
+    "Stir in milk and cream; heat without boiling.",
+    "Finish with butter, season, and serve hot."
+  ],
+  "notes": ["Garnish with oyster crackers."],
+  "confidence": 0.78,
+  "source": {
+    "book": "Boston Cooking-School Cook Book (1918)",
+    "page": 68
+  },
+  "ai": {
+    "pageImage": "/recipes/boston/pages/placeholder-5.png",
+    "pageSize": { "width": 900, "height": 1200 },
+    "tokens": [
+      {
+        "id": "cc-1",
+        "text": "Clam",
+        "label": "TITLE",
+        "score": 0.9,
+        "bbox": [150, 120, 210, 150]
+      },
+      {
+        "id": "cc-2",
+        "text": "Chowder",
+        "label": "TITLE",
+        "score": 0.89,
+        "bbox": [220, 120, 320, 150]
+      },
+      {
+        "id": "cc-3",
+        "text": "2",
+        "label": "INGREDIENT_LINE",
+        "score": 0.84,
+        "bbox": [130, 320, 140, 340]
+      },
+      {
+        "id": "cc-4",
+        "text": "cups",
+        "label": "INGREDIENT_LINE",
+        "score": 0.83,
+        "bbox": [150, 320, 195, 340]
+      },
+      {
+        "id": "cc-5",
+        "text": "clams",
+        "label": "INGREDIENT_LINE",
+        "score": 0.82,
+        "bbox": [205, 320, 255, 340]
+      },
+      {
+        "id": "cc-6",
+        "text": "Simmer",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.8,
+        "bbox": [130, 640, 200, 665]
+      },
+      {
+        "id": "cc-7",
+        "text": "potatoes",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.79,
+        "bbox": [210, 640, 280, 665]
+      },
+      {
+        "id": "cc-8",
+        "text": "Serves",
+        "label": "META",
+        "score": 0.72,
+        "bbox": [130, 900, 190, 925]
+      },
+      {
+        "id": "cc-9",
+        "text": "6",
+        "label": "META",
+        "score": 0.7,
+        "bbox": [195, 900, 205, 925]
+      }
+    ],
+    "fieldConfidence": {
+      "title": 0.89,
+      "ingredients": 0.83,
+      "instructions": 0.79,
+      "servings": 0.71,
+      "time": 0.66
+    },
+    "raw": {
+      "page": 68,
+      "model": "layoutlmv3-recipe",
+      "tokens": 9,
+      "notes": "Mocked from archive"
+    }
+  }
+}

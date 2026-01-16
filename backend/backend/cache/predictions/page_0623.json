@@ -1,0 +1,45 @@
+{
+  "page_num": 623,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0623.png",
+  "image_url": "/api/parse/boston/623/image",
+  "tokens": [],
+  "grouped": {},
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_v3_manual_59pages_balanced",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_v3_manual_expanded2/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "PAGE_HEADER",
+      "1": "SECTION_HEADER",
+      "2": "RECIPE_TITLE",
+      "3": "INGREDIENT_LINE",
+      "4": "INSTRUCTION_STEP",
+      "5": "TIME",
+      "6": "TEMP",
+      "7": "SERVINGS",
+      "8": "NOTE",
+      "9": "O"
+    },
+    "label2id": {
+      "PAGE_HEADER": 0,
+      "SECTION_HEADER": 1,
+      "RECIPE_TITLE": 2,
+      "INGREDIENT_LINE": 3,
+      "INSTRUCTION_STEP": 4,
+      "TIME": 5,
+      "TEMP": 6,
+      "SERVINGS": 7,
+      "NOTE": 8,
+      "O": 9
+    }
+  },
+  "is_recipe_page": false,
+  "recipe_confidence": 0.0,
+  "label_counts": {},
+  "title": "",
+  "avg_token_confidence": 0.0,
+  "recipe_token_ratio": 0.0,
+  "recipe_conf_version": 3
+}

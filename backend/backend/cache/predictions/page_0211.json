@@ -1,0 +1,7486 @@
+{
+  "page_num": 211,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0211.png",
+  "image_url": "/api/parse/boston/211/image",
+  "tokens": [
+    {
+      "text": "<G-SOHOOL",
+      "bbox": [
+        430,
+        0,
+        600,
+        27
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8593456149101257
+    },
+    {
+      "text": "COOK",
+      "bbox": [
+        620,
+        13,
+        708,
+        25
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.899444580078125
+    },
+    {
+      "text": "BOOK.",
+      "bbox": [
+        732,
+        12,
+        828,
+        24
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8960731625556946
+    },
+    {
+      "text": "half",
+      "bbox": [
+        32,
+        60,
+        94,
+        75
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9135257005691528
+    },
+    {
+      "text": "cups",
+      "bbox": [
+        116,
+        64,
+        186,
+        78
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9111090898513794
+    },
+    {
+      "text": "boiling",
+      "bbox": [
+        208,
+        57,
+        314,
+        76
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9224814176559448
+    },
+    {
+      "text": "water,",
+      "bbox": [
+        336,
+        58,
+        432,
+        74
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9117395877838135
+    },
+    {
+      "text": "cook",
+      "bbox": [
+        444,
+        55,
+        516,
+        70
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9031478762626648
+    },
+    {
+      "text": "five",
+      "bbox": [
+        536,
+        55,
+        588,
+        69
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8928295969963074
+    },
+    {
+      "text": "minutes,",
+      "bbox": [
+        612,
+        54,
+        742,
+        69
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9038742184638977
+    },
+    {
+      "text": "season",
+      "bbox": [
+        766,
+        56,
+        866,
+        69
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9152363538742065
+    },
+    {
+      "text": "with",
+      "bbox": [
+        892,
+        51,
+        956,
+        66
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9035228490829468
+    },
+    {
+      "text": "salt",
+      "bbox": [
+        34,
+        82,
+        92,
+        98
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.898957371711731
+    },
+    {
+      "text": "and",
+      "bbox": [
+        104,
+        82,
+        160,
+        97
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8972811698913574
+    },
+    {
+      "text": "pepper,",
+      "bbox": [
+        174,
+        86,
+        288,
+        101
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9071539640426636
+    },
+    {
+      "text": "and",
+      "bbox": [
+        306,
+        80,
+        360,
+        94
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8977570533752441
+    },
+    {
+      "text": "strain.",
+      "bbox": [
+        376,
+        79,
+        472,
+        93
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8914054036140442
+    },
+    {
+      "text": "If",
+      "bbox": [
+        516,
+        78,
+        546,
+        92
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8684276342391968
+    },
+    {
+      "text": "flour",
+      "bbox": [
+        566,
+        78,
+        634,
+        92
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9007221460342407
+    },
+    {
+      "text": "should",
+      "bbox": [
+        648,
+        76,
+        746,
+        91
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9028540253639221
+    },
+    {
+      "text": "burn",
+      "bbox": [
+        762,
+        76,
+        832,
+        90
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9069390892982483
+    },
+    {
+      "text": "in",
+      "bbox": [
+        848,
+        75,
+        874,
+        89
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9047960042953491
+    },
+    {
+      "text": "pan,",
+      "bbox": [
+        890,
+        79,
+        956,
+        93
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8980354070663452
+    },
+    {
+      "text": "gravy",
+      "bbox": [
+        34,
+        110,
+        122,
+        125
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9065676331520081
+    },
+    {
+      "text": "will",
+      "bbox": [
+        138,
+        104,
+        192,
+        120
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9048359394073486
+    },
+    {
+      "text": "be",
+      "bbox": [
+        208,
+        104,
+        242,
+        118
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8979800343513489
+    },
+    {
+      "text": "full",
+      "bbox": [
+        256,
+        103,
+        306,
+        118
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9057130217552185
+    },
+    {
+      "text": "of",
+      "bbox": [
+        322,
+        103,
+        352,
+        117
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8987187147140503
+    },
+    {
+      "text": "black",
+      "bbox": [
+        368,
+        102,
+        450,
+        116
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8946913480758667
+    },
+    {
+      "text": "particles.",
+      "bbox": [
+        466,
+        101,
+        606,
+        121
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8843101859092712
+    },
+    {
+      "text": "'To",
+      "bbox": [
+        70,
+        131,
+        112,
+        143
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8779016137123108
+    },
+    {
+      "text": "Carve",
+      "bbox": [
+        134,
+        129,
+        226,
+        143
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8968271613121033
+    },
+    {
+      "text": "a",
+      "bbox": [
+        250,
+        132,
+        266,
+        141
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8946564197540283
+    },
+    {
+      "text": "Roast",
+      "bbox": [
+        292,
+        128,
+        386,
+        140
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8926893472671509
+    },
+    {
+      "text": "of",
+      "bbox": [
+        410,
+        127,
+        440,
+        139
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8761891722679138
+    },
+    {
+      "text": "Beef.",
+      "bbox": [
+        466,
+        126,
+        544,
+        139
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8756489753723145
+    },
+    {
+      "text": "Have",
+      "bbox": [
+        588,
+        124,
+        670,
+        138
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.875819981098175
+    },
+    {
+      "text": "roast",
+      "bbox": [
+        696,
+        124,
+        774,
+        136
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8899272084236145
+    },
+    {
+      "text": "placed",
+      "bbox": [
+        800,
+        121,
+        898,
+        140
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.881575345993042
+    },
+    {
+      "text": "on",
+      "bbox": [
+        922,
+        125,
+        958,
+        135
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8835359215736389
+    },
+    {
+      "text": "platter,",
+      "bbox": [
+        36,
+        152,
+        150,
+        171
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.876457154750824
+    },
+    {
+      "text": "skin",
+      "bbox": [
+        166,
+        150,
+        230,
+        164
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8853620290756226
+    },
+    {
+      "text": "side",
+      "bbox": [
+        252,
+        149,
+        312,
+        163
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8707095980644226
+    },
+    {
+      "text": "up;",
+      "bbox": [
+        332,
+        153,
+        384,
+        168
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8610526919364929
+    },
+    {
+      "text": "with",
+      "bbox": [
+        408,
+        148,
+        474,
+        162
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8675399422645569
+    },
+    {
+      "text": "a",
+      "bbox": [
+        494,
+        152,
+        510,
+        162
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8676806092262268
+    },
+    {
+      "text": "pointed,",
+      "bbox": [
+        524,
+        147,
+        650,
+        167
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8822569251060486
+    },
+    {
+      "text": "thin-bladed,",
+      "bbox": [
+        674,
+        144,
+        858,
+        161
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8950274586677551
+    },
+    {
+      "text": "sharp",
+      "bbox": [
+        874,
+        144,
+        960,
+        162
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8919610977172852
+    },
+    {
+      "text": "knife",
+      "bbox": [
+        38,
+        174,
+        116,
+        188
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8812016844749451
+    },
+    {
+      "text": "cut",
+      "bbox": [
+        134,
+        175,
+        182,
+        188
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8661737442016602
+    },
+    {
+      "text": "a",
+      "bbox": [
+        202,
+        177,
+        218,
+        187
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8637428283691406
+    },
+    {
+      "text": "sirloin",
+      "bbox": [
+        236,
+        172,
+        334,
+        187
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8538611531257629
+    },
+    {
+      "text": "or",
+      "bbox": [
+        352,
+        175,
+        384,
+        186
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8420329093933105
+    },
+    {
+      "text": "rib",
+      "bbox": [
+        404,
+        171,
+        446,
+        186
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8596346378326416
+    },
+    {
+      "text": "roast",
+      "bbox": [
+        466,
+        172,
+        544,
+        185
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8570778965950012
+    },
+    {
+      "text": "in",
+      "bbox": [
+        566,
+        170,
+        592,
+        184
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8639867305755615
+    },
+    {
+      "text": "thin",
+      "bbox": [
+        612,
+        169,
+        672,
+        183
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8649964332580566
+    },
+    {
+      "text": "slices",
+      "bbox": [
+        694,
+        169,
+        776,
+        182
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8605539202690125
+    },
+    {
+      "text": "parallel",
+      "bbox": [
+        798,
+        167,
+        914,
+        186
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8718252182006836
+    },
+    {
+      "text": "to",
+      "bbox": [
+        932,
+        168,
+        960,
+        181
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8544136881828308
+    },
+    {
+      "text": "the",
+      "bbox": [
+        38,
+        198,
+        84,
+        211
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.861983060836792
+    },
+    {
+      "text": "ribs,",
+      "bbox": [
+        100,
+        197,
+        166,
+        213
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8495414853096008
+    },
+    {
+      "text": "and",
+      "bbox": [
+        184,
+        196,
+        240,
+        210
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.857072114944458
+    },
+    {
+      "text": "cut",
+      "bbox": [
+        254,
+        196,
+        302,
+        210
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8523657917976379
+    },
+    {
+      "text": "slices",
+      "bbox": [
+        316,
+        195,
+        400,
+        209
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8308403491973877
+    },
+    {
+      "text": "from",
+      "bbox": [
+        414,
+        194,
+        486,
+        208
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8377774953842163
+    },
+    {
+      "text": "ribs.",
+      "bbox": [
+        502,
+        193,
+        570,
+        207
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8546507954597473
+    },
+    {
+      "text": "If",
+      "bbox": [
+        612,
+        192,
+        640,
+        206
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8375855684280396
+    },
+    {
+      "text": "there",
+      "bbox": [
+        658,
+        192,
+        738,
+        206
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8755623698234558
+    },
+    {
+      "text": "is",
+      "bbox": [
+        752,
+        191,
+        776,
+        205
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8856827616691589
+    },
+    {
+      "text": "tenderloin,",
+      "bbox": [
+        792,
+        189,
+        958,
+        206
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8926637172698975
+    },
+    {
+      "text": "remove",
+      "bbox": [
+        38,
+        224,
+        148,
+        234
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8594232797622681
+    },
+    {
+      "text": "it",
+      "bbox": [
+        170,
+        219,
+        194,
+        233
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8629801273345947
+    },
+    {
+      "text": "from",
+      "bbox": [
+        218,
+        219,
+        290,
+        233
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.870363712310791
+    },
+    {
+      "text": "under",
+      "bbox": [
+        314,
+        218,
+        402,
+        232
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8583284616470337
+    },
+    {
+      "text": "the",
+      "bbox": [
+        426,
+        217,
+        472,
+        231
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8651202321052551
+    },
+    {
+      "text": "bone,",
+      "bbox": [
+        496,
+        216,
+        578,
+        232
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8680253028869629
+    },
+    {
+      "text": "and",
+      "bbox": [
+        604,
+        215,
+        660,
+        229
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8833371996879578
+    },
+    {
+      "text": "cut",
+      "bbox": [
+        684,
+        216,
+        734,
+        229
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8750780820846558
+    },
+    {
+      "text": "in",
+      "bbox": [
+        754,
+        213,
+        780,
+        228
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8974899649620056
+    },
+    {
+      "text": "thin",
+      "bbox": [
+        802,
+        213,
+        860,
+        228
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8847410678863525
+    },
+    {
+      "text": "slices",
+      "bbox": [
+        880,
+        212,
+        962,
+        227
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8765333294868469
+    },
+    {
+      "text": "across",
+      "bbox": [
+        38,
+        247,
+        134,
+        257
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8693994879722595
+    },
+    {
+      "text": "grain",
+      "bbox": [
+        144,
+        242,
+        226,
+        262
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.865546464920044
+    },
+    {
+      "text": "of",
+      "bbox": [
+        242,
+        242,
+        274,
+        256
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8797705769538879
+    },
+    {
+      "text": "meat.",
+      "bbox": [
+        294,
+        242,
+        378,
+        255
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8788250088691711
+    },
+    {
+      "text": "Carve",
+      "bbox": [
+        420,
+        240,
+        510,
+        254
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8556874394416809
+    },
+    {
+      "text": "back",
+      "bbox": [
+        532,
+        237,
+        604,
+        253
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8805606365203857
+    },
+    {
+      "text": "of",
+      "bbox": [
+        618,
+        237,
+        650,
+        252
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.896675169467926
+    },
+    {
+      "text": "rump",
+      "bbox": [
+        670,
+        236,
+        772,
+        255
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8870032429695129
+    },
+    {
+      "text": "in",
+      "bbox": [
+        758,
+        228,
+        790,
+        266
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8991143107414246
+    },
+    {
+      "text": "thin",
+      "bbox": [
+        806,
+        235,
+        864,
+        251
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8868465423583984
+    },
+    {
+      "text": "slices",
+      "bbox": [
+        880,
+        235,
+        962,
+        250
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8775604367256165
+    },
+    {
+      "text": "with",
+      "bbox": [
+        40,
+        266,
+        106,
+        280
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8686743378639221
+    },
+    {
+      "text": "the",
+      "bbox": [
+        126,
+        266,
+        174,
+        280
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8837097883224487
+    },
+    {
+      "text": "grain",
+      "bbox": [
+        194,
+        264,
+        274,
+        283
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.874725341796875
+    },
+    {
+      "text": "of",
+      "bbox": [
+        294,
+        264,
+        326,
+        278
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8855125308036804
+    },
+    {
+      "text": "meat;",
+      "bbox": [
+        346,
+        264,
+        436,
+        279
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8757584095001221
+    },
+    {
+      "text": "by",
+      "bbox": [
+        460,
+        263,
+        498,
+        281
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8702799677848816
+    },
+    {
+      "text": "so",
+      "bbox": [
+        518,
+        266,
+        550,
+        276
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8857809901237488
+    },
+    {
+      "text": "doing,",
+      "bbox": [
+        570,
+        260,
+        666,
+        279
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8934523463249207
+    },
+    {
+      "text": "some",
+      "bbox": [
+        682,
+        264,
+        758,
+        274
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9001913666725159
+    },
+    {
+      "text": "of",
+      "bbox": [
+        772,
+        259,
+        804,
+        272
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9040728211402893
+    },
+    {
+      "text": "the",
+      "bbox": [
+        824,
+        258,
+        872,
+        272
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9028934836387634
+    },
+    {
+      "text": "least",
+      "bbox": [
+        892,
+        258,
+        964,
+        272
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8886762857437134
+    },
+    {
+      "text": "tender",
+      "bbox": [
+        40,
+        289,
+        138,
+        303
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8718163967132568
+    },
+    {
+      "text": "muscle",
+      "bbox": [
+        162,
+        287,
+        266,
+        302
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8820832967758179
+    },
+    {
+      "text": "will",
+      "bbox": [
+        280,
+        287,
+        334,
+        301
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8795678019523621
+    },
+    {
+      "text": "be",
+      "bbox": [
+        356,
+        286,
+        390,
+        300
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8724669218063354
+    },
+    {
+      "text": "served",
+      "bbox": [
+        412,
+        284,
+        510,
+        300
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8659482598304749
+    },
+    {
+      "text": "with",
+      "bbox": [
+        532,
+        283,
+        598,
+        299
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8773771524429321
+    },
+    {
+      "text": "that",
+      "bbox": [
+        618,
+        283,
+        680,
+        298
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8964082598686218
+    },
+    {
+      "text": "which",
+      "bbox": [
+        702,
+        282,
+        790,
+        296
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8995598554611206
+    },
+    {
+      "text": "is",
+      "bbox": [
+        810,
+        281,
+        834,
+        295
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8931067585945129
+    },
+    {
+      "text": "tender.",
+      "bbox": [
+        854,
+        280,
+        962,
+        295
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.9000983834266663
+    },
+    {
+      "text": "By",
+      "bbox": [
+        40,
+        312,
+        82,
+        331
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8411697149276733
+    },
+    {
+      "text": "cutting",
+      "bbox": [
+        96,
+        311,
+        208,
+        329
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8595590591430664
+    },
+    {
+      "text": "across",
+      "bbox": [
+        222,
+        314,
+        318,
+        325
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8601409196853638
+    },
+    {
+      "text": "grain",
+      "bbox": [
+        332,
+        310,
+        412,
+        328
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8569202423095703
+    },
+    {
+      "text": "of",
+      "bbox": [
+        432,
+        308,
+        464,
+        323
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8664616942405701
+    },
+    {
+      "text": "meat,",
+      "bbox": [
+        484,
+        308,
+        566,
+        323
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8606950640678406
+    },
+    {
+      "text": "the",
+      "bbox": [
+        584,
+        307,
+        630,
+        320
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8724226355552673
+    },
+    {
+      "text": "tenderest",
+      "bbox": [
+        652,
+        305,
+        796,
+        320
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8768883943557739
+    },
+    {
+      "text": "portion",
+      "bbox": [
+        814,
+        304,
+        926,
+        324
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8699966669082642
+    },
+    {
+      "text": "is",
+      "bbox": [
+        942,
+        303,
+        964,
+        317
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8669403195381165
+    },
+    {
+      "text": "sliced",
+      "bbox": [
+        40,
+        335,
+        128,
+        350
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8403701186180115
+    },
+    {
+      "text": "by",
+      "bbox": [
+        142,
+        335,
+        180,
+        354
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8395794630050659
+    },
+    {
+      "text": "itself,",
+      "bbox": [
+        194,
+        332,
+        282,
+        351
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8524883985519409
+    },
+    {
+      "text": "as",
+      "bbox": [
+        300,
+        338,
+        330,
+        348
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8374989628791809
+    },
+    {
+      "text": "is",
+      "bbox": [
+        346,
+        332,
+        368,
+        347
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8294805288314819
+    },
+    {
+      "text": "the",
+      "bbox": [
+        384,
+        331,
+        430,
+        347
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.842714250087738
+    },
+    {
+      "text": "less",
+      "bbox": [
+        444,
+        331,
+        500,
+        346
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8287966251373291
+    },
+    {
+      "text": "tender",
+      "bbox": [
+        514,
+        330,
+        614,
+        346
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8447354435920715
+    },
+    {
+      "text": "portion.",
+      "bbox": [
+        628,
+        329,
+        750,
+        349
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.867514431476593
+    },
+    {
+      "text": "180",
+      "bbox": [
+        34,
+        15,
+        90,
+        31
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.857924222946167
+    },
+    {
+      "text": "BOSTON",
+      "bbox": [
+        160,
+        17,
+        288,
+        29
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8753492832183838
+    },
+    {
+      "text": "COOKD",
+      "bbox": [
+        310,
+        16,
+        412,
+        28
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8664493560791016
+    },
+    {
+      "text": "Yorkshire",
+      "bbox": [
+        346,
+        386,
+        508,
+        400
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8018386363983154
+    },
+    {
+      "text": "Pudding.",
+      "bbox": [
+        528,
+        385,
+        668,
+        400
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7924497723579407
+    },
+    {
+      "text": "1",
+      "bbox": [
+        174,
+        417,
+        186,
+        431
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6602268815040588
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        200,
+        421,
+        250,
+        434
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7557505965232849
+    },
+    {
+      "text": "milk.",
+      "bbox": [
+        262,
+        415,
+        334,
+        430
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7508008480072021
+    },
+    {
+      "text": "2",
+      "bbox": [
+        602,
+        413,
+        618,
+        426
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7022304534912109
+    },
+    {
+      "text": "eggs.",
+      "bbox": [
+        628,
+        415,
+        700,
+        430
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7917153239250183
+    },
+    {
+      "text": "1",
+      "bbox": [
+        174,
+        437,
+        186,
+        450
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6639944911003113
+    },
+    {
+      "text": "cup",
+      "bbox": [
+        200,
+        441,
+        252,
+        455
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7562836408615112
+    },
+    {
+      "text": "flour.",
+      "bbox": [
+        262,
+        436,
+        334,
+        450
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7532171607017517
+    },
+    {
+      "text": "14",
+      "bbox": [
+        602,
+        434,
+        630,
+        450
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7252800464630127
+    },
+    {
+      "text": "teaspoon",
+      "bbox": [
+        642,
+        434,
+        766,
+        449
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7853990197181702
+    },
+    {
+      "text": "salt,",
+      "bbox": [
+        778,
+        431,
+        836,
+        445
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.793160080909729
+    },
+    {
+      "text": "Miss",
+      "bbox": [
+        696,
+        458,
+        758,
+        471
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7950792908668518
+    },
+    {
+      "text": "C.J.",
+      "bbox": [
+        772,
+        457,
+        834,
+        471
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8061532974243164
+    },
+    {
+      "text": "Wills,",
+      "bbox": [
+        854,
+        456,
+        934,
+        469
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8151742815971375
+    },
+    {
+      "text": "Mix",
+      "bbox": [
+        82,
+        498,
+        146,
+        514
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7943934202194214
+    },
+    {
+      "text": "salt",
+      "bbox": [
+        162,
+        497,
+        218,
+        513
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8029713034629822
+    },
+    {
+      "text": "and",
+      "bbox": [
+        234,
+        497,
+        290,
+        513
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8151023387908936
+    },
+    {
+      "text": "flour,",
+      "bbox": [
+        306,
+        496,
+        384,
+        512
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7981469035148621
+    },
+    {
+      "text": "and",
+      "bbox": [
+        402,
+        495,
+        456,
+        510
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8054090142250061
+    },
+    {
+      "text": "add",
+      "bbox": [
+        478,
+        494,
+        534,
+        509
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8178216814994812
+    },
+    {
+      "text": "milk",
+      "bbox": [
+        554,
+        494,
+        622,
+        508
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.823212742805481
+    },
+    {
+      "text": "gradually",
+      "bbox": [
+        640,
+        492,
+        788,
+        513
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8336979746818542
+    },
+    {
+      "text": "to",
+      "bbox": [
+        810,
+        493,
+        840,
+        506
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8315584063529968
+    },
+    {
+      "text": "form",
+      "bbox": [
+        860,
+        491,
+        934,
+        506
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8442270159721375
+    },
+    {
+      "text": "a",
+      "bbox": [
+        954,
+        495,
+        970,
+        505
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8429492115974426
+    },
+    {
+      "text": "smooth",
+      "bbox": [
+        46,
+        521,
+        158,
+        537
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8553293347358704
+    },
+    {
+      "text": "paste;",
+      "bbox": [
+        180,
+        521,
+        278,
+        540
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8290920257568359
+    },
+    {
+      "text": "then",
+      "bbox": [
+        306,
+        520,
+        374,
+        534
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8097080588340759
+    },
+    {
+      "text": "add",
+      "bbox": [
+        398,
+        518,
+        454,
+        533
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8257061243057251
+    },
+    {
+      "text": "eggs",
+      "bbox": [
+        480,
+        522,
+        550,
+        537
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8318710923194885
+    },
+    {
+      "text": "beaten",
+      "bbox": [
+        576,
+        517,
+        678,
+        531
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8369377851486206
+    },
+    {
+      "text": "until",
+      "bbox": [
+        700,
+        515,
+        772,
+        530
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.853853702545166
+    },
+    {
+      "text": "very",
+      "bbox": [
+        794,
+        519,
+        864,
+        534
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8608645796775818
+    },
+    {
+      "text": "light.",
+      "bbox": [
+        888,
+        515,
+        968,
+        533
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8694303035736084
+    },
+    {
+      "text": "Cover",
+      "bbox": [
+        46,
+        544,
+        138,
+        560
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8463618755340576
+    },
+    {
+      "text": "bottom",
+      "bbox": [
+        152,
+        544,
+        262,
+        558
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8368285894393921
+    },
+    {
+      "text": "of",
+      "bbox": [
+        276,
+        543,
+        306,
+        557
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8479683995246887
+    },
+    {
+      "text": "hot",
+      "bbox": [
+        320,
+        543,
+        370,
+        557
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8397505879402161
+    },
+    {
+      "text": "pan",
+      "bbox": [
+        382,
+        546,
+        438,
+        561
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8095964789390564
+    },
+    {
+      "text": "with",
+      "bbox": [
+        452,
+        541,
+        520,
+        555
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8284059166908264
+    },
+    {
+      "text": "some",
+      "bbox": [
+        540,
+        544,
+        616,
+        555
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8507868051528931
+    },
+    {
+      "text": "of",
+      "bbox": [
+        636,
+        539,
+        668,
+        554
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8636763691902161
+    },
+    {
+      "text": "beef",
+      "bbox": [
+        688,
+        539,
+        754,
+        553
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8660162091255188
+    },
+    {
+      "text": "fat",
+      "bbox": [
+        772,
+        539,
+        818,
+        553
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8652898073196411
+    },
+    {
+      "text": "tried",
+      "bbox": [
+        834,
+        538,
+        906,
+        552
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8502563834190369
+    },
+    {
+      "text": "out",
+      "bbox": [
+        922,
+        538,
+        972,
+        551
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8604393005371094
+    },
+    {
+      "text": "from",
+      "bbox": [
+        46,
+        568,
+        122,
+        582
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8534584641456604
+    },
+    {
+      "text": "roast,",
+      "bbox": [
+        148,
+        567,
+        236,
+        582
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8346774578094482
+    },
+    {
+      "text": "pour",
+      "bbox": [
+        264,
+        570,
+        336,
+        585
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8303194642066956
+    },
+    {
+      "text": "mixture",
+      "bbox": [
+        362,
+        565,
+        484,
+        579
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8247028589248657
+    },
+    {
+      "text": "in",
+      "bbox": [
+        508,
+        564,
+        536,
+        578
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8395064473152161
+    },
+    {
+      "text": "pan",
+      "bbox": [
+        560,
+        567,
+        616,
+        582
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8375515937805176
+    },
+    {
+      "text": "one-half",
+      "bbox": [
+        642,
+        562,
+        772,
+        577
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8515520691871643
+    },
+    {
+      "text": "inch",
+      "bbox": [
+        796,
+        561,
+        862,
+        576
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8568041920661926
+    },
+    {
+      "text": "deep.",
+      "bbox": [
+        886,
+        561,
+        968,
+        579
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8656405806541443
+    },
+    {
+      "text": "Bake:",
+      "bbox": [
+        46,
+        590,
+        126,
+        605
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8641880750656128
+    },
+    {
+      "text": "twenty",
+      "bbox": [
+        152,
+        591,
+        258,
+        609
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8370947241783142
+    },
+    {
+      "text": "minutes",
+      "bbox": [
+        284,
+        589,
+        406,
+        603
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8220006823539734
+    },
+    {
+      "text": "in",
+      "bbox": [
+        434,
+        588,
+        462,
+        602
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8420518636703491
+    },
+    {
+      "text": "hot",
+      "bbox": [
+        488,
+        587,
+        538,
+        601
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8428957462310791
+    },
+    {
+      "text": "oven,",
+      "bbox": [
+        562,
+        590,
+        644,
+        603
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8462479710578918
+    },
+    {
+      "text": "basting",
+      "bbox": [
+        674,
+        585,
+        788,
+        603
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8710047006607056
+    },
+    {
+      "text": "after",
+      "bbox": [
+        812,
+        584,
+        888,
+        599
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8507907390594482
+    },
+    {
+      "text": "well",
+      "bbox": [
+        912,
+        582,
+        972,
+        598
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8548418879508972
+    },
+    {
+      "text": "risen,",
+      "bbox": [
+        48,
+        614,
+        134,
+        631
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.822041392326355
+    },
+    {
+      "text": "with",
+      "bbox": [
+        150,
+        613,
+        216,
+        627
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8327292203903198
+    },
+    {
+      "text": "some",
+      "bbox": [
+        238,
+        616,
+        314,
+        626
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8295060992240906
+    },
+    {
+      "text": "of",
+      "bbox": [
+        334,
+        611,
+        366,
+        626
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8308578729629517
+    },
+    {
+      "text": "the",
+      "bbox": [
+        388,
+        611,
+        436,
+        625
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8162918090820312
+    },
+    {
+      "text": "fat",
+      "bbox": [
+        460,
+        610,
+        504,
+        624
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8300943970680237
+    },
+    {
+      "text": "from",
+      "bbox": [
+        524,
+        610,
+        596,
+        624
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8435418605804443
+    },
+    {
+      "text": "pan",
+      "bbox": [
+        620,
+        613,
+        674,
+        627
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8220169544219971
+    },
+    {
+      "text": "in",
+      "bbox": [
+        696,
+        608,
+        722,
+        622
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8479599952697754
+    },
+    {
+      "text": "which",
+      "bbox": [
+        744,
+        606,
+        832,
+        622
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8482488989830017
+    },
+    {
+      "text": "meat",
+      "bbox": [
+        854,
+        608,
+        928,
+        621
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8530356884002686
+    },
+    {
+      "text": "is",
+      "bbox": [
+        948,
+        605,
+        972,
+        620
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8412350416183472
+    },
+    {
+      "text": "roasting.",
+      "bbox": [
+        48,
+        636,
+        186,
+        655
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8284757733345032
+    },
+    {
+      "text": "Cut",
+      "bbox": [
+        228,
+        635,
+        284,
+        650
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7715893387794495
+    },
+    {
+      "text": "in",
+      "bbox": [
+        310,
+        635,
+        338,
+        649
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8182559013366699
+    },
+    {
+      "text": "squares",
+      "bbox": [
+        364,
+        637,
+        482,
+        652
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8015987277030945
+    },
+    {
+      "text": "for",
+      "bbox": [
+        508,
+        633,
+        554,
+        647
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8159987330436707
+    },
+    {
+      "text": "serving.",
+      "bbox": [
+        580,
+        632,
+        704,
+        650
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8284986019134521
+    },
+    {
+      "text": "Bake,",
+      "bbox": [
+        744,
+        631,
+        832,
+        647
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8229787349700928
+    },
+    {
+      "text": "if",
+      "bbox": [
+        860,
+        629,
+        884,
+        644
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8114107847213745
+    },
+    {
+      "text": "pre-",
+      "bbox": [
+        910,
+        633,
+        972,
+        648
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8206926584243774
+    },
+    {
+      "text": "ferred,",
+      "bbox": [
+        50,
+        659,
+        154,
+        676
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7797088027000427
+    },
+    {
+      "text": "in",
+      "bbox": [
+        176,
+        659,
+        204,
+        673
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7811406850814819
+    },
+    {
+      "text": "greased,",
+      "bbox": [
+        224,
+        658,
+        352,
+        677
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7779231071472168
+    },
+    {
+      "text": "hissing",
+      "bbox": [
+        376,
+        656,
+        484,
+        674
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7876702547073364
+    },
+    {
+      "text": "hot",
+      "bbox": [
+        504,
+        656,
+        554,
+        670
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7747198939323425
+    },
+    {
+      "text": "iron",
+      "bbox": [
+        574,
+        655,
+        634,
+        669
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7846896648406982
+    },
+    {
+      "text": "gem",
+      "bbox": [
+        654,
+        658,
+        718,
+        673
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7886596322059631
+    },
+    {
+      "text": "pans.",
+      "bbox": [
+        738,
+        657,
+        818,
+        672
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8200201988220215
+    },
+    {
+      "text": "Larded",
+      "bbox": [
+        328,
+        708,
+        440,
+        721
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7157812118530273
+    },
+    {
+      "text": "Fillet",
+      "bbox": [
+        462,
+        707,
+        548,
+        720
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7160431742668152
+    },
+    {
+      "text": "of",
+      "bbox": [
+        566,
+        707,
+        596,
+        720
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7392377257347107
+    },
+    {
+      "text": "Beef.",
+      "bbox": [
+        616,
+        706,
+        696,
+        719
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7990590929985046
+    },
+    {
+      "text": "The",
+      "bbox": [
+        88,
+        745,
+        148,
+        760
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7324128746986389
+    },
+    {
+      "text": "tenderloin",
+      "bbox": [
+        168,
+        743,
+        326,
+        759
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.776857316493988
+    },
+    {
+      "text": "of",
+      "bbox": [
+        346,
+        743,
+        378,
+        757
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7592618465423584
+    },
+    {
+      "text": "beef",
+      "bbox": [
+        398,
+        742,
+        464,
+        757
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7590843439102173
+    },
+    {
+      "text": "which",
+      "bbox": [
+        484,
+        741,
+        572,
+        756
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7684262990951538
+    },
+    {
+      "text": "lies",
+      "bbox": [
+        594,
+        741,
+        644,
+        755
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7574642896652222
+    },
+    {
+      "text": "under",
+      "bbox": [
+        664,
+        740,
+        754,
+        755
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7703354358673096
+    },
+    {
+      "text": "the",
+      "bbox": [
+        774,
+        740,
+        820,
+        754
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7823483943939209
+    },
+    {
+      "text": "loin",
+      "bbox": [
+        842,
+        739,
+        898,
+        753
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7616215348243713
+    },
+    {
+      "text": "and",
+      "bbox": [
+        920,
+        737,
+        976,
+        752
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7908296585083008
+    },
+    {
+      "text": "rump",
+      "bbox": [
+        52,
+        775,
+        134,
+        789
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7456119656562805
+    },
+    {
+      "text": "is",
+      "bbox": [
+        148,
+        769,
+        170,
+        784
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7699634432792664
+    },
+    {
+      "text": "called",
+      "bbox": [
+        184,
+        768,
+        276,
+        783
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7875675559043884
+    },
+    {
+      "text": "fillet",
+      "bbox": [
+        290,
+        768,
+        358,
+        782
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7434883713722229
+    },
+    {
+      "text": "of",
+      "bbox": [
+        376,
+        767,
+        406,
+        781
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7658196091651917
+    },
+    {
+      "text": "beef.",
+      "bbox": [
+        428,
+        767,
+        502,
+        781
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8020442128181458
+    },
+    {
+      "text": "\u2018The",
+      "bbox": [
+        542,
+        766,
+        604,
+        780
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8051585555076599
+    },
+    {
+      "text": "fillet",
+      "bbox": [
+        622,
+        765,
+        690,
+        779
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7969356775283813
+    },
+    {
+      "text": "under",
+      "bbox": [
+        710,
+        764,
+        800,
+        779
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.813225507736206
+    },
+    {
+      "text": "the",
+      "bbox": [
+        820,
+        764,
+        866,
+        778
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8276815414428711
+    },
+    {
+      "text": "loin",
+      "bbox": [
+        882,
+        763,
+        938,
+        777
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7995401620864868
+    },
+    {
+      "text": "is:",
+      "bbox": [
+        954,
+        763,
+        986,
+        777
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8758680820465088
+    },
+    {
+      "text": "known",
+      "bbox": [
+        54,
+        794,
+        156,
+        807
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8152222037315369
+    },
+    {
+      "text": "as",
+      "bbox": [
+        178,
+        796,
+        210,
+        806
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8274184465408325
+    },
+    {
+      "text": "the",
+      "bbox": [
+        228,
+        792,
+        280,
+        806
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8148635625839233
+    },
+    {
+      "text": "long",
+      "bbox": [
+        296,
+        791,
+        364,
+        810
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8135640025138855
+    },
+    {
+      "text": "fillet,",
+      "bbox": [
+        386,
+        790,
+        466,
+        806
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7852347493171692
+    },
+    {
+      "text": "and",
+      "bbox": [
+        486,
+        789,
+        542,
+        804
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8063167333602905
+    },
+    {
+      "text": "when",
+      "bbox": [
+        562,
+        789,
+        642,
+        803
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8242380619049072
+    },
+    {
+      "text": "removed",
+      "bbox": [
+        662,
+        787,
+        794,
+        802
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8394696116447449
+    },
+    {
+      "text": "no",
+      "bbox": [
+        816,
+        791,
+        850,
+        801
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8468745946884155
+    },
+    {
+      "text": "porter-",
+      "bbox": [
+        872,
+        787,
+        974,
+        805
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8584059476852417
+    },
+    {
+      "text": "house",
+      "bbox": [
+        54,
+        816,
+        142,
+        830
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8302476406097412
+    },
+    {
+      "text": "steaks",
+      "bbox": [
+        156,
+        814,
+        252,
+        829
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8213451504707336
+    },
+    {
+      "text": "ean",
+      "bbox": [
+        270,
+        818,
+        324,
+        828
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8116801381111145
+    },
+    {
+      "text": "be",
+      "bbox": [
+        344,
+        814,
+        380,
+        828
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8175725340843201
+    },
+    {
+      "text": "cut;",
+      "bbox": [
+        396,
+        814,
+        458,
+        830
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8359366059303284
+    },
+    {
+      "text": "therefore",
+      "bbox": [
+        482,
+        812,
+        624,
+        827
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8231486082077026
+    },
+    {
+      "text": "it",
+      "bbox": [
+        638,
+        811,
+        660,
+        825
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8408907055854797
+    },
+    {
+      "text": "commands",
+      "bbox": [
+        674,
+        810,
+        838,
+        825
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8585783839225769
+    },
+    {
+      "text": "a",
+      "bbox": [
+        852,
+        814,
+        868,
+        824
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8569092154502869
+    },
+    {
+      "text": "higher",
+      "bbox": [
+        882,
+        808,
+        980,
+        827
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8536386489868164
+    },
+    {
+      "text": "price",
+      "bbox": [
+        54,
+        839,
+        130,
+        858
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8249704241752625
+    },
+    {
+      "text": "than",
+      "bbox": [
+        150,
+        838,
+        218,
+        853
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8105818033218384
+    },
+    {
+      "text": "the",
+      "bbox": [
+        236,
+        838,
+        282,
+        852
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8261377811431885
+    },
+    {
+      "text": "short",
+      "bbox": [
+        304,
+        837,
+        382,
+        851
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.827284038066864
+    },
+    {
+      "text": "fillet",
+      "bbox": [
+        400,
+        836,
+        468,
+        851
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7946309447288513
+    },
+    {
+      "text": "lying",
+      "bbox": [
+        484,
+        835,
+        564,
+        854
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8152223825454712
+    },
+    {
+      "text": "under",
+      "bbox": [
+        582,
+        835,
+        670,
+        849
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8299759030342102
+    },
+    {
+      "text": "rump.",
+      "bbox": [
+        686,
+        837,
+        776,
+        852
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8741047978401184
+    },
+    {
+      "text": "\u2018Two",
+      "bbox": [
+        816,
+        832,
+        886,
+        847
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8573086261749268
+    },
+    {
+      "text": "short",
+      "bbox": [
+        902,
+        831,
+        980,
+        846
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8639860153198242
+    },
+    {
+      "text": "fillets",
+      "bbox": [
+        56,
+        862,
+        140,
+        876
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8042834401130676
+    },
+    {
+      "text": "are",
+      "bbox": [
+        154,
+        865,
+        200,
+        875
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8507316708564758
+    },
+    {
+      "text": "often",
+      "bbox": [
+        216,
+        861,
+        298,
+        875
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8285583257675171
+    },
+    {
+      "text": "skewered",
+      "bbox": [
+        314,
+        859,
+        458,
+        874
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.823839545249939
+    },
+    {
+      "text": "together,",
+      "bbox": [
+        472,
+        858,
+        612,
+        877
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8226950764656067
+    },
+    {
+      "text": "and",
+      "bbox": [
+        628,
+        856,
+        686,
+        872
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8419103622436523
+    },
+    {
+      "text": "served",
+      "bbox": [
+        700,
+        855,
+        800,
+        871
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8370693922042847
+    },
+    {
+      "text": "in",
+      "bbox": [
+        814,
+        855,
+        842,
+        870
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8595903515815735
+    },
+    {
+      "text": "place",
+      "bbox": [
+        856,
+        854,
+        936,
+        874
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8391860127449036
+    },
+    {
+      "text": "of",
+      "bbox": [
+        948,
+        853,
+        980,
+        868
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8406801819801331
+    },
+    {
+      "text": "a",
+      "bbox": [
+        58,
+        890,
+        74,
+        900
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8096339702606201
+    },
+    {
+      "text": "long",
+      "bbox": [
+        86,
+        885,
+        152,
+        903
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.805323600769043
+    },
+    {
+      "text": "fillet.",
+      "bbox": [
+        168,
+        884,
+        246,
+        898
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.777411937713623
+    },
+    {
+      "text": "Wipe,",
+      "bbox": [
+        94,
+        908,
+        188,
+        926
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7550350427627563
+    },
+    {
+      "text": "remove",
+      "bbox": [
+        204,
+        911,
+        318,
+        921
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7745226621627808
+    },
+    {
+      "text": "fat,",
+      "bbox": [
+        338,
+        906,
+        392,
+        922
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7678484916687012
+    },
+    {
+      "text": "veins,",
+      "bbox": [
+        408,
+        905,
+        496,
+        922
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7624471187591553
+    },
+    {
+      "text": "and",
+      "bbox": [
+        514,
+        903,
+        572,
+        919
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7753824591636658
+    },
+    {
+      "text": "any",
+      "bbox": [
+        590,
+        908,
+        644,
+        922
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.7950587272644043
+    },
+    {
+      "text": "tendinous",
+      "bbox": [
+        666,
+        902,
+        816,
+        918
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8468949794769287
+    },
+    {
+      "text": "portions;",
+      "bbox": [
+        836,
+        900,
+        978,
+        921
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.8441492319107056
+    }
+  ],
+  "grouped": {
+    "TITLE": [
+      {
+        "text": "<G-SOHOOL",
+        "bbox": [
+          430,
+          0,
+          600,
+          27
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8593456149101257
+      },
+      {
+        "text": "COOK",
+        "bbox": [
+          620,
+          13,
+          708,
+          25
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.899444580078125
+      },
+      {
+        "text": "BOOK.",
+        "bbox": [
+          732,
+          12,
+          828,
+          24
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8960731625556946
+      },
+      {
+        "text": "half",
+        "bbox": [
+          32,
+          60,
+          94,
+          75
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9135257005691528
+      },
+      {
+        "text": "cups",
+        "bbox": [
+          116,
+          64,
+          186,
+          78
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9111090898513794
+      },
+      {
+        "text": "boiling",
+        "bbox": [
+          208,
+          57,
+          314,
+          76
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9224814176559448
+      },
+      {
+        "text": "water,",
+        "bbox": [
+          336,
+          58,
+          432,
+          74
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9117395877838135
+      },
+      {
+        "text": "cook",
+        "bbox": [
+          444,
+          55,
+          516,
+          70
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9031478762626648
+      },
+      {
+        "text": "five",
+        "bbox": [
+          536,
+          55,
+          588,
+          69
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8928295969963074
+      },
+      {
+        "text": "minutes,",
+        "bbox": [
+          612,
+          54,
+          742,
+          69
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9038742184638977
+      },
+      {
+        "text": "season",
+        "bbox": [
+          766,
+          56,
+          866,
+          69
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9152363538742065
+      },
+      {
+        "text": "with",
+        "bbox": [
+          892,
+          51,
+          956,
+          66
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9035228490829468
+      },
+      {
+        "text": "salt",
+        "bbox": [
+          34,
+          82,
+          92,
+          98
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.898957371711731
+      },
+      {
+        "text": "and",
+        "bbox": [
+          104,
+          82,
+          160,
+          97
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8972811698913574
+      },
+      {
+        "text": "pepper,",
+        "bbox": [
+          174,
+          86,
+          288,
+          101
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9071539640426636
+      },
+      {
+        "text": "and",
+        "bbox": [
+          306,
+          80,
+          360,
+          94
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8977570533752441
+      },
+      {
+        "text": "strain.",
+        "bbox": [
+          376,
+          79,
+          472,
+          93
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8914054036140442
+      },
+      {
+        "text": "If",
+        "bbox": [
+          516,
+          78,
+          546,
+          92
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8684276342391968
+      },
+      {
+        "text": "flour",
+        "bbox": [
+          566,
+          78,
+          634,
+          92
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9007221460342407
+      },
+      {
+        "text": "should",
+        "bbox": [
+          648,
+          76,
+          746,
+          91
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9028540253639221
+      },
+      {
+        "text": "burn",
+        "bbox": [
+          762,
+          76,
+          832,
+          90
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9069390892982483
+      },
+      {
+        "text": "in",
+        "bbox": [
+          848,
+          75,
+          874,
+          89
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9047960042953491
+      },
+      {
+        "text": "pan,",
+        "bbox": [
+          890,
+          79,
+          956,
+          93
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8980354070663452
+      },
+      {
+        "text": "gravy",
+        "bbox": [
+          34,
+          110,
+          122,
+          125
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9065676331520081
+      },
+      {
+        "text": "will",
+        "bbox": [
+          138,
+          104,
+          192,
+          120
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9048359394073486
+      },
+      {
+        "text": "be",
+        "bbox": [
+          208,
+          104,
+          242,
+          118
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8979800343513489
+      },
+      {
+        "text": "full",
+        "bbox": [
+          256,
+          103,
+          306,
+          118
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9057130217552185
+      },
+      {
+        "text": "of",
+        "bbox": [
+          322,
+          103,
+          352,
+          117
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8987187147140503
+      },
+      {
+        "text": "black",
+        "bbox": [
+          368,
+          102,
+          450,
+          116
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8946913480758667
+      },
+      {
+        "text": "particles.",
+        "bbox": [
+          466,
+          101,
+          606,
+          121
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8843101859092712
+      },
+      {
+        "text": "'To",
+        "bbox": [
+          70,
+          131,
+          112,
+          143
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8779016137123108
+      },
+      {
+        "text": "Carve",
+        "bbox": [
+          134,
+          129,
+          226,
+          143
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8968271613121033
+      },
+      {
+        "text": "a",
+        "bbox": [
+          250,
+          132,
+          266,
+          141
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8946564197540283
+      },
+      {
+        "text": "Roast",
+        "bbox": [
+          292,
+          128,
+          386,
+          140
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8926893472671509
+      },
+      {
+        "text": "of",
+        "bbox": [
+          410,
+          127,
+          440,
+          139
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8761891722679138
+      },
+      {
+        "text": "Beef.",
+        "bbox": [
+          466,
+          126,
+          544,
+          139
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8756489753723145
+      },
+      {
+        "text": "Have",
+        "bbox": [
+          588,
+          124,
+          670,
+          138
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.875819981098175
+      },
+      {
+        "text": "roast",
+        "bbox": [
+          696,
+          124,
+          774,
+          136
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8899272084236145
+      },
+      {
+        "text": "placed",
+        "bbox": [
+          800,
+          121,
+          898,
+          140
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.881575345993042
+      },
+      {
+        "text": "on",
+        "bbox": [
+          922,
+          125,
+          958,
+          135
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8835359215736389
+      },
+      {
+        "text": "platter,",
+        "bbox": [
+          36,
+          152,
+          150,
+          171
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.876457154750824
+      },
+      {
+        "text": "skin",
+        "bbox": [
+          166,
+          150,
+          230,
+          164
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8853620290756226
+      },
+      {
+        "text": "side",
+        "bbox": [
+          252,
+          149,
+          312,
+          163
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8707095980644226
+      },
+      {
+        "text": "up;",
+        "bbox": [
+          332,
+          153,
+          384,
+          168
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8610526919364929
+      },
+      {
+        "text": "with",
+        "bbox": [
+          408,
+          148,
+          474,
+          162
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8675399422645569
+      },
+      {
+        "text": "a",
+        "bbox": [
+          494,
+          152,
+          510,
+          162
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8676806092262268
+      },
+      {
+        "text": "pointed,",
+        "bbox": [
+          524,
+          147,
+          650,
+          167
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8822569251060486
+      },
+      {
+        "text": "thin-bladed,",
+        "bbox": [
+          674,
+          144,
+          858,
+          161
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8950274586677551
+      },
+      {
+        "text": "sharp",
+        "bbox": [
+          874,
+          144,
+          960,
+          162
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8919610977172852
+      },
+      {
+        "text": "knife",
+        "bbox": [
+          38,
+          174,
+          116,
+          188
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8812016844749451
+      },
+      {
+        "text": "cut",
+        "bbox": [
+          134,
+          175,
+          182,
+          188
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8661737442016602
+      },
+      {
+        "text": "a",
+        "bbox": [
+          202,
+          177,
+          218,
+          187
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8637428283691406
+      },
+      {
+        "text": "sirloin",
+        "bbox": [
+          236,
+          172,
+          334,
+          187
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8538611531257629
+      },
+      {
+        "text": "or",
+        "bbox": [
+          352,
+          175,
+          384,
+          186
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8420329093933105
+      },
+      {
+        "text": "rib",
+        "bbox": [
+          404,
+          171,
+          446,
+          186
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8596346378326416
+      },
+      {
+        "text": "roast",
+        "bbox": [
+          466,
+          172,
+          544,
+          185
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8570778965950012
+      },
+      {
+        "text": "in",
+        "bbox": [
+          566,
+          170,
+          592,
+          184
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8639867305755615
+      },
+      {
+        "text": "thin",
+        "bbox": [
+          612,
+          169,
+          672,
+          183
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8649964332580566
+      },
+      {
+        "text": "slices",
+        "bbox": [
+          694,
+          169,
+          776,
+          182
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8605539202690125
+      },
+      {
+        "text": "parallel",
+        "bbox": [
+          798,
+          167,
+          914,
+          186
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8718252182006836
+      },
+      {
+        "text": "to",
+        "bbox": [
+          932,
+          168,
+          960,
+          181
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8544136881828308
+      },
+      {
+        "text": "the",
+        "bbox": [
+          38,
+          198,
+          84,
+          211
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.861983060836792
+      },
+      {
+        "text": "ribs,",
+        "bbox": [
+          100,
+          197,
+          166,
+          213
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8495414853096008
+      },
+      {
+        "text": "and",
+        "bbox": [
+          184,
+          196,
+          240,
+          210
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.857072114944458
+      },
+      {
+        "text": "cut",
+        "bbox": [
+          254,
+          196,
+          302,
+          210
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8523657917976379
+      },
+      {
+        "text": "slices",
+        "bbox": [
+          316,
+          195,
+          400,
+          209
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8308403491973877
+      },
+      {
+        "text": "from",
+        "bbox": [
+          414,
+          194,
+          486,
+          208
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8377774953842163
+      },
+      {
+        "text": "ribs.",
+        "bbox": [
+          502,
+          193,
+          570,
+          207
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8546507954597473
+      },
+      {
+        "text": "If",
+        "bbox": [
+          612,
+          192,
+          640,
+          206
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8375855684280396
+      },
+      {
+        "text": "there",
+        "bbox": [
+          658,
+          192,
+          738,
+          206
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8755623698234558
+      },
+      {
+        "text": "is",
+        "bbox": [
+          752,
+          191,
+          776,
+          205
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8856827616691589
+      },
+      {
+        "text": "tenderloin,",
+        "bbox": [
+          792,
+          189,
+          958,
+          206
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8926637172698975
+      },
+      {
+        "text": "remove",
+        "bbox": [
+          38,
+          224,
+          148,
+          234
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8594232797622681
+      },
+      {
+        "text": "it",
+        "bbox": [
+          170,
+          219,
+          194,
+          233
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8629801273345947
+      },
+      {
+        "text": "from",
+        "bbox": [
+          218,
+          219,
+          290,
+          233
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.870363712310791
+      },
+      {
+        "text": "under",
+        "bbox": [
+          314,
+          218,
+          402,
+          232
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8583284616470337
+      },
+      {
+        "text": "the",
+        "bbox": [
+          426,
+          217,
+          472,
+          231
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8651202321052551
+      },
+      {
+        "text": "bone,",
+        "bbox": [
+          496,
+          216,
+          578,
+          232
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8680253028869629
+      },
+      {
+        "text": "and",
+        "bbox": [
+          604,
+          215,
+          660,
+          229
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8833371996879578
+      },
+      {
+        "text": "cut",
+        "bbox": [
+          684,
+          216,
+          734,
+          229
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8750780820846558
+      },
+      {
+        "text": "in",
+        "bbox": [
+          754,
+          213,
+          780,
+          228
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8974899649620056
+      },
+      {
+        "text": "thin",
+        "bbox": [
+          802,
+          213,
+          860,
+          228
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8847410678863525
+      },
+      {
+        "text": "slices",
+        "bbox": [
+          880,
+          212,
+          962,
+          227
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8765333294868469
+      },
+      {
+        "text": "across",
+        "bbox": [
+          38,
+          247,
+          134,
+          257
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8693994879722595
+      },
+      {
+        "text": "grain",
+        "bbox": [
+          144,
+          242,
+          226,
+          262
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.865546464920044
+      },
+      {
+        "text": "of",
+        "bbox": [
+          242,
+          242,
+          274,
+          256
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8797705769538879
+      },
+      {
+        "text": "meat.",
+        "bbox": [
+          294,
+          242,
+          378,
+          255
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8788250088691711
+      },
+      {
+        "text": "Carve",
+        "bbox": [
+          420,
+          240,
+          510,
+          254
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8556874394416809
+      },
+      {
+        "text": "back",
+        "bbox": [
+          532,
+          237,
+          604,
+          253
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8805606365203857
+      },
+      {
+        "text": "of",
+        "bbox": [
+          618,
+          237,
+          650,
+          252
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.896675169467926
+      },
+      {
+        "text": "rump",
+        "bbox": [
+          670,
+          236,
+          772,
+          255
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8870032429695129
+      },
+      {
+        "text": "in",
+        "bbox": [
+          758,
+          228,
+          790,
+          266
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8991143107414246
+      },
+      {
+        "text": "thin",
+        "bbox": [
+          806,
+          235,
+          864,
+          251
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8868465423583984
+      },
+      {
+        "text": "slices",
+        "bbox": [
+          880,
+          235,
+          962,
+          250
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8775604367256165
+      },
+      {
+        "text": "with",
+        "bbox": [
+          40,
+          266,
+          106,
+          280
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8686743378639221
+      },
+      {
+        "text": "the",
+        "bbox": [
+          126,
+          266,
+          174,
+          280
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8837097883224487
+      },
+      {
+        "text": "grain",
+        "bbox": [
+          194,
+          264,
+          274,
+          283
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.874725341796875
+      },
+      {
+        "text": "of",
+        "bbox": [
+          294,
+          264,
+          326,
+          278
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8855125308036804
+      },
+      {
+        "text": "meat;",
+        "bbox": [
+          346,
+          264,
+          436,
+          279
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8757584095001221
+      },
+      {
+        "text": "by",
+        "bbox": [
+          460,
+          263,
+          498,
+          281
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8702799677848816
+      },
+      {
+        "text": "so",
+        "bbox": [
+          518,
+          266,
+          550,
+          276
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8857809901237488
+      },
+      {
+        "text": "doing,",
+        "bbox": [
+          570,
+          260,
+          666,
+          279
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8934523463249207
+      },
+      {
+        "text": "some",
+        "bbox": [
+          682,
+          264,
+          758,
+          274
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9001913666725159
+      },
+      {
+        "text": "of",
+        "bbox": [
+          772,
+          259,
+          804,
+          272
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9040728211402893
+      },
+      {
+        "text": "the",
+        "bbox": [
+          824,
+          258,
+          872,
+          272
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9028934836387634
+      },
+      {
+        "text": "least",
+        "bbox": [
+          892,
+          258,
+          964,
+          272
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8886762857437134
+      },
+      {
+        "text": "tender",
+        "bbox": [
+          40,
+          289,
+          138,
+          303
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8718163967132568
+      },
+      {
+        "text": "muscle",
+        "bbox": [
+          162,
+          287,
+          266,
+          302
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8820832967758179
+      },
+      {
+        "text": "will",
+        "bbox": [
+          280,
+          287,
+          334,
+          301
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8795678019523621
+      },
+      {
+        "text": "be",
+        "bbox": [
+          356,
+          286,
+          390,
+          300
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8724669218063354
+      },
+      {
+        "text": "served",
+        "bbox": [
+          412,
+          284,
+          510,
+          300
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8659482598304749
+      },
+      {
+        "text": "with",
+        "bbox": [
+          532,
+          283,
+          598,
+          299
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8773771524429321
+      },
+      {
+        "text": "that",
+        "bbox": [
+          618,
+          283,
+          680,
+          298
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8964082598686218
+      },
+      {
+        "text": "which",
+        "bbox": [
+          702,
+          282,
+          790,
+          296
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8995598554611206
+      },
+      {
+        "text": "is",
+        "bbox": [
+          810,
+          281,
+          834,
+          295
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8931067585945129
+      },
+      {
+        "text": "tender.",
+        "bbox": [
+          854,
+          280,
+          962,
+          295
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.9000983834266663
+      },
+      {
+        "text": "By",
+        "bbox": [
+          40,
+          312,
+          82,
+          331
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8411697149276733
+      },
+      {
+        "text": "cutting",
+        "bbox": [
+          96,
+          311,
+          208,
+          329
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8595590591430664
+      },
+      {
+        "text": "across",
+        "bbox": [
+          222,
+          314,
+          318,
+          325
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8601409196853638
+      },
+      {
+        "text": "grain",
+        "bbox": [
+          332,
+          310,
+          412,
+          328
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8569202423095703
+      },
+      {
+        "text": "of",
+        "bbox": [
+          432,
+          308,
+          464,
+          323
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8664616942405701
+      },
+      {
+        "text": "meat,",
+        "bbox": [
+          484,
+          308,
+          566,
+          323
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8606950640678406
+      },
+      {
+        "text": "the",
+        "bbox": [
+          584,
+          307,
+          630,
+          320
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8724226355552673
+      },
+      {
+        "text": "tenderest",
+        "bbox": [
+          652,
+          305,
+          796,
+          320
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8768883943557739
+      },
+      {
+        "text": "portion",
+        "bbox": [
+          814,
+          304,
+          926,
+          324
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8699966669082642
+      },
+      {
+        "text": "is",
+        "bbox": [
+          942,
+          303,
+          964,
+          317
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8669403195381165
+      },
+      {
+        "text": "sliced",
+        "bbox": [
+          40,
+          335,
+          128,
+          350
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8403701186180115
+      },
+      {
+        "text": "by",
+        "bbox": [
+          142,
+          335,
+          180,
+          354
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8395794630050659
+      },
+      {
+        "text": "itself,",
+        "bbox": [
+          194,
+          332,
+          282,
+          351
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8524883985519409
+      },
+      {
+        "text": "as",
+        "bbox": [
+          300,
+          338,
+          330,
+          348
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8374989628791809
+      },
+      {
+        "text": "is",
+        "bbox": [
+          346,
+          332,
+          368,
+          347
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8294805288314819
+      },
+      {
+        "text": "the",
+        "bbox": [
+          384,
+          331,
+          430,
+          347
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.842714250087738
+      },
+      {
+        "text": "less",
+        "bbox": [
+          444,
+          331,
+          500,
+          346
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8287966251373291
+      },
+      {
+        "text": "tender",
+        "bbox": [
+          514,
+          330,
+          614,
+          346
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8447354435920715
+      },
+      {
+        "text": "portion.",
+        "bbox": [
+          628,
+          329,
+          750,
+          349
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.867514431476593
+      },
+      {
+        "text": "180",
+        "bbox": [
+          34,
+          15,
+          90,
+          31
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.857924222946167
+      },
+      {
+        "text": "BOSTON",
+        "bbox": [
+          160,
+          17,
+          288,
+          29
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8753492832183838
+      },
+      {
+        "text": "COOKD",
+        "bbox": [
+          310,
+          16,
+          412,
+          28
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8664493560791016
+      },
+      {
+        "text": "Yorkshire",
+        "bbox": [
+          346,
+          386,
+          508,
+          400
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8018386363983154
+      },
+      {
+        "text": "Pudding.",
+        "bbox": [
+          528,
+          385,
+          668,
+          400
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7924497723579407
+      },
+      {
+        "text": "1",
+        "bbox": [
+          174,
+          417,
+          186,
+          431
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6602268815040588
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          200,
+          421,
+          250,
+          434
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7557505965232849
+      },
+      {
+        "text": "milk.",
+        "bbox": [
+          262,
+          415,
+          334,
+          430
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7508008480072021
+      },
+      {
+        "text": "2",
+        "bbox": [
+          602,
+          413,
+          618,
+          426
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7022304534912109
+      },
+      {
+        "text": "eggs.",
+        "bbox": [
+          628,
+          415,
+          700,
+          430
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7917153239250183
+      },
+      {
+        "text": "1",
+        "bbox": [
+          174,
+          437,
+          186,
+          450
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6639944911003113
+      },
+      {
+        "text": "cup",
+        "bbox": [
+          200,
+          441,
+          252,
+          455
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7562836408615112
+      },
+      {
+        "text": "flour.",
+        "bbox": [
+          262,
+          436,
+          334,
+          450
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7532171607017517
+      },
+      {
+        "text": "14",
+        "bbox": [
+          602,
+          434,
+          630,
+          450
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7252800464630127
+      },
+      {
+        "text": "teaspoon",
+        "bbox": [
+          642,
+          434,
+          766,
+          449
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7853990197181702
+      },
+      {
+        "text": "salt,",
+        "bbox": [
+          778,
+          431,
+          836,
+          445
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.793160080909729
+      },
+      {
+        "text": "Miss",
+        "bbox": [
+          696,
+          458,
+          758,
+          471
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7950792908668518
+      },
+      {
+        "text": "C.J.",
+        "bbox": [
+          772,
+          457,
+          834,
+          471
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8061532974243164
+      },
+      {
+        "text": "Wills,",
+        "bbox": [
+          854,
+          456,
+          934,
+          469
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8151742815971375
+      },
+      {
+        "text": "Mix",
+        "bbox": [
+          82,
+          498,
+          146,
+          514
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7943934202194214
+      },
+      {
+        "text": "salt",
+        "bbox": [
+          162,
+          497,
+          218,
+          513
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8029713034629822
+      },
+      {
+        "text": "and",
+        "bbox": [
+          234,
+          497,
+          290,
+          513
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8151023387908936
+      },
+      {
+        "text": "flour,",
+        "bbox": [
+          306,
+          496,
+          384,
+          512
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7981469035148621
+      },
+      {
+        "text": "and",
+        "bbox": [
+          402,
+          495,
+          456,
+          510
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8054090142250061
+      },
+      {
+        "text": "add",
+        "bbox": [
+          478,
+          494,
+          534,
+          509
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8178216814994812
+      },
+      {
+        "text": "milk",
+        "bbox": [
+          554,
+          494,
+          622,
+          508
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.823212742805481
+      },
+      {
+        "text": "gradually",
+        "bbox": [
+          640,
+          492,
+          788,
+          513
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8336979746818542
+      },
+      {
+        "text": "to",
+        "bbox": [
+          810,
+          493,
+          840,
+          506
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8315584063529968
+      },
+      {
+        "text": "form",
+        "bbox": [
+          860,
+          491,
+          934,
+          506
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8442270159721375
+      },
+      {
+        "text": "a",
+        "bbox": [
+          954,
+          495,
+          970,
+          505
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8429492115974426
+      },
+      {
+        "text": "smooth",
+        "bbox": [
+          46,
+          521,
+          158,
+          537
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8553293347358704
+      },
+      {
+        "text": "paste;",
+        "bbox": [
+          180,
+          521,
+          278,
+          540
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8290920257568359
+      },
+      {
+        "text": "then",
+        "bbox": [
+          306,
+          520,
+          374,
+          534
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8097080588340759
+      },
+      {
+        "text": "add",
+        "bbox": [
+          398,
+          518,
+          454,
+          533
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8257061243057251
+      },
+      {
+        "text": "eggs",
+        "bbox": [
+          480,
+          522,
+          550,
+          537
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8318710923194885
+      },
+      {
+        "text": "beaten",
+        "bbox": [
+          576,
+          517,
+          678,
+          531
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8369377851486206
+      },
+      {
+        "text": "until",
+        "bbox": [
+          700,
+          515,
+          772,
+          530
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.853853702545166
+      },
+      {
+        "text": "very",
+        "bbox": [
+          794,
+          519,
+          864,
+          534
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8608645796775818
+      },
+      {
+        "text": "light.",
+        "bbox": [
+          888,
+          515,
+          968,
+          533
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8694303035736084
+      },
+      {
+        "text": "Cover",
+        "bbox": [
+          46,
+          544,
+          138,
+          560
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8463618755340576
+      },
+      {
+        "text": "bottom",
+        "bbox": [
+          152,
+          544,
+          262,
+          558
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8368285894393921
+      },
+      {
+        "text": "of",
+        "bbox": [
+          276,
+          543,
+          306,
+          557
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8479683995246887
+      },
+      {
+        "text": "hot",
+        "bbox": [
+          320,
+          543,
+          370,
+          557
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8397505879402161
+      },
+      {
+        "text": "pan",
+        "bbox": [
+          382,
+          546,
+          438,
+          561
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8095964789390564
+      },
+      {
+        "text": "with",
+        "bbox": [
+          452,
+          541,
+          520,
+          555
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8284059166908264
+      },
+      {
+        "text": "some",
+        "bbox": [
+          540,
+          544,
+          616,
+          555
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8507868051528931
+      },
+      {
+        "text": "of",
+        "bbox": [
+          636,
+          539,
+          668,
+          554
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8636763691902161
+      },
+      {
+        "text": "beef",
+        "bbox": [
+          688,
+          539,
+          754,
+          553
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8660162091255188
+      },
+      {
+        "text": "fat",
+        "bbox": [
+          772,
+          539,
+          818,
+          553
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8652898073196411
+      },
+      {
+        "text": "tried",
+        "bbox": [
+          834,
+          538,
+          906,
+          552
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8502563834190369
+      },
+      {
+        "text": "out",
+        "bbox": [
+          922,
+          538,
+          972,
+          551
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8604393005371094
+      },
+      {
+        "text": "from",
+        "bbox": [
+          46,
+          568,
+          122,
+          582
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8534584641456604
+      },
+      {
+        "text": "roast,",
+        "bbox": [
+          148,
+          567,
+          236,
+          582
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8346774578094482
+      },
+      {
+        "text": "pour",
+        "bbox": [
+          264,
+          570,
+          336,
+          585
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8303194642066956
+      },
+      {
+        "text": "mixture",
+        "bbox": [
+          362,
+          565,
+          484,
+          579
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8247028589248657
+      },
+      {
+        "text": "in",
+        "bbox": [
+          508,
+          564,
+          536,
+          578
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8395064473152161
+      },
+      {
+        "text": "pan",
+        "bbox": [
+          560,
+          567,
+          616,
+          582
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8375515937805176
+      },
+      {
+        "text": "one-half",
+        "bbox": [
+          642,
+          562,
+          772,
+          577
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8515520691871643
+      },
+      {
+        "text": "inch",
+        "bbox": [
+          796,
+          561,
+          862,
+          576
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8568041920661926
+      },
+      {
+        "text": "deep.",
+        "bbox": [
+          886,
+          561,
+          968,
+          579
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8656405806541443
+      },
+      {
+        "text": "Bake:",
+        "bbox": [
+          46,
+          590,
+          126,
+          605
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8641880750656128
+      },
+      {
+        "text": "twenty",
+        "bbox": [
+          152,
+          591,
+          258,
+          609
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8370947241783142
+      },
+      {
+        "text": "minutes",
+        "bbox": [
+          284,
+          589,
+          406,
+          603
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8220006823539734
+      },
+      {
+        "text": "in",
+        "bbox": [
+          434,
+          588,
+          462,
+          602
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8420518636703491
+      },
+      {
+        "text": "hot",
+        "bbox": [
+          488,
+          587,
+          538,
+          601
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8428957462310791
+      },
+      {
+        "text": "oven,",
+        "bbox": [
+          562,
+          590,
+          644,
+          603
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8462479710578918
+      },
+      {
+        "text": "basting",
+        "bbox": [
+          674,
+          585,
+          788,
+          603
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8710047006607056
+      },
+      {
+        "text": "after",
+        "bbox": [
+          812,
+          584,
+          888,
+          599
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8507907390594482
+      },
+      {
+        "text": "well",
+        "bbox": [
+          912,
+          582,
+          972,
+          598
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8548418879508972
+      },
+      {
+        "text": "risen,",
+        "bbox": [
+          48,
+          614,
+          134,
+          631
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.822041392326355
+      },
+      {
+        "text": "with",
+        "bbox": [
+          150,
+          613,
+          216,
+          627
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8327292203903198
+      },
+      {
+        "text": "some",
+        "bbox": [
+          238,
+          616,
+          314,
+          626
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8295060992240906
+      },
+      {
+        "text": "of",
+        "bbox": [
+          334,
+          611,
+          366,
+          626
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8308578729629517
+      },
+      {
+        "text": "the",
+        "bbox": [
+          388,
+          611,
+          436,
+          625
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8162918090820312
+      },
+      {
+        "text": "fat",
+        "bbox": [
+          460,
+          610,
+          504,
+          624
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8300943970680237
+      },
+      {
+        "text": "from",
+        "bbox": [
+          524,
+          610,
+          596,
+          624
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8435418605804443
+      },
+      {
+        "text": "pan",
+        "bbox": [
+          620,
+          613,
+          674,
+          627
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8220169544219971
+      },
+      {
+        "text": "in",
+        "bbox": [
+          696,
+          608,
+          722,
+          622
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8479599952697754
+      },
+      {
+        "text": "which",
+        "bbox": [
+          744,
+          606,
+          832,
+          622
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8482488989830017
+      },
+      {
+        "text": "meat",
+        "bbox": [
+          854,
+          608,
+          928,
+          621
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8530356884002686
+      },
+      {
+        "text": "is",
+        "bbox": [
+          948,
+          605,
+          972,
+          620
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8412350416183472
+      },
+      {
+        "text": "roasting.",
+        "bbox": [
+          48,
+          636,
+          186,
+          655
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8284757733345032
+      },
+      {
+        "text": "Cut",
+        "bbox": [
+          228,
+          635,
+          284,
+          650
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7715893387794495
+      },
+      {
+        "text": "in",
+        "bbox": [
+          310,
+          635,
+          338,
+          649
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8182559013366699
+      },
+      {
+        "text": "squares",
+        "bbox": [
+          364,
+          637,
+          482,
+          652
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8015987277030945
+      },
+      {
+        "text": "for",
+        "bbox": [
+          508,
+          633,
+          554,
+          647
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8159987330436707
+      },
+      {
+        "text": "serving.",
+        "bbox": [
+          580,
+          632,
+          704,
+          650
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8284986019134521
+      },
+      {
+        "text": "Bake,",
+        "bbox": [
+          744,
+          631,
+          832,
+          647
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8229787349700928
+      },
+      {
+        "text": "if",
+        "bbox": [
+          860,
+          629,
+          884,
+          644
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8114107847213745
+      },
+      {
+        "text": "pre-",
+        "bbox": [
+          910,
+          633,
+          972,
+          648
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8206926584243774
+      },
+      {
+        "text": "ferred,",
+        "bbox": [
+          50,
+          659,
+          154,
+          676
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7797088027000427
+      },
+      {
+        "text": "in",
+        "bbox": [
+          176,
+          659,
+          204,
+          673
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7811406850814819
+      },
+      {
+        "text": "greased,",
+        "bbox": [
+          224,
+          658,
+          352,
+          677
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7779231071472168
+      },
+      {
+        "text": "hissing",
+        "bbox": [
+          376,
+          656,
+          484,
+          674
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7876702547073364
+      },
+      {
+        "text": "hot",
+        "bbox": [
+          504,
+          656,
+          554,
+          670
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7747198939323425
+      },
+      {
+        "text": "iron",
+        "bbox": [
+          574,
+          655,
+          634,
+          669
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7846896648406982
+      },
+      {
+        "text": "gem",
+        "bbox": [
+          654,
+          658,
+          718,
+          673
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7886596322059631
+      },
+      {
+        "text": "pans.",
+        "bbox": [
+          738,
+          657,
+          818,
+          672
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8200201988220215
+      },
+      {
+        "text": "Larded",
+        "bbox": [
+          328,
+          708,
+          440,
+          721
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7157812118530273
+      },
+      {
+        "text": "Fillet",
+        "bbox": [
+          462,
+          707,
+          548,
+          720
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7160431742668152
+      },
+      {
+        "text": "of",
+        "bbox": [
+          566,
+          707,
+          596,
+          720
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7392377257347107
+      },
+      {
+        "text": "Beef.",
+        "bbox": [
+          616,
+          706,
+          696,
+          719
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7990590929985046
+      },
+      {
+        "text": "The",
+        "bbox": [
+          88,
+          745,
+          148,
+          760
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7324128746986389
+      },
+      {
+        "text": "tenderloin",
+        "bbox": [
+          168,
+          743,
+          326,
+          759
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.776857316493988
+      },
+      {
+        "text": "of",
+        "bbox": [
+          346,
+          743,
+          378,
+          757
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7592618465423584
+      },
+      {
+        "text": "beef",
+        "bbox": [
+          398,
+          742,
+          464,
+          757
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7590843439102173
+      },
+      {
+        "text": "which",
+        "bbox": [
+          484,
+          741,
+          572,
+          756
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7684262990951538
+      },
+      {
+        "text": "lies",
+        "bbox": [
+          594,
+          741,
+          644,
+          755
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7574642896652222
+      },
+      {
+        "text": "under",
+        "bbox": [
+          664,
+          740,
+          754,
+          755
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7703354358673096
+      },
+      {
+        "text": "the",
+        "bbox": [
+          774,
+          740,
+          820,
+          754
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7823483943939209
+      },
+      {
+        "text": "loin",
+        "bbox": [
+          842,
+          739,
+          898,
+          753
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7616215348243713
+      },
+      {
+        "text": "and",
+        "bbox": [
+          920,
+          737,
+          976,
+          752
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7908296585083008
+      },
+      {
+        "text": "rump",
+        "bbox": [
+          52,
+          775,
+          134,
+          789
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7456119656562805
+      },
+      {
+        "text": "is",
+        "bbox": [
+          148,
+          769,
+          170,
+          784
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7699634432792664
+      },
+      {
+        "text": "called",
+        "bbox": [
+          184,
+          768,
+          276,
+          783
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7875675559043884
+      },
+      {
+        "text": "fillet",
+        "bbox": [
+          290,
+          768,
+          358,
+          782
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7434883713722229
+      },
+      {
+        "text": "of",
+        "bbox": [
+          376,
+          767,
+          406,
+          781
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7658196091651917
+      },
+      {
+        "text": "beef.",
+        "bbox": [
+          428,
+          767,
+          502,
+          781
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8020442128181458
+      },
+      {
+        "text": "\u2018The",
+        "bbox": [
+          542,
+          766,
+          604,
+          780
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8051585555076599
+      },
+      {
+        "text": "fillet",
+        "bbox": [
+          622,
+          765,
+          690,
+          779
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7969356775283813
+      },
+      {
+        "text": "under",
+        "bbox": [
+          710,
+          764,
+          800,
+          779
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.813225507736206
+      },
+      {
+        "text": "the",
+        "bbox": [
+          820,
+          764,
+          866,
+          778
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8276815414428711
+      },
+      {
+        "text": "loin",
+        "bbox": [
+          882,
+          763,
+          938,
+          777
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7995401620864868
+      },
+      {
+        "text": "is:",
+        "bbox": [
+          954,
+          763,
+          986,
+          777
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8758680820465088
+      },
+      {
+        "text": "known",
+        "bbox": [
+          54,
+          794,
+          156,
+          807
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8152222037315369
+      },
+      {
+        "text": "as",
+        "bbox": [
+          178,
+          796,
+          210,
+          806
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8274184465408325
+      },
+      {
+        "text": "the",
+        "bbox": [
+          228,
+          792,
+          280,
+          806
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8148635625839233
+      },
+      {
+        "text": "long",
+        "bbox": [
+          296,
+          791,
+          364,
+          810
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8135640025138855
+      },
+      {
+        "text": "fillet,",
+        "bbox": [
+          386,
+          790,
+          466,
+          806
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7852347493171692
+      },
+      {
+        "text": "and",
+        "bbox": [
+          486,
+          789,
+          542,
+          804
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8063167333602905
+      },
+      {
+        "text": "when",
+        "bbox": [
+          562,
+          789,
+          642,
+          803
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8242380619049072
+      },
+      {
+        "text": "removed",
+        "bbox": [
+          662,
+          787,
+          794,
+          802
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8394696116447449
+      },
+      {
+        "text": "no",
+        "bbox": [
+          816,
+          791,
+          850,
+          801
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8468745946884155
+      },
+      {
+        "text": "porter-",
+        "bbox": [
+          872,
+          787,
+          974,
+          805
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8584059476852417
+      },
+      {
+        "text": "house",
+        "bbox": [
+          54,
+          816,
+          142,
+          830
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8302476406097412
+      },
+      {
+        "text": "steaks",
+        "bbox": [
+          156,
+          814,
+          252,
+          829
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8213451504707336
+      },
+      {
+        "text": "ean",
+        "bbox": [
+          270,
+          818,
+          324,
+          828
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8116801381111145
+      },
+      {
+        "text": "be",
+        "bbox": [
+          344,
+          814,
+          380,
+          828
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8175725340843201
+      },
+      {
+        "text": "cut;",
+        "bbox": [
+          396,
+          814,
+          458,
+          830
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8359366059303284
+      },
+      {
+        "text": "therefore",
+        "bbox": [
+          482,
+          812,
+          624,
+          827
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8231486082077026
+      },
+      {
+        "text": "it",
+        "bbox": [
+          638,
+          811,
+          660,
+          825
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8408907055854797
+      },
+      {
+        "text": "commands",
+        "bbox": [
+          674,
+          810,
+          838,
+          825
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8585783839225769
+      },
+      {
+        "text": "a",
+        "bbox": [
+          852,
+          814,
+          868,
+          824
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8569092154502869
+      },
+      {
+        "text": "higher",
+        "bbox": [
+          882,
+          808,
+          980,
+          827
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8536386489868164
+      },
+      {
+        "text": "price",
+        "bbox": [
+          54,
+          839,
+          130,
+          858
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8249704241752625
+      },
+      {
+        "text": "than",
+        "bbox": [
+          150,
+          838,
+          218,
+          853
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8105818033218384
+      },
+      {
+        "text": "the",
+        "bbox": [
+          236,
+          838,
+          282,
+          852
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8261377811431885
+      },
+      {
+        "text": "short",
+        "bbox": [
+          304,
+          837,
+          382,
+          851
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.827284038066864
+      },
+      {
+        "text": "fillet",
+        "bbox": [
+          400,
+          836,
+          468,
+          851
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7946309447288513
+      },
+      {
+        "text": "lying",
+        "bbox": [
+          484,
+          835,
+          564,
+          854
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8152223825454712
+      },
+      {
+        "text": "under",
+        "bbox": [
+          582,
+          835,
+          670,
+          849
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8299759030342102
+      },
+      {
+        "text": "rump.",
+        "bbox": [
+          686,
+          837,
+          776,
+          852
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8741047978401184
+      },
+      {
+        "text": "\u2018Two",
+        "bbox": [
+          816,
+          832,
+          886,
+          847
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8573086261749268
+      },
+      {
+        "text": "short",
+        "bbox": [
+          902,
+          831,
+          980,
+          846
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8639860153198242
+      },
+      {
+        "text": "fillets",
+        "bbox": [
+          56,
+          862,
+          140,
+          876
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8042834401130676
+      },
+      {
+        "text": "are",
+        "bbox": [
+          154,
+          865,
+          200,
+          875
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8507316708564758
+      },
+      {
+        "text": "often",
+        "bbox": [
+          216,
+          861,
+          298,
+          875
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8285583257675171
+      },
+      {
+        "text": "skewered",
+        "bbox": [
+          314,
+          859,
+          458,
+          874
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.823839545249939
+      },
+      {
+        "text": "together,",
+        "bbox": [
+          472,
+          858,
+          612,
+          877
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8226950764656067
+      },
+      {
+        "text": "and",
+        "bbox": [
+          628,
+          856,
+          686,
+          872
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8419103622436523
+      },
+      {
+        "text": "served",
+        "bbox": [
+          700,
+          855,
+          800,
+          871
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8370693922042847
+      },
+      {
+        "text": "in",
+        "bbox": [
+          814,
+          855,
+          842,
+          870
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8595903515815735
+      },
+      {
+        "text": "place",
+        "bbox": [
+          856,
+          854,
+          936,
+          874
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8391860127449036
+      },
+      {
+        "text": "of",
+        "bbox": [
+          948,
+          853,
+          980,
+          868
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8406801819801331
+      },
+      {
+        "text": "a",
+        "bbox": [
+          58,
+          890,
+          74,
+          900
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8096339702606201
+      },
+      {
+        "text": "long",
+        "bbox": [
+          86,
+          885,
+          152,
+          903
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.805323600769043
+      },
+      {
+        "text": "fillet.",
+        "bbox": [
+          168,
+          884,
+          246,
+          898
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.777411937713623
+      },
+      {
+        "text": "Wipe,",
+        "bbox": [
+          94,
+          908,
+          188,
+          926
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7550350427627563
+      },
+      {
+        "text": "remove",
+        "bbox": [
+          204,
+          911,
+          318,
+          921
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7745226621627808
+      },
+      {
+        "text": "fat,",
+        "bbox": [
+          338,
+          906,
+          392,
+          922
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7678484916687012
+      },
+      {
+        "text": "veins,",
+        "bbox": [
+          408,
+          905,
+          496,
+          922
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7624471187591553
+      },
+      {
+        "text": "and",
+        "bbox": [
+          514,
+          903,
+          572,
+          919
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7753824591636658
+      },
+      {
+        "text": "any",
+        "bbox": [
+          590,
+          908,
+          644,
+          922
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.7950587272644043
+      },
+      {
+        "text": "tendinous",
+        "bbox": [
+          666,
+          902,
+          816,
+          918
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8468949794769287
+      },
+      {
+        "text": "portions;",
+        "bbox": [
+          836,
+          900,
+          978,
+          921
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.8441492319107056
+      }
+    ]
+  },
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_boston_stageB_full_20260106_171601/layoutlmv3_boston_final",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_full/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "TITLE",
+      "1": "INGREDIENT_LINE",
+      "2": "INSTRUCTION_STEP",
+      "3": "TIME",
+      "4": "TEMP",
+      "5": "SERVINGS",
+      "6": "O"
+    },
+    "label2id": {
+      "TITLE": 0,
+      "INGREDIENT_LINE": 1,
+      "INSTRUCTION_STEP": 2,
+      "TIME": 3,
+      "TEMP": 4,
+      "SERVINGS": 5,
+      "O": 6
+    }
+  },
+  "is_recipe_page": true,
+  "recipe_confidence": 0.7056,
+  "label_counts": {
+    "TITLE": 310
+  },
+  "title": "boiling",
+  "avg_token_confidence": 0.8418,
+  "recipe_token_ratio": 1.0,
+  "recipe_conf_version": 2,
+  "recipe_like": true
+}

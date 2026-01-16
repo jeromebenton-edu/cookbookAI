@@ -1,0 +1,39 @@
+{
+  "id": "bcsb_0015",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Brown Bread",
+  "category": "Breads",
+  "tags": ["steamed", "rye"],
+  "time": { "prep": "15 min", "cook": "3 hr", "total": "3 hr 15 min" },
+  "servings": "1 loaf",
+  "ingredients": [
+    "1 cup corn meal",
+    "1 cup rye meal",
+    "1 cup graham flour",
+    "1 tsp salt",
+    "1 tsp soda",
+    "3/4 cup molasses",
+    "2 cups sour milk"
+  ],
+  "instructions": [
+    "Mix dry ingredients thoroughly.",
+    "Add molasses and sour milk; stir to make batter.",
+    "Turn into a greased mold, cover, and steam 3 hours.",
+    "Remove cover and place in oven 10 minutes to dry surface."
+  ],
+  "notes": ["Serve warm with baked beans."],
+  "source": {
+    "page": 202,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-5.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bcsb_0011",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Oatmeal Cookies",
+  "category": "Desserts",
+  "tags": ["cookies", "tea"],
+  "time": { "prep": "15 min", "cook": "12 min", "total": "27 min" },
+  "servings": "3 dozen",
+  "ingredients": [
+    "1/2 cup butter",
+    "1 cup brown sugar",
+    "1 egg, beaten",
+    "2 tbsp milk",
+    "1 1/2 cups rolled oats",
+    "1 cup flour",
+    "1/2 tsp soda",
+    "1/2 tsp salt",
+    "1/2 tsp cinnamon"
+  ],
+  "instructions": [
+    "Cream butter and sugar; add egg and milk.",
+    "Stir in oats.",
+    "Sift flour with soda, salt, and cinnamon; add to batter.",
+    "Drop by spoonfuls and bake at 375F for 12 minutes."
+  ],
+  "notes": ["Add raisins for a classic variation."],
+  "source": {
+    "page": 370,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-1.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "oatmeal-cookies",
+  "title": "Oatmeal Cookies",
+  "description": "Chewy cookies with rolled oats and warm spices.",
+  "category": "Desserts",
+  "tags": ["bake", "sweet", "snack"],
+  "servings": "Makes 24",
+  "time": {
+    "totalMinutes": 50,
+    "activeMinutes": 20
+  },
+  "ingredients": [
+    "1 cup rolled oats",
+    "1 cup flour",
+    "1/2 cup brown sugar",
+    "1/2 cup butter",
+    "1 egg",
+    "1/2 tsp cinnamon",
+    "1/4 tsp salt"
+  ],
+  "instructions": [
+    "Cream butter and sugar until light.",
+    "Beat in the egg, then fold in oats and flour.",
+    "Stir in cinnamon and salt.",
+    "Drop spoonfuls on a baking sheet and bake at 375F for 12 minutes."
+  ],
+  "notes": ["Add raisins for a classic twist."],
+  "confidence": 0.82,
+  "source": {
+    "book": "Boston Cooking-School Cook Book (1918)",
+    "page": 368
+  },
+  "ai": {
+    "pageImage": "/recipes/boston/pages/placeholder-3.png",
+    "pageSize": { "width": 900, "height": 1200 },
+    "tokens": [
+      {
+        "id": "oc-1",
+        "text": "Oatmeal",
+        "label": "TITLE",
+        "score": 0.93,
+        "bbox": [140, 120, 240, 150]
+      },
+      {
+        "id": "oc-2",
+        "text": "Cookies",
+        "label": "TITLE",
+        "score": 0.92,
+        "bbox": [250, 120, 340, 150]
+      },
+      {
+        "id": "oc-3",
+        "text": "1",
+        "label": "INGREDIENT_LINE",
+        "score": 0.86,
+        "bbox": [130, 320, 140, 340]
+      },
+      {
+        "id": "oc-4",
+        "text": "cup",
+        "label": "INGREDIENT_LINE",
+        "score": 0.85,
+        "bbox": [150, 320, 190, 340]
+      },
+      {
+        "id": "oc-5",
+        "text": "rolled",
+        "label": "INGREDIENT_LINE",
+        "score": 0.84,
+        "bbox": [200, 320, 255, 340]
+      },
+      {
+        "id": "oc-6",
+        "text": "oats",
+        "label": "INGREDIENT_LINE",
+        "score": 0.84,
+        "bbox": [265, 320, 305, 340]
+      },
+      {
+        "id": "oc-7",
+        "text": "Cream",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.82,
+        "bbox": [130, 640, 190, 665]
+      },
+      {
+        "id": "oc-8",
+        "text": "butter",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.81,
+        "bbox": [200, 640, 255, 665]
+      },
+      {
+        "id": "oc-9",
+        "text": "Makes",
+        "label": "META",
+        "score": 0.73,
+        "bbox": [130, 900, 185, 925]
+      },
+      {
+        "id": "oc-10",
+        "text": "24",
+        "label": "META",
+        "score": 0.71,
+        "bbox": [190, 900, 210, 925]
+      }
+    ],
+    "fieldConfidence": {
+      "title": 0.92,
+      "ingredients": 0.85,
+      "instructions": 0.81,
+      "servings": 0.73,
+      "time": 0.69
+    },
+    "raw": {
+      "page": 368,
+      "model": "layoutlmv3-recipe",
+      "tokens": 10,
+      "notes": "Mocked from archive"
+    }
+  }
+}

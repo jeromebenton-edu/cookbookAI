@@ -1,0 +1,38 @@
+{
+  "id": "bcsb_0023",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Baked Haddock",
+  "category": "Mains",
+  "tags": ["fish", "bake"],
+  "time": { "prep": "15 min", "cook": "30 min", "total": "45 min" },
+  "servings": "4 servings",
+  "ingredients": [
+    "1 1/2 lb haddock",
+    "1 cup soft bread crumbs",
+    "2 tbsp melted butter",
+    "1 tsp salt",
+    "1/8 tsp pepper",
+    "1 lemon, sliced"
+  ],
+  "instructions": [
+    "Place fish on buttered pan and season.",
+    "Mix crumbs with melted butter; spread over fish.",
+    "Lay lemon slices on top.",
+    "Bake at 375F for 30 minutes or until flakes easily."
+  ],
+  "notes": ["Baste with pan juices halfway through baking."],
+  "source": {
+    "page": 214,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-3.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "bcsb_0013",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Baked Custard",
+  "category": "Desserts",
+  "tags": ["custard", "simple"],
+  "time": { "prep": "10 min", "cook": "35 min", "total": "45 min" },
+  "servings": "6 custards",
+  "ingredients": [
+    "3 eggs",
+    "4 tbsp sugar",
+    "1/4 tsp salt",
+    "1/2 tsp vanilla",
+    "2 cups scalded milk",
+    "Grated nutmeg"
+  ],
+  "instructions": [
+    "Beat eggs slightly; add sugar, salt, and vanilla.",
+    "Pour on scalded milk slowly, stirring.",
+    "Strain into cups, sprinkle nutmeg, and set in pan of hot water.",
+    "Bake at 325F until set, about 35 minutes."
+  ],
+  "notes": ["Do not overbake to avoid watery custard."],
+  "source": {
+    "page": 386,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-3.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

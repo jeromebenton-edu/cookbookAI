@@ -1,0 +1,36 @@
+{
+  "id": "bcsb_0024",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Broiled Steak",
+  "category": "Mains",
+  "tags": ["beef", "broil"],
+  "time": { "prep": "10 min", "cook": "12 min", "total": "22 min" },
+  "servings": "4 servings",
+  "ingredients": [
+    "2 lb sirloin steak, 1 1/2 inches thick",
+    "2 tbsp butter",
+    "1 tsp salt",
+    "1/4 tsp pepper"
+  ],
+  "instructions": [
+    "Bring steak to room temperature and trim extra fat.",
+    "Broil over a clear fire or hot broiler 6 minutes per side for medium.",
+    "Spread with softened butter and season with salt and pepper.",
+    "Let rest 5 minutes before serving."
+  ],
+  "notes": ["Broil closer to heat for first sear, then lower to finish."],
+  "source": {
+    "page": 173,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-4.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

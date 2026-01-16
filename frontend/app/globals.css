@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink-900: #1f1b16;
+  --ink-700: #2c2620;
+  --ink-500: #4b4237;
+  --ochre-500: #b8793b;
+  --ochre-300: #d9b07e;
+  --sage-400: #6b8b6f;
+  --sage-200: #b9c9b1;
+  --paper-50: #fff9f1;
+  --paper-100: #f7efe3;
+  --paper-200: #efe2cf;
+  --shadow-soft: 0 20px 60px rgba(31, 27, 22, 0.15);
+  --shadow-card: 0 12px 30px rgba(31, 27, 22, 0.12);
+}
+
+@layer base {
+  body {
+    color: var(--ink-900);
+    background: radial-gradient(circle at top, rgba(217, 176, 126, 0.22), transparent 45%),
+      radial-gradient(circle at 20% 20%, rgba(185, 201, 177, 0.35), transparent 40%),
+      linear-gradient(140deg, #fffaf2 0%, #f3e7d5 35%, #f1e0c4 100%);
+    min-height: 100vh;
+    font-family: var(--font-body), "Space Grotesk", system-ui, sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  .display-font {
+    font-family: var(--font-display), "Fraunces", serif;
+    letter-spacing: -0.01em;
+  }
+
+  .cook-mode {
+    font-size: 1.02rem;
+    line-height: 1.8;
+  }
+}
+
+@layer components {
+  .paper-card {
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.9), rgba(247, 239, 227, 0.9));
+    box-shadow: var(--shadow-card);
+    border: 1px solid rgba(44, 38, 32, 0.08);
+    border-radius: 24px;
+  }
+
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(44, 38, 32, 0.08);
+    box-shadow: var(--shadow-soft);
+    border-radius: 28px;
+  }
+
+  .tag-pill {
+    border-radius: 999px;
+    border: 1px solid rgba(44, 38, 32, 0.2);
+    padding: 4px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-500);
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .print-hidden {
+    display: inherit;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .no-print,
+  .print-hidden {
+    display: none !important;
+  }
+
+  main {
+    max-width: 100% !important;
+    padding: 0 12px !important;
+  }
+
+  .paper-card,
+  .glass-panel {
+    background: white !important;
+    box-shadow: none !important;
+    border: 1px solid #e5e7eb !important;
+  }
+
+  .recipe-cook-grid {
+    display: block !important;
+  }
+
+  .recipe-cook-grid section {
+    width: 100% !important;
+    margin-bottom: 16px;
+  }
+
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+
+  .checklist-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+}

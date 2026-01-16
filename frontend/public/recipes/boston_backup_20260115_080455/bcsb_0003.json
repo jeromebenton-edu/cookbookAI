@@ -1,0 +1,39 @@
+{
+  "id": "bcsb_0003",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Plain Muffins",
+  "category": "Breads",
+  "tags": ["breakfast", "simple"],
+  "time": { "prep": "10 min", "cook": "20 min", "total": "30 min" },
+  "servings": "10 muffins",
+  "ingredients": [
+    "2 cups flour",
+    "3 tsp baking powder",
+    "1/2 tsp salt",
+    "2 tbsp sugar",
+    "1 egg, beaten",
+    "1 cup milk",
+    "2 tbsp melted butter"
+  ],
+  "instructions": [
+    "Sift flour, baking powder, salt, and sugar together.",
+    "Combine egg, milk, and melted butter.",
+    "Add liquid to dry ingredients and mix lightly.",
+    "Fill greased muffin cups two-thirds full and bake at 400F for 20 minutes."
+  ],
+  "notes": ["Do not overmix for a tender crumb."],
+  "source": {
+    "page": 214,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-3.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

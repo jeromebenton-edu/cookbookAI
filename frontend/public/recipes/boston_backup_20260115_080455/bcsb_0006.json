@@ -1,0 +1,39 @@
+{
+  "id": "bcsb_0006",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Griddle Cakes",
+  "category": "Breakfast",
+  "tags": ["pancakes", "stovetop"],
+  "time": { "prep": "8 min", "cook": "12 min", "total": "20 min" },
+  "servings": "4 servings",
+  "ingredients": [
+    "1 1/2 cups flour",
+    "3 tsp baking powder",
+    "1/2 tsp salt",
+    "1 tbsp sugar",
+    "1 egg, beaten",
+    "1 1/4 cups milk",
+    "1 tbsp melted butter"
+  ],
+  "instructions": [
+    "Sift dry ingredients together.",
+    "Combine egg, milk, and melted butter.",
+    "Add liquid to dry ingredients and beat until smooth.",
+    "Cook by spoonfuls on a hot greased griddle until bubbles break, then turn."
+  ],
+  "notes": ["Serve with butter and syrup."],
+  "source": {
+    "page": 96,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-1.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

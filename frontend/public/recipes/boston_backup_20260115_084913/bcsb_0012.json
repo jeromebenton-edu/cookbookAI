@@ -1,0 +1,40 @@
+{
+  "id": "bcsb_0012",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Sugar Cookies",
+  "category": "Desserts",
+  "tags": ["cookies", "cutout"],
+  "time": { "prep": "20 min", "cook": "10 min", "total": "30 min" },
+  "servings": "3 dozen",
+  "ingredients": [
+    "1/2 cup butter",
+    "3/4 cup sugar",
+    "1 egg, beaten",
+    "2 tbsp milk",
+    "1/2 tsp vanilla",
+    "2 cups flour",
+    "1 tsp baking powder",
+    "1/4 tsp salt"
+  ],
+  "instructions": [
+    "Cream butter and sugar.",
+    "Add egg, milk, and vanilla.",
+    "Sift flour, baking powder, and salt; add to mixture.",
+    "Chill, roll thin, cut, and bake at 375F for 10 minutes."
+  ],
+  "notes": ["Sprinkle with sugar before baking."],
+  "source": {
+    "page": 369,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-2.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

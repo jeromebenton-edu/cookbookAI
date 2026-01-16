@@ -1,0 +1,40 @@
+{
+  "id": "bcsb_0020",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Fish Chowder",
+  "category": "Soups",
+  "tags": ["chowder", "fish"],
+  "time": { "prep": "20 min", "cook": "45 min", "total": "1 hr 5 min" },
+  "servings": "6 servings",
+  "ingredients": [
+    "1/4 lb salt pork, diced",
+    "1 onion, sliced",
+    "4 cups diced potatoes",
+    "2 lbs white fish, cut in pieces",
+    "4 cups boiling water",
+    "3 cups hot milk",
+    "3 tbsp butter",
+    "Salt and pepper"
+  ],
+  "instructions": [
+    "Fry salt pork; remove scraps and cook onion in fat.",
+    "Add potatoes and water; cook until nearly tender.",
+    "Add fish pieces; simmer until fish flakes.",
+    "Pour in hot milk and butter; season and serve."
+  ],
+  "notes": ["Try haddock or cod for authentic flavor."],
+  "source": {
+    "page": 69,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-5.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "count": 10,
+  "pages": [
+    {
+      "page_id": 2,
+      "png_id": "0002",
+      "page_num": 2,
+      "image_url": "/api/parse/boston/2/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "TITLE": 18,
+        "INGREDIENT_LINE": 3
+      },
+      "ingredient_token_count": 3,
+      "instruction_token_count": 0,
+      "title_token_count": 18,
+      "title": "FARMER,",
+      "avg_token_confidence": 0.5925,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 0.0375,
+        "instruction_score": 0.0,
+        "title_penalty": 0.45
+      }
+    },
+    {
+      "page_id": 3,
+      "png_id": "0003",
+      "page_num": 3,
+      "image_url": "/api/parse/boston/3/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "INGREDIENT_LINE": 12,
+        "TITLE": 9
+      },
+      "ingredient_token_count": 12,
+      "instruction_token_count": 0,
+      "title_token_count": 9,
+      "title": "FARMER.",
+      "avg_token_confidence": 0.5765,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 0.15,
+        "instruction_score": 0.0,
+        "title_penalty": 0.225
+      }
+    },
+    {
+      "page_id": 4,
+      "png_id": "0004",
+      "page_num": 4,
+      "image_url": "/api/parse/boston/4/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "TITLE": 42,
+        "INGREDIENT_LINE": 1
+      },
+      "ingredient_token_count": 1,
+      "instruction_token_count": 0,
+      "title_token_count": 42,
+      "title": "ENCOURAGEMENT",
+      "avg_token_confidence": 0.6673,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 0.0125,
+        "instruction_score": 0.0,
+        "title_penalty": 1.0
+      }
+    },
+    {
+      "page_id": 6,
+      "png_id": "0006",
+      "page_num": 6,
+      "image_url": "/api/parse/boston/6/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "TITLE": 108,
+        "INGREDIENT_LINE": 1
+      },
+      "ingredient_token_count": 1,
+      "instruction_token_count": 0,
+      "title_token_count": 108,
+      "title": "means",
+      "avg_token_confidence": 0.8194,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 0.0125,
+        "instruction_score": 0.0,
+        "title_penalty": 1.0
+      }
+    },
+    {
+      "page_id": 8,
+      "png_id": "0008",
+      "page_num": 8,
+      "image_url": "/api/parse/boston/8/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "TITLE": 191
+      },
+      "ingredient_token_count": 0,
+      "instruction_token_count": 0,
+      "title_token_count": 191,
+      "title": "nothing;",
+      "avg_token_confidence": 0.8439,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 0.0,
+        "instruction_score": 0.0,
+        "title_penalty": 1.0
+      }
+    },
+    {
+      "page_id": 10,
+      "png_id": "0010",
+      "page_num": 10,
+      "image_url": "/api/parse/boston/10/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "TITLE": 14,
+        "INGREDIENT_LINE": 262
+      },
+      "ingredient_token_count": 262,
+      "instruction_token_count": 0,
+      "title_token_count": 14,
+      "title": "CONTENTS.",
+      "avg_token_confidence": 0.7797,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 1.0,
+        "instruction_score": 0.0,
+        "title_penalty": 0.35
+      }
+    },
+    {
+      "page_id": 11,
+      "png_id": "0011",
+      "page_num": 11,
+      "image_url": "/api/parse/boston/11/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "INGREDIENT_LINE": 331
+      },
+      "ingredient_token_count": 331,
+      "instruction_token_count": 0,
+      "title_token_count": 0,
+      "title": "",
+      "avg_token_confidence": 0.881,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 1.0,
+        "instruction_score": 0.0,
+        "title_penalty": 0.0
+      }
+    },
+    {
+      "page_id": 12,
+      "png_id": "0012",
+      "page_num": 12,
+      "image_url": "/api/parse/boston/12/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "INGREDIENT_LINE": 338
+      },
+      "ingredient_token_count": 338,
+      "instruction_token_count": 0,
+      "title_token_count": 0,
+      "title": "",
+      "avg_token_confidence": 0.8775,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 1.0,
+        "instruction_score": 0.0,
+        "title_penalty": 0.0
+      }
+    },
+    {
+      "page_id": 13,
+      "png_id": "0013",
+      "page_num": 13,
+      "image_url": "/api/parse/boston/13/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "INGREDIENT_LINE": 318
+      },
+      "ingredient_token_count": 318,
+      "instruction_token_count": 0,
+      "title_token_count": 0,
+      "title": "",
+      "avg_token_confidence": 0.869,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 1.0,
+        "instruction_score": 0.0,
+        "title_penalty": 0.0
+      }
+    },
+    {
+      "page_id": 14,
+      "png_id": "0014",
+      "page_num": 14,
+      "image_url": "/api/parse/boston/14/image",
+      "is_recipe_page": false,
+      "recipe_confidence": 0.0,
+      "label_counts": {
+        "INGREDIENT_LINE": 299
+      },
+      "ingredient_token_count": 299,
+      "instruction_token_count": 0,
+      "title_token_count": 0,
+      "title": "",
+      "avg_token_confidence": 0.8915,
+      "recipe_token_ratio": 1.0,
+      "recipe_conf_version": 3,
+      "recipe_like": false,
+      "recipe_score_components": {
+        "ingredient_score": 1.0,
+        "instruction_score": 0.0,
+        "title_penalty": 0.0
+      }
+    }
+  ]
+}

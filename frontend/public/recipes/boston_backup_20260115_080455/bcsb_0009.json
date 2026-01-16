@@ -1,0 +1,42 @@
+{
+  "id": "bcsb_0009",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Gingerbread",
+  "category": "Desserts",
+  "tags": ["spice", "molasses"],
+  "time": { "prep": "15 min", "cook": "25 min", "total": "40 min" },
+  "servings": "1 square pan",
+  "ingredients": [
+    "1/2 cup molasses",
+    "1/4 cup sugar",
+    "1/4 cup melted shortening",
+    "1 egg, beaten",
+    "1/2 cup hot water",
+    "1 1/2 cups flour",
+    "1 tsp ginger",
+    "1/2 tsp cinnamon",
+    "1/2 tsp salt",
+    "1 1/2 tsp baking soda"
+  ],
+  "instructions": [
+    "Mix molasses, sugar, and melted shortening.",
+    "Add beaten egg and hot water.",
+    "Sift flour with spices, salt, and soda; add to mixture.",
+    "Bake in greased pan at 350F for 25 minutes."
+  ],
+  "notes": ["Serve warm with lemon sauce."],
+  "source": {
+    "page": 324,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-4.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bcsb_0002",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Baking Powder Biscuits",
+  "category": "Breads",
+  "tags": ["supper", "quick"],
+  "time": { "prep": "12 min", "cook": "12 min", "total": "24 min" },
+  "servings": "12 biscuits",
+  "ingredients": [
+    "2 cups flour",
+    "3 tsp baking powder",
+    "1/2 tsp salt",
+    "3 tbsp shortening",
+    "3/4 cup milk"
+  ],
+  "instructions": [
+    "Sift flour, baking powder, and salt together.",
+    "Cut in shortening until mixture is crumbly.",
+    "Add milk gradually to make a soft dough; turn onto floured board.",
+    "Pat 1/2-inch thick, cut rounds, and bake at 450F for 12 minutes."
+  ],
+  "notes": ["Handle dough lightly for best rise."],
+  "source": {
+    "page": 90,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-2.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

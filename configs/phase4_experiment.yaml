@@ -1,0 +1,17 @@
+highconf_dataset_dir: data/datasets/boston_layoutlmv3_highconf/dataset_dict
+full_dataset_dir: data/datasets/boston_layoutlmv3_full/dataset_dict
+infer_page_num: auto
+infer_split: validation
+auto_regen_highconf: true
+min_highconf_pages: 25
+seed: 42
+stageA_epochs: 5
+stageB_epochs: 2
+batch_size: 1
+eval_batch_size: 1
+grad_accum: 4
+max_length: 512
+learning_rate_A: 3e-5
+learning_rate_B: 2e-5
+fp16: auto
+eval_pages: 10

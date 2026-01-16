@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Labeler - PAGE_HEADER, SECTION_HEADER, RECIPE_TITLE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 { color: #333; }
+        .instructions {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .label-legend {
+            display: flex;
+            gap: 20px;
+            margin: 10px 0;
+        }
+        .label-legend span {
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .page-container {
+            background: #fff;
+            border: 2px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .label-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .label-btn {
+            padding: 10px 20px;
+            border: 2px solid;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+        .label-btn.active {
+            transform: scale(1.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .label-btn.page-header-btn { background: #e3f2fd; border-color: #2196F3; color: #1565C0; }
+        .label-btn.page-header-btn.active { background: #2196F3; color: white; }
+        .label-btn.section-header-btn { background: #fff3e0; border-color: #FF9800; color: #E65100; }
+        .label-btn.section-header-btn.active { background: #FF9800; color: white; }
+        .label-btn.recipe-title-btn { background: #ffebee; border-color: #f44336; color: #c62828; }
+        .label-btn.recipe-title-btn.active { background: #f44336; color: white; }
+
+        .word-list {
+            background: #fafafa;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            line-height: 2.2;
+        }
+        .word {
+            display: inline-block;
+            margin: 2px 3px;
+            padding: 4px 8px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .word:hover { background: #e0e0e0; transform: scale(1.05); }
+        .word.page-header { background: #2196F3; color: white; border-color: #1565C0; }
+        .word.section-header { background: #FF9800; color: white; border-color: #E65100; }
+        .word.recipe-title { background: #f44336; color: white; border-color: #c62828; }
+
+        .selected-labels {
+            margin-top: 15px;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+        .selected-labels div {
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        .selected-labels .ph { background: #e3f2fd; }
+        .selected-labels .sh { background: #fff3e0; }
+        .selected-labels .rt { background: #ffebee; }
+
+        .export-btn {
+            background: #4CAF50;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .export-btn:hover { background: #45a049; }
+
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            display: none;
+        }
+        .results pre {
+            background: #263238;
+            color: #aed581;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            max-height: 400px;
+        }
+        .copy-btn {
+            background: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .progress {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .clear-btn {
+            background: #9e9e9e;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress" id="progress">0 / 0 pages labeled</div>
+
+    <h1>Recipe Labeler</h1>
+
+    <div class="instructions">
+        <h3>Instructions:</h3>
+        <ol>
+            <li><strong>Select a label type</strong> using the buttons (PAGE_HEADER, SECTION_HEADER, or RECIPE_TITLE)</li>
+            <li><strong>Click words</strong> to assign the selected label (click again to remove)</li>
+            <li><strong>PAGE_HEADER</strong> = Book title at top (e.g., "BOSTON COOKING-SCHOOL COOK BOOK.")</li>
+            <li><strong>SECTION_HEADER</strong> = Chapter/section name (e.g., "COFFEE.", "COCOA AND CHOCOLATE.")</li>
+            <li><strong>RECIPE_TITLE</strong> = Individual recipe name (e.g., "How to make Tea.", "Breakfast Cocoa.")</li>
+        </ol>
+        <div class="label-legend">
+            <span style="background:#2196F3;color:white;">PAGE_HEADER</span>
+            <span style="background:#FF9800;color:white;">SECTION_HEADER</span>
+            <span style="background:#f44336;color:white;">RECIPE_TITLE</span>
+        </div>
+    </div>
+
+    <div id="pages"></div>
+
+    <button class="export-btn" onclick="exportAnnotations()">Export Annotations (JSON)</button>
+
+    <div class="results" id="results">
+        <h3>Exported Annotations:</h3>
+        <pre id="output"></pre>
+        <button class="copy-btn" onclick="copyToClipboard()">Copy to Clipboard</button>
+        <p><em>Paste this into a file or give it to Claude to merge with the dataset.</em></p>
+    </div>
+
+    <script>
+        // Page data - will be populated from JSON or inline
+        let pageData = [];
+        let annotations = {};
+        let currentLabel = 'recipe-title'; // Default
+
+        // Try to load from JSON file, fall back to inline data
+        async function loadPageData() {
+            try {
+                const response = await fetch('data/pages_to_label.json');
+                if (response.ok) {
+                    pageData = await response.json();
+                    console.log(`Loaded ${pageData.length} pages from JSON`);
+                }
+            } catch (e) {
+                console.log('Could not load JSON, using inline data');
+            }
+
+            // If no data loaded, use inline fallback
+            if (pageData.length === 0) {
+                pageData = [
+                    { page_num: 70, words: ["COFFE", "39", "of", "maleberry", "which", "is", "a", "single", "round", "seed.", "In", "their", "natural", "state", "they", "are", "almost", "tasteless;", "therefore", "color,", "flavor,", "and", "aroma", "are", "developed", "by", "the", "process", "of", "roasting."] },
+                    { page_num: 71, words: ["40", "BOSTON", "COOKING-SCHOOL", "COOK", "BOOK.", "proportion", "of", "tea", "used,", "accounts", "for", "the", "difference.", "A", "cup", "of", "coffee", "with", "breakfast,", "and", "black", "coffee", "after", "dinner."] },
+                ];
+            }
+
+            initializePages();
+        }
+
+        function initializePages() {
+            const container = document.getElementById('pages');
+            container.innerHTML = '';
+
+            pageData.forEach((page, idx) => {
+                annotations[idx] = {
+                    page_num: page.page_num,
+                    page_header: [],
+                    section_header: [],
+                    recipe_title: [],
+                    word_indices: {
+                        page_header: [],
+                        section_header: [],
+                        recipe_title: []
+                    }
+                };
+
+                const pageDiv = document.createElement('div');
+                pageDiv.className = 'page-container';
+                pageDiv.id = `page-${idx}`;
+
+                pageDiv.innerHTML = `
+                    <div class="page-header">
+                        <h2>Page ${page.page_num} (${idx + 1}/${pageData.length})</h2>
+                        <button class="clear-btn" onclick="clearPage(${idx})">Clear All</button>
+                    </div>
+                    <div class="label-buttons">
+                        <button class="label-btn page-header-btn" onclick="setLabel('page-header', this)" data-page="${idx}">PAGE_HEADER</button>
+                        <button class="label-btn section-header-btn" onclick="setLabel('section-header', this)" data-page="${idx}">SECTION_HEADER</button>
+                        <button class="label-btn recipe-title-btn active" onclick="setLabel('recipe-title', this)" data-page="${idx}">RECIPE_TITLE</button>
+                    </div>
+                    <div class="word-list" id="words-${idx}">
+                        ${page.words.map((word, widx) =>
+                            `<span class="word" data-idx="${widx}" onclick="toggleWord(${idx}, ${widx})">${escapeHtml(word)}</span>`
+                        ).join('')}
+                    </div>
+                    <div class="selected-labels" id="labels-${idx}">
+                        <div class="ph"><strong>PAGE_HEADER:</strong> <span id="ph-text-${idx}">-</span></div>
+                        <div class="sh"><strong>SECTION_HEADER:</strong> <span id="sh-text-${idx}">-</span></div>
+                        <div class="rt"><strong>RECIPE_TITLE:</strong> <span id="rt-text-${idx}">-</span></div>
+                    </div>
+                `;
+
+                container.appendChild(pageDiv);
+            });
+
+            updateProgress();
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function setLabel(label, btn) {
+            currentLabel = label;
+            // Update button states in the same page container
+            const container = btn.closest('.page-container');
+            container.querySelectorAll('.label-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+
+        function toggleWord(pageIdx, wordIdx) {
+            const wordEl = document.querySelector(`#words-${pageIdx} .word[data-idx="${wordIdx}"]`);
+            const ann = annotations[pageIdx];
+            const word = pageData[pageIdx].words[wordIdx];
+
+            // Check if word already has a label
+            const existingLabel = wordEl.classList.contains('page-header') ? 'page-header' :
+                                  wordEl.classList.contains('section-header') ? 'section-header' :
+                                  wordEl.classList.contains('recipe-title') ? 'recipe-title' : null;
+
+            if (existingLabel) {
+                // Remove existing label
+                wordEl.classList.remove(existingLabel);
+                const key = existingLabel.replace('-', '_');
+                ann[key] = ann[key].filter(w => w !== word);
+                ann.word_indices[key] = ann.word_indices[key].filter(i => i !== wordIdx);
+            }
+
+            if (existingLabel !== currentLabel) {
+                // Add new label
+                wordEl.classList.add(currentLabel);
+                const key = currentLabel.replace('-', '_');
+                ann[key].push(word);
+                ann.word_indices[key].push(wordIdx);
+            }
+
+            updateLabelsDisplay(pageIdx);
+            updateProgress();
+        }
+
+        function updateLabelsDisplay(pageIdx) {
+            const ann = annotations[pageIdx];
+            document.getElementById(`ph-text-${pageIdx}`).textContent = ann.page_header.join(' ') || '-';
+            document.getElementById(`sh-text-${pageIdx}`).textContent = ann.section_header.join(' ') || '-';
+            document.getElementById(`rt-text-${pageIdx}`).textContent = ann.recipe_title.join(' ') || '-';
+        }
+
+        function clearPage(pageIdx) {
+            const ann = annotations[pageIdx];
+            ann.page_header = [];
+            ann.section_header = [];
+            ann.recipe_title = [];
+            ann.word_indices = { page_header: [], section_header: [], recipe_title: [] };
+
+            document.querySelectorAll(`#words-${pageIdx} .word`).forEach(el => {
+                el.classList.remove('page-header', 'section-header', 'recipe-title');
+            });
+
+            updateLabelsDisplay(pageIdx);
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const labeled = Object.values(annotations).filter(a =>
+                a.page_header.length > 0 || a.section_header.length > 0 || a.recipe_title.length > 0
+            ).length;
+            document.getElementById('progress').textContent = `${labeled} / ${pageData.length} pages labeled`;
+        }
+
+        function exportAnnotations() {
+            const output = {
+                annotator: "manual_html_labeler",
+                date: new Date().toISOString(),
+                pages: Object.values(annotations).map(a => ({
+                    page_num: a.page_num,
+                    page_header: { words: a.page_header, indices: a.word_indices.page_header },
+                    section_header: { words: a.section_header, indices: a.word_indices.section_header },
+                    recipe_title: { words: a.recipe_title, indices: a.word_indices.recipe_title }
+                })).filter(a =>
+                    a.page_header.words.length > 0 ||
+                    a.section_header.words.length > 0 ||
+                    a.recipe_title.words.length > 0
+                )
+            };
+
+            document.getElementById('output').textContent = JSON.stringify(output, null, 2);
+            document.getElementById('results').style.display = 'block';
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function copyToClipboard() {
+            const text = document.getElementById('output').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Copied to clipboard!');
+            });
+        }
+
+        // Initialize on load
+        loadPageData();
+    </script>
+</body>
+</html>

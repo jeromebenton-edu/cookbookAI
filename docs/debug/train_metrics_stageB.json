@@ -1,0 +1,116 @@
+{
+  "stage": "stageB",
+  "timestamp": "2026-01-10T19:19:14.382493",
+  "model_dir": "models/layoutlmv3_boston_demo_250p_v2/layoutlmv3_boston_stageB_full",
+  "dataset_splits": {
+    "train": 213,
+    "validation": 37,
+    "test": 0
+  },
+  "final_metrics": {
+    "loss": 1.315330147743225,
+    "precision": 0.15,
+    "recall": 0.2153846153846154,
+    "f1": 0.17684210526315788,
+    "report": {
+      "ERVINGS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 8
+      },
+      "ITLE": {
+        "precision": 0.09090909090909091,
+        "recall": 0.08,
+        "f1-score": 0.0851063829787234,
+        "support": 25
+      },
+      "NGREDIENT_LINE": {
+        "precision": 0.12149532710280374,
+        "recall": 0.24074074074074073,
+        "f1-score": 0.16149068322981366,
+        "support": 54
+      },
+      "NSTRUCTION_STEP": {
+        "precision": 0.17880794701986755,
+        "recall": 0.25,
+        "f1-score": 0.20849420849420847,
+        "support": 108
+      },
+      "micro avg": {
+        "precision": 0.15,
+        "recall": 0.2153846153846154,
+        "f1-score": 0.17684210526315788,
+        "support": 195
+      },
+      "macro avg": {
+        "precision": 0.09780309125794054,
+        "recall": 0.1426851851851852,
+        "f1-score": 0.11377281867568638,
+        "support": 195
+      },
+      "weighted avg": {
+        "precision": 0.14433196520217625,
+        "recall": 0.2153846153846154,
+        "f1-score": 0.17110528710898737,
+        "support": 195
+      }
+    },
+    "labels": [
+      "INGREDIENT_LINE",
+      "INSTRUCTION_STEP",
+      "O",
+      "SERVINGS",
+      "TITLE"
+    ],
+    "confusion_matrix": [
+      [
+        2029,
+        204,
+        752,
+        0,
+        7
+      ],
+      [
+        95,
+        1087,
+        484,
+        0,
+        24
+      ],
+      [
+        249,
+        251,
+        3386,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        108,
+        0,
+        0,
+        215
+      ]
+    ],
+    "runtime": 5.35,
+    "samples_per_second": 6.916,
+    "steps_per_second": 3.551,
+    "epoch": 19.813084112149532
+  },
+  "epoch_metrics": [],
+  "training_args": {
+    "learning_rate": 5e-05,
+    "batch_size": 2,
+    "num_epochs": 20.0,
+    "seed": 42,
+    "use_weighted_loss": true
+  }
+}

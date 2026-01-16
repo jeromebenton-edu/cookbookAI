@@ -1,0 +1,40 @@
+{
+  "id": "bcsb_0016",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Raised Doughnuts",
+  "category": "Desserts",
+  "tags": ["fried", "tea"],
+  "time": { "prep": "20 min", "cook": "15 min", "total": "35 min" },
+  "servings": "3 dozen",
+  "ingredients": [
+    "1 cup scalded milk",
+    "1/4 cup butter",
+    "1/2 cup sugar",
+    "1 tsp salt",
+    "1/2 yeast cake dissolved in 1/4 cup lukewarm water",
+    "2 eggs, beaten",
+    "4 1/2 cups flour",
+    "1/2 tsp nutmeg"
+  ],
+  "instructions": [
+    "Pour hot milk over butter, sugar, and salt; cool to lukewarm.",
+    "Add yeast mixture and eggs.",
+    "Stir in flour and nutmeg to make soft dough; rise until double.",
+    "Roll, cut rings, let rise, and fry in deep fat until brown."
+  ],
+  "notes": ["Dust with powdered sugar when cool."],
+  "source": {
+    "page": 410,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-1.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

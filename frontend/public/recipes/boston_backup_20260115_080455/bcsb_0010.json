@@ -1,0 +1,40 @@
+{
+  "id": "bcsb_0010",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Strawberry Shortcake",
+  "category": "Desserts",
+  "tags": ["fruit", "shortcake"],
+  "time": { "prep": "20 min", "cook": "18 min", "total": "38 min" },
+  "servings": "6 servings",
+  "ingredients": [
+    "2 cups flour",
+    "3 tsp baking powder",
+    "1/2 tsp salt",
+    "3 tbsp sugar",
+    "1/4 cup butter",
+    "3/4 cup milk",
+    "2 cups sugared strawberries",
+    "Whipped cream"
+  ],
+  "instructions": [
+    "Sift dry ingredients; cut in butter.",
+    "Add milk to make soft dough and divide into two rounds.",
+    "Bake layers at 425F for 18 minutes.",
+    "Split, butter, and fill with berries; top with cream."
+  ],
+  "notes": ["Handle dough lightly for tenderness."],
+  "source": {
+    "page": 360,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-5.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

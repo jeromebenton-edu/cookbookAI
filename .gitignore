@@ -1,0 +1,52 @@
+# Virtualenvs
+.venv/
+backend/.venv/
+frontend/.venv/
+
+# Node artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+
+# Env files
+*.env
+*.env.local
+
+# Label Studio artifacts
+label-studio/
+label_studio/
+.label-studio/
+data/_generated/
+data/reports/sanity_overlays/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Backend cache and predictions
+backend/cache/
+backend/app/__pycache__/
+
+# Large model files
+models/
+
+# Large data files
+data/pages/
+data/images/
+data/gold/
+data/datasets/
+data/labels/
+data/raw/
+data/reports/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.arrow
+*.pt
+*.safetensors
+
+# But keep demo examples
+!frontend/public/demo_examples/**/*.png
+!frontend/src/demo_examples/**/*.png

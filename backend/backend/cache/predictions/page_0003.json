@@ -1,0 +1,553 @@
+{
+  "page_num": 3,
+  "image_path": "/home/jerome/projects/cookbookAI/data/pages/boston/0003.png",
+  "image_url": "/api/parse/boston/3/image",
+  "tokens": [
+    {
+      "text": "i",
+      "bbox": [
+        401,
+        144,
+        408,
+        147
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7676317691802979
+    },
+    {
+      "text": "#",
+      "bbox": [
+        802,
+        132,
+        818,
+        141
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7001094818115234
+    },
+    {
+      "text": "=",
+      "bbox": [
+        385,
+        153,
+        414,
+        164
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7372024059295654
+    },
+    {
+      "text": "~",
+      "bbox": [
+        369,
+        168,
+        394,
+        178
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.7334336042404175
+    },
+    {
+      "text": ">",
+      "bbox": [
+        146,
+        193,
+        192,
+        201
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.6483736038208008
+    },
+    {
+      "text": "a",
+      "bbox": [
+        293,
+        188,
+        338,
+        201
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.6059106588363647
+    },
+    {
+      "text": "SS",
+      "bbox": [
+        346,
+        182,
+        374,
+        193
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.6891714334487915
+    },
+    {
+      "text": "Copyright,",
+      "bbox": [
+        389,
+        355,
+        512,
+        372
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.5022329092025757
+    },
+    {
+      "text": "1896,",
+      "bbox": [
+        521,
+        356,
+        582,
+        370
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.5429467558860779
+    },
+    {
+      "text": "By",
+      "bbox": [
+        278,
+        382,
+        316,
+        396
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.5421973466873169
+    },
+    {
+      "text": "FANNIE",
+      "bbox": [
+        330,
+        382,
+        429,
+        396
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5011568069458008
+    },
+    {
+      "text": "MERRITT",
+      "bbox": [
+        442,
+        382,
+        560,
+        396
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5702434778213501
+    },
+    {
+      "text": "FARMER.",
+      "bbox": [
+        576,
+        382,
+        688,
+        400
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.6196772456169128
+    },
+    {
+      "text": "University",
+      "bbox": [
+        368,
+        857,
+        504,
+        883
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4628422260284424
+    },
+    {
+      "text": "Bress:",
+      "bbox": [
+        522,
+        857,
+        598,
+        883
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4821159839630127
+    },
+    {
+      "text": "Joun",
+      "bbox": [
+        201,
+        889,
+        264,
+        904
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.5222554802894592
+    },
+    {
+      "text": "Wirson",
+      "bbox": [
+        277,
+        889,
+        370,
+        902
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.46789178252220154
+    },
+    {
+      "text": "anv",
+      "bbox": [
+        385,
+        892,
+        436,
+        901
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.4547446370124817
+    },
+    {
+      "text": "Son,",
+      "bbox": [
+        448,
+        889,
+        502,
+        903
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.5282416939735413
+    },
+    {
+      "text": "Campripce,",
+      "bbox": [
+        517,
+        889,
+        664,
+        903
+      ],
+      "pred_label": "TITLE",
+      "pred_id": 0,
+      "confidence": 0.49858754873275757
+    },
+    {
+      "text": "U.S.A.",
+      "bbox": [
+        678,
+        887,
+        768,
+        900
+      ],
+      "pred_label": "INGREDIENT_LINE",
+      "pred_id": 1,
+      "confidence": 0.53037428855896
+    }
+  ],
+  "grouped": {
+    "INGREDIENT_LINE": [
+      {
+        "text": "i",
+        "bbox": [
+          401,
+          144,
+          408,
+          147
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7676317691802979
+      },
+      {
+        "text": "#",
+        "bbox": [
+          802,
+          132,
+          818,
+          141
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7001094818115234
+      },
+      {
+        "text": "=",
+        "bbox": [
+          385,
+          153,
+          414,
+          164
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7372024059295654
+      },
+      {
+        "text": "~",
+        "bbox": [
+          369,
+          168,
+          394,
+          178
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.7334336042404175
+      },
+      {
+        "text": ">",
+        "bbox": [
+          146,
+          193,
+          192,
+          201
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.6483736038208008
+      },
+      {
+        "text": "a",
+        "bbox": [
+          293,
+          188,
+          338,
+          201
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.6059106588363647
+      },
+      {
+        "text": "SS",
+        "bbox": [
+          346,
+          182,
+          374,
+          193
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.6891714334487915
+      },
+      {
+        "text": "Copyright,",
+        "bbox": [
+          389,
+          355,
+          512,
+          372
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.5022329092025757
+      },
+      {
+        "text": "1896,",
+        "bbox": [
+          521,
+          356,
+          582,
+          370
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.5429467558860779
+      },
+      {
+        "text": "By",
+        "bbox": [
+          278,
+          382,
+          316,
+          396
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.5421973466873169
+      },
+      {
+        "text": "Son,",
+        "bbox": [
+          448,
+          889,
+          502,
+          903
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.5282416939735413
+      },
+      {
+        "text": "U.S.A.",
+        "bbox": [
+          678,
+          887,
+          768,
+          900
+        ],
+        "pred_label": "INGREDIENT_LINE",
+        "pred_id": 1,
+        "confidence": 0.53037428855896
+      }
+    ],
+    "TITLE": [
+      {
+        "text": "FANNIE",
+        "bbox": [
+          330,
+          382,
+          429,
+          396
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5011568069458008
+      },
+      {
+        "text": "MERRITT",
+        "bbox": [
+          442,
+          382,
+          560,
+          396
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5702434778213501
+      },
+      {
+        "text": "FARMER.",
+        "bbox": [
+          576,
+          382,
+          688,
+          400
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.6196772456169128
+      },
+      {
+        "text": "University",
+        "bbox": [
+          368,
+          857,
+          504,
+          883
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4628422260284424
+      },
+      {
+        "text": "Bress:",
+        "bbox": [
+          522,
+          857,
+          598,
+          883
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4821159839630127
+      },
+      {
+        "text": "Joun",
+        "bbox": [
+          201,
+          889,
+          264,
+          904
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.5222554802894592
+      },
+      {
+        "text": "Wirson",
+        "bbox": [
+          277,
+          889,
+          370,
+          902
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.46789178252220154
+      },
+      {
+        "text": "anv",
+        "bbox": [
+          385,
+          892,
+          436,
+          901
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.4547446370124817
+      },
+      {
+        "text": "Campripce,",
+        "bbox": [
+          517,
+          889,
+          664,
+          903
+        ],
+        "pred_label": "TITLE",
+        "pred_id": 0,
+        "confidence": 0.49858754873275757
+      }
+    ]
+  },
+  "meta": {
+    "model_dir": "/home/jerome/projects/cookbookAI/models/layoutlmv3_boston_stageB_full_20260106_171601/layoutlmv3_boston_final",
+    "dataset_dir": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_full/dataset_dict",
+    "device": "cuda"
+  },
+  "label_map": {
+    "id2label": {
+      "0": "TITLE",
+      "1": "INGREDIENT_LINE",
+      "2": "INSTRUCTION_STEP",
+      "3": "TIME",
+      "4": "TEMP",
+      "5": "SERVINGS",
+      "6": "O"
+    },
+    "label2id": {
+      "TITLE": 0,
+      "INGREDIENT_LINE": 1,
+      "INSTRUCTION_STEP": 2,
+      "TIME": 3,
+      "TEMP": 4,
+      "SERVINGS": 5,
+      "O": 6
+    }
+  },
+  "is_recipe_page": false,
+  "recipe_confidence": 0.4953,
+  "label_counts": {
+    "INGREDIENT_LINE": 12,
+    "TITLE": 9
+  },
+  "title": "FARMER.",
+  "avg_token_confidence": 0.5765,
+  "recipe_token_ratio": 1.0,
+  "recipe_conf_version": 2,
+  "recipe_like": false
+}

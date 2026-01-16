@@ -1,0 +1,121 @@
+{
+  "id": "baked-haddock",
+  "title": "Baked Haddock",
+  "description": "A simple fish roast with lemon, crumbs, and herbs.",
+  "category": "Seafood",
+  "tags": ["dinner", "bake", "coastal"],
+  "servings": "Serves 4",
+  "time": {
+    "totalMinutes": 40,
+    "activeMinutes": 10
+  },
+  "ingredients": [
+    "1 1/2 lb haddock fillet",
+    "2 tbsp butter, melted",
+    "1/2 cup bread crumbs",
+    "1 tbsp chopped parsley",
+    "1 lemon, sliced",
+    "Salt and pepper"
+  ],
+  "instructions": [
+    "Place fish in a buttered baking dish and season.",
+    "Mix crumbs with parsley and butter; cover the fish.",
+    "Top with lemon slices and bake at 375F for 25 minutes.",
+    "Serve with pan juices and fresh herbs."
+  ],
+  "notes": ["Swap haddock with cod if needed."],
+  "confidence": 0.79,
+  "source": {
+    "book": "Boston Cooking-School Cook Book (1918)",
+    "page": 212
+  },
+  "ai": {
+    "pageImage": "/recipes/boston/pages/placeholder-2.png",
+    "pageSize": { "width": 900, "height": 1200 },
+    "tokens": [
+      {
+        "id": "bh-1",
+        "text": "Baked",
+        "label": "TITLE",
+        "score": 0.91,
+        "bbox": [150, 120, 220, 150]
+      },
+      {
+        "id": "bh-2",
+        "text": "Haddock",
+        "label": "TITLE",
+        "score": 0.9,
+        "bbox": [230, 120, 330, 150]
+      },
+      {
+        "id": "bh-3",
+        "text": "1",
+        "label": "INGREDIENT_LINE",
+        "score": 0.86,
+        "bbox": [130, 320, 140, 340]
+      },
+      {
+        "id": "bh-4",
+        "text": "1/2",
+        "label": "INGREDIENT_LINE",
+        "score": 0.85,
+        "bbox": [150, 320, 185, 340]
+      },
+      {
+        "id": "bh-5",
+        "text": "lb",
+        "label": "INGREDIENT_LINE",
+        "score": 0.84,
+        "bbox": [190, 320, 210, 340]
+      },
+      {
+        "id": "bh-6",
+        "text": "haddock",
+        "label": "INGREDIENT_LINE",
+        "score": 0.83,
+        "bbox": [220, 320, 290, 340]
+      },
+      {
+        "id": "bh-7",
+        "text": "Place",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.81,
+        "bbox": [130, 640, 180, 665]
+      },
+      {
+        "id": "bh-8",
+        "text": "fish",
+        "label": "INSTRUCTION_STEP",
+        "score": 0.8,
+        "bbox": [190, 640, 220, 665]
+      },
+      {
+        "id": "bh-9",
+        "text": "Serves",
+        "label": "META",
+        "score": 0.74,
+        "bbox": [130, 900, 190, 925]
+      },
+      {
+        "id": "bh-10",
+        "text": "4",
+        "label": "META",
+        "score": 0.72,
+        "bbox": [195, 900, 205, 925]
+      }
+    ],
+    "fieldConfidence": {
+      "title": 0.9,
+      "ingredients": 0.84,
+      "instructions": 0.8,
+      "servings": 0.74,
+      "time": 0.67
+    },
+    "raw": {
+      "page": 212,
+      "model": "layoutlmv3-recipe",
+      "tokens": 10,
+      "notes": "Mocked from archive"
+    }
+  }
+}

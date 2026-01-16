@@ -1,0 +1,37 @@
+{
+  "id": "bcsb_0008",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Sponge Cake",
+  "category": "Desserts",
+  "tags": ["cake", "light"],
+  "time": { "prep": "20 min", "cook": "30 min", "total": "50 min" },
+  "servings": "1 loaf",
+  "ingredients": [
+    "4 eggs, separated",
+    "1 cup sugar",
+    "1 cup flour",
+    "1/4 tsp salt",
+    "1 tsp lemon juice"
+  ],
+  "instructions": [
+    "Beat egg yolks until thick; gradually add sugar.",
+    "Fold in sifted flour and salt alternately with beaten egg whites.",
+    "Add lemon juice; pour into an ungreased pan.",
+    "Bake slowly at 325F for 30 minutes."
+  ],
+  "notes": ["Cool upside down to maintain volume."],
+  "source": {
+    "page": 357,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-3.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}

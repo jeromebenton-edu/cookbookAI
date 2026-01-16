@@ -1,0 +1,38 @@
+{
+  "id": "bcsb_0007",
+  "book": "Boston Cooking-School Cook Book",
+  "year": 1918,
+  "title": "Waffles",
+  "category": "Breakfast",
+  "tags": ["crisp", "classic"],
+  "time": { "prep": "10 min", "cook": "12 min", "total": "22 min" },
+  "servings": "6 waffles",
+  "ingredients": [
+    "2 cups flour",
+    "3 tsp baking powder",
+    "1/2 tsp salt",
+    "2 eggs, separated",
+    "1 3/4 cups milk",
+    "3 tbsp melted butter"
+  ],
+  "instructions": [
+    "Sift flour, baking powder, and salt.",
+    "Beat egg yolks with milk and melted butter; combine with dry ingredients.",
+    "Fold in stiffly beaten egg whites.",
+    "Bake in a hot greased waffle iron until brown and crisp."
+  ],
+  "notes": ["Serve immediately to keep crisp."],
+  "source": {
+    "page": 101,
+    "pdf_url": "/books/boston-cooking-school-1918.pdf"
+  },
+  "ai": {
+    "page_image": "/recipes/boston/pages/placeholder-2.png",
+    "tokens": [],
+    "field_confidence": {
+      "title": 1.0,
+      "ingredients": 1.0,
+      "instructions": 1.0
+    }
+  }
+}
