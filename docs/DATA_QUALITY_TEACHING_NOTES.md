@@ -79,6 +79,84 @@ The `field_confidence` metadata preserves ML output quality metrics:
 
 This transparency allows users to understand data provenance and quality.
 
+## Challenge 3: OCR Quality - The Achilles Heel
+
+**Problem:** Tesseract OCR struggles with 1896 typography and two-column layout, creating garbled text that compounds downstream ML errors.
+
+**Example:** Asparagus Soup (page 144)
+
+*Should be:*
+```
+3 cups White Stock II. or III.
+1 can asparagus
+2 cups cold water
+1 slice onion
+¼ cup butter
+¼ cup flour
+2 cups scalded milk
+Salt and pepper
+```
+
+*OCR output:*
+```
+8 2 1 Lean cups cups slice asparagus, cold onion. White
+water. Stock Hi. or 111. 2 Salt 44 44 cups cup cup and
+scalded butter. flour. pepper. milk. ¢
+```
+
+**Root Causes:**
+1. **Multi-column layout** - Reading order jumps between columns
+2. **Historical typography** - 19th century fonts misrecognized
+3. **Special characters** - Fractions (¼, ½) become numbers or symbols
+4. **No post-processing** - Raw Tesseract output without correction
+
+**Why This Matters:**
+
+OCR errors cascade through the pipeline:
+- Bad OCR → Bad token classification → Garbled ingredients
+- Even with perfect ML model, output quality limited by input quality
+- **Garbage in, garbage out** principle in action
+
+**Why LayoutLMv3 Still Works:**
+
+Despite terrible OCR, the model can still:
+- ✅ Identify recipe structure (title, ingredients, instructions sections)
+- ✅ Extract bounding boxes for visual overlays
+- ✅ Classify token roles even when text is wrong
+- ✅ Provide confidence scores flagging quality issues
+
+This demonstrates **robustness** - the model degrades gracefully with bad input.
+
+**Solutions for Production Systems:**
+
+1. **Modern Vision-Language Models**
+   - GPT-4 Vision / Claude 3.5 Sonnet: Direct image → structured data
+   - No OCR step needed - models "read" images directly
+   - Cost: ~$0.01-0.10 per page (vs free Tesseract)
+
+2. **Human-in-the-Loop Verification**
+   - Flag low-confidence extractions (< 0.5) for manual review
+   - Crowd-sourced correction (Amazon Mechanical Turk, Prolific)
+   - Active learning: retrain on corrected examples
+
+3. **Better OCR Engines**
+   - Google Cloud Vision API (~$1.50/1000 pages)
+   - Azure Computer Vision
+   - Specialized historical document OCR tools
+
+4. **Post-OCR Correction**
+   - Language models to fix obvious errors
+   - Dictionary lookup for ingredient terms
+   - Pattern matching (e.g., "111" → "III", "44" → "¼")
+
+**Teaching Value:**
+
+This challenge demonstrates:
+- **System thinking** - Understand entire pipeline, not just ML model
+- **Pragmatic tradeoffs** - Free OCR vs paid APIs vs manual curation
+- **Design for degradation** - Systems that work despite imperfect inputs
+- **Honest assessment** - Acknowledging limitations builds trust
+
 ## Future Work
 
 Potential improvements:
@@ -86,7 +164,9 @@ Potential improvements:
 2. **Recipe relationship detection** - Identify variation patterns automatically
 3. **Active learning** - Prioritize manual review of low-confidence extractions
 4. **Structured variation format** - Special UI for "doubles X from recipe Y" patterns
+5. **OCR upgrade** - Evaluate GPT-4 Vision for high-quality re-extraction
+6. **Crowdsourced corrections** - Community-driven data quality improvements
 
 ---
 
-*This teaching moment shows how AI-assisted digitization combines ML automation with human expertise to handle real-world complexity.*
+*This teaching portfolio demonstrates how AI-assisted digitization combines ML automation with human expertise to handle real-world complexity. By transparently showing both successes and limitations, it provides a realistic view of production ML systems.*
