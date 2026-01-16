@@ -15,7 +15,7 @@ export default function SiteHeader() {
         </div>
         <div>
           <p className="display-font text-xl font-semibold">CookbookAI</p>
-          <p className="text-xs uppercase tracking-[0.25em] text-[#6b8b6f]">1918 Archive</p>
+          <p className="text-xs uppercase tracking-[0.25em] text-[#6b8b6f]">1896 Archive</p>
         </div>
       </Link>
       <nav className="hidden items-center gap-6 text-sm font-medium text-[#4b4237] md:flex">
