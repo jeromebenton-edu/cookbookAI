@@ -117,7 +117,7 @@ def categorize_recipe(title: str, ingredients: List[str]) -> str:
 
 def generate_tags(title: str, ingredients: List[str], category: str) -> List[str]:
     """Generate tags based on content."""
-    tags = ["1896", "fanny-farmer"]
+    tags = ["1896"]
 
     title_lower = normalize_text(title)
     ingredients_text = " ".join([normalize_text(ing) for ing in ingredients])
