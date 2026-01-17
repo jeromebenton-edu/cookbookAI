@@ -24,6 +24,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Runtime files
+.pids/
+
 # Backend cache and predictions
 backend/cache/
 backend/app/__pycache__/
