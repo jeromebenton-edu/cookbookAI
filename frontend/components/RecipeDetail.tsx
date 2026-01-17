@@ -13,6 +13,7 @@ import { useOverlayAvailability } from "../hooks/useOverlayAvailability";
 export default function RecipeDetail({ recipe }: { recipe: Recipe }) {
   const [view, setView] = useState<"cook" | "ai">("cook");
   const [cookMode, setCookMode] = useState(false);
+  const [wakeLockActive, setWakeLockActive] = useState(false);
   const router = useRouter();
   const pageNum = recipe.source.page;
   const { available, loading, availablePageIds } = useOverlayAvailability(pageNum);
@@ -23,6 +24,38 @@ export default function RecipeDetail({ recipe }: { recipe: Recipe }) {
       setView("cook");
     }
   }, [available, loading, view]);
+
+  // Wake lock to prevent screen from sleeping in cook mode
+  useEffect(() => {
+    if (!cookMode) {
+      setWakeLockActive(false);
+      return;
+    }
+    let wakeLock: WakeLockSentinel | null = null;
+    const requestWakeLock = async () => {
+      try {
+        if ("wakeLock" in navigator) {
+          wakeLock = await navigator.wakeLock.request("screen");
+          setWakeLockActive(true);
+          wakeLock.addEventListener("release", () => setWakeLockActive(false));
+        }
+      } catch {
+        setWakeLockActive(false);
+      }
+    };
+    requestWakeLock();
+    // Re-acquire on visibility change (e.g., tab switch back)
+    const handleVisibility = () => {
+      if (document.visibilityState === "visible" && cookMode) {
+        requestWakeLock();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibility);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibility);
+      if (wakeLock) wakeLock.release();
+    };
+  }, [cookMode]);
 
   const demoOptions = useMemo(() => availablePageIds.slice(0, 50), [availablePageIds]);
 
@@ -82,8 +115,13 @@ export default function RecipeDetail({ recipe }: { recipe: Recipe }) {
               "rounded-full border border-[#2c2620]/15 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#2c2620] shadow-sm transition hover:-translate-y-[1px] hover:shadow-md",
               cookMode && "bg-[#2c2620] text-[#f7efe3]"
             )}
+            title={cookMode && wakeLockActive ? "Screen will stay on" : ""}
           >
-            {cookMode ? "Exit Cook Mode" : "Cook Mode"}
+            {cookMode ? (
+              <>Exit Cook Mode {wakeLockActive && <span className="ml-1 opacity-70">☀</span>}</>
+            ) : (
+              "Cook Mode"
+            )}
           </button>
         </div>
         {!loading && !available ? (
