@@ -1,10 +1,10 @@
 import IngredientChecklist from "./IngredientChecklist";
+import CorrectionExport from "./CorrectionExport";
 import { Recipe, ExtractedRecipe } from "../lib/types";
 import { useEffect, useMemo, useState } from "react";
 import { getExtractedRecipe } from "../lib/api/parse";
 import { diffLines } from "../lib/diff/recipeDiff";
 import { useRecipeCorrection } from "../hooks/useRecipeCorrection";
-import { downloadJson } from "../lib/export/downloadJson";
 
 export default function RecipeDetailCookView({ recipe }: { recipe: Recipe }) {
   const [extracted, setExtracted] = useState<ExtractedRecipe | null>(null);
@@ -166,34 +166,14 @@ export default function RecipeDetailCookView({ recipe }: { recipe: Recipe }) {
               ))}
             </ol>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap items-center gap-3">
+            <CorrectionExport
+              exportJson={correction.exportJson}
+              pageNum={recipe.source.page}
+              overallConf={extracted.confidence.overall}
+            />
             <button
-              className="rounded-full border border-[#2c2620]/15 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#2c2620] shadow-sm transition hover:-translate-y-[1px] hover:shadow-md"
-              onClick={() =>
-                downloadJson(
-                  correction.exportJson({ model: "layoutlmv3", overall_conf: extracted.confidence.overall }),
-                  `boston_page_${recipe.source.page.toString().padStart(4, "0")}_corrected.json`
-                )
-              }
-            >
-              Download corrected JSON
-            </button>
-            <button
-              className="rounded-full border border-[#2c2620]/15 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#2c2620] shadow-sm transition hover:-translate-y-[1px] hover:shadow-md"
-              onClick={() =>
-                navigator.clipboard.writeText(
-                  JSON.stringify(
-                    correction.exportJson({ model: "layoutlmv3", overall_conf: extracted.confidence.overall }),
-                    null,
-                    2
-                  )
-                )
-              }
-            >
-              Copy corrected JSON
-            </button>
-            <button
-              className="text-xs text-[#6b8b6f]"
+              className="text-xs text-[#6b8b6f] hover:text-[#4b7050]"
               onClick={() => correction.reset()}
             >
               Reset
@@ -351,33 +331,13 @@ export default function RecipeDetailCookView({ recipe }: { recipe: Recipe }) {
                   })}
                 </ol>
               </div>
-              <div className="mt-3 flex flex-wrap gap-2">
-                <button
-                  className="rounded-full border border-[#2c2620]/15 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#2c2620] shadow-sm transition hover:-translate-y-[1px] hover:shadow-md"
-                  onClick={() =>
-                    downloadJson(
-                      correction.exportJson({ model: "layoutlmv3", overall_conf: extracted.confidence.overall }),
-                      `boston_page_${recipe.source.page.toString().padStart(4, "0")}_corrected.json`
-                    )
-                  }
-                >
-                  Download corrected JSON
-                </button>
-                <button
-                  className="rounded-full border border-[#2c2620]/15 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#2c2620] shadow-sm transition hover:-translate-y-[1px] hover:shadow-md"
-                  onClick={() =>
-                    navigator.clipboard.writeText(
-                      JSON.stringify(
-                        correction.exportJson({ model: "layoutlmv3", overall_conf: extracted.confidence.overall }),
-                        null,
-                        2
-                      )
-                    )
-                  }
-                >
-                  Copy corrected JSON
-                </button>
-                <button className="text-xs text-[#6b8b6f]" onClick={() => correction.reset()}>
+              <div className="mt-3 flex flex-wrap items-center gap-3">
+                <CorrectionExport
+                  exportJson={correction.exportJson}
+                  pageNum={recipe.source.page}
+                  overallConf={extracted.confidence.overall}
+                />
+                <button className="text-xs text-[#6b8b6f] hover:text-[#4b7050]" onClick={() => correction.reset()}>
                   Reset
                 </button>
               </div>
