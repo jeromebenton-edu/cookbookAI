@@ -8,7 +8,7 @@ import { useRecipeCorrection } from "../hooks/useRecipeCorrection";
 
 export default function RecipeDetailCookView({ recipe }: { recipe: Recipe }) {
   const [extracted, setExtracted] = useState<ExtractedRecipe | null>(null);
-  const [mode, setMode] = useState<"curated" | "ai" | "compare">("curated");
+  const [mode, setMode] = useState<"curated" | "compare">("curated");
   useEffect(() => {
     // best-effort; ignore errors
     getExtractedRecipe(recipe.source.page)
@@ -28,13 +28,13 @@ export default function RecipeDetailCookView({ recipe }: { recipe: Recipe }) {
   const modeToggle = (
     <div className="print-hidden flex items-center gap-2">
       <div className="flex items-center rounded-full border border-[#2c2620]/15 bg-white/80 p-1 text-xs uppercase tracking-[0.2em] text-[#2c2620]">
-        {(["curated", "ai", "compare"] as const).map((m) => (
+        {(["curated", "compare"] as const).map((m) => (
           <button
             key={m}
             onClick={() => setMode(m)}
             className={`rounded-full px-3 py-1 transition ${mode === m ? "bg-[#2c2620] text-[#f7efe3]" : ""}`}
           >
-            {m === "curated" ? "Curated" : m === "ai" ? "AI Extracted" : "Compare"}
+            {m === "curated" ? "Curated" : "Compare and Correct"}
           </button>
         ))}
       </div>
@@ -92,94 +92,6 @@ export default function RecipeDetailCookView({ recipe }: { recipe: Recipe }) {
             </p>
           </section>
         </div>
-      )}
-
-      {mode === "ai" && extracted && (
-        <section className="paper-card flex flex-col gap-3 p-6 text-sm text-[#2c2620] print:border-0 print:bg-transparent print:text-xs">
-          <div className="flex items-center justify-between">
-            <p className="text-xs uppercase tracking-[0.2em] text-[#6b8b6f]">
-              AI Extracted Recipe (LayoutLMv3)
-            </p>
-            <span className="rounded-full bg-[#2c2620]/5 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-[#2c2620]">
-              Overall {(extracted.confidence.overall * 100).toFixed(0)}%
-            </span>
-          </div>
-          <label className="flex flex-col gap-1">
-            <span className="text-[11px] uppercase tracking-[0.18em] text-[#6b8b6f]">Title</span>
-            <input
-              className="rounded border border-[#2c2620]/20 bg-white px-3 py-2"
-              value={correction.state.title}
-              onChange={(e) => correction.updateTitle(e.target.value)}
-            />
-          </label>
-          <div>
-            <div className="flex items-center justify-between">
-              <p className="text-[11px] uppercase tracking-[0.18em] text-[#6b8b6f]">Ingredients</p>
-              <button className="text-[11px] text-[#2c2620]" onClick={correction.addIngredient}>
-                + Add
-              </button>
-            </div>
-            <ul className="mt-1 flex flex-col gap-2">
-              {correction.state.ingredients.map((ing) => (
-                <li key={ing.id} className="flex items-center gap-2">
-                  <input
-                    className="flex-1 rounded border border-[#2c2620]/20 bg-white px-3 py-2"
-                    value={ing.text}
-                    onChange={(e) => correction.updateIngredient(ing.id, e.target.value)}
-                  />
-                  <button className="text-[11px] text-[#d34b4b]" onClick={() => correction.removeIngredient(ing.id)}>
-                    Delete
-                  </button>
-                  {typeof ing.confidence === "number" ? (
-                    <span className="rounded-full bg-[#2c2620]/5 px-2 py-1 text-[10px]">
-                      {(ing.confidence * 100).toFixed(0)}%
-                    </span>
-                  ) : null}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <div className="flex items-center justify-between">
-              <p className="text-[11px] uppercase tracking-[0.18em] text-[#6b8b6f]">Instructions</p>
-              <button className="text-[11px] text-[#2c2620]" onClick={correction.addInstruction}>
-                + Add
-              </button>
-            </div>
-            <ol className="mt-1 flex flex-col gap-2">
-              {correction.state.instructions.map((step) => (
-                <li key={step.id} className="flex items-center gap-2">
-                  <textarea
-                    className="flex-1 rounded border border-[#2c2620]/20 bg-white px-3 py-2"
-                    value={step.text}
-                    onChange={(e) => correction.updateInstruction(step.id, e.target.value)}
-                  />
-                  <button className="text-[11px] text-[#d34b4b]" onClick={() => correction.removeInstruction(step.id)}>
-                    Delete
-                  </button>
-                  {typeof step.confidence === "number" ? (
-                    <span className="rounded-full bg-[#2c2620]/5 px-2 py-1 text-[10px]">
-                      {(step.confidence * 100).toFixed(0)}%
-                    </span>
-                  ) : null}
-                </li>
-              ))}
-            </ol>
-          </div>
-          <div className="flex flex-wrap items-center gap-3">
-            <CorrectionExport
-              exportJson={correction.exportJson}
-              pageNum={recipe.source.page}
-              overallConf={extracted.confidence.overall}
-            />
-            <button
-              className="text-xs text-[#6b8b6f] hover:text-[#4b7050]"
-              onClick={() => correction.reset()}
-            >
-              Reset
-            </button>
-          </div>
-        </section>
       )}
 
       {mode === "compare" && extracted && (

@@ -1,0 +1,142 @@
+{
+  "page_num": 79,
+  "corrected": {
+    "title": "Unfermented Grape Juice",
+    "ingredients": [
+      "10 lbs. grapes.",
+      "3 lbs. sugar.",
+      "1 cup water."
+    ],
+    "instructions": [
+      "Put grapes and water in granite stew-pan. Heat until stones and pulp separate; then strain through jelly-bag, add sugar, heat to boiling-point, and bottle. This will make one gallon. When served, it should be diluted on-half with water."
+    ]
+  },
+  "ai_original": {
+    "page_num": 79,
+    "title": "Unfermented Grape Juice.",
+    "title_obj": {
+      "id": "title_0001",
+      "text": "Unfermented Grape Juice.",
+      "bbox": [
+        334,
+        63,
+        720,
+        80
+      ],
+      "confidence": 0.8169223268826803,
+      "token_count": 3
+    },
+    "ingredients_lines": [
+      {
+        "id": "ing_0001",
+        "text": "10 lbs. grapes. 1 cup water.",
+        "bbox": [
+          284,
+          95,
+          770,
+          114
+        ],
+        "confidence": 0.9542395770549774,
+        "token_count": 6
+      },
+      {
+        "id": "ing_0002",
+        "text": "8 lbs. sugar.",
+        "bbox": [
+          446,
+          115,
+          608,
+          132
+        ],
+        "confidence": 0.955069363117218,
+        "token_count": 3
+      }
+    ],
+    "instruction_lines": [
+      {
+        "id": "ins_0001",
+        "text": "Put grapes and water in granite stew-pan. Heat until",
+        "bbox": [
+          138,
+          144,
+          952,
+          167
+        ],
+        "confidence": 0.8970349563492669,
+        "token_count": 9
+      },
+      {
+        "id": "ins_0002",
+        "text": "stones and pulp separate;",
+        "bbox": [
+          106,
+          171,
+          440,
+          190
+        ],
+        "confidence": 0.6550070196390152,
+        "token_count": 4
+      },
+      {
+        "id": "ins_0003",
+        "text": "add sugar, heat to boiling-point, and bottle. This will",
+        "bbox": [
+          106,
+          189,
+          952,
+          212
+        ],
+        "confidence": 0.6892133322026994,
+        "token_count": 9
+      },
+      {
+        "id": "ins_0004",
+        "text": "make one When",
+        "bbox": [
+          106,
+          215,
+          472,
+          231
+        ],
+        "confidence": 0.5366878708203634,
+        "token_count": 3
+      }
+    ],
+    "ingredients": [
+      "10 lbs. grapes. 1 cup water.",
+      "8 lbs. sugar."
+    ],
+    "instructions": [
+      "Put grapes and water in granite stew-pan. Heat until stones and pulp separate; add sugar, heat to boiling-point, and bottle. This will make one When"
+    ],
+    "confidence": {
+      "title": 0.8169223268826803,
+      "ingredients": 0.9546544700860977,
+      "instructions": 0.6944857947528362,
+      "overall": 0.8226581810352703
+    },
+    "meta": {
+      "source": "layoutlmv3_predictions",
+      "notes": [
+        "NOTE collapsed to O in training"
+      ],
+      "label_counts": {
+        "PAGE_HEADER": 5,
+        "RECIPE_TITLE": 3,
+        "INGREDIENT_LINE": 9,
+        "INSTRUCTION_STEP": 25,
+        "O": 14
+      },
+      "model": "/home/jerome/projects/cookbookAI/models/layoutlmv3_v3_manual_59pages_balanced",
+      "dataset": "/home/jerome/projects/cookbookAI/data/datasets/boston_layoutlmv3_v3_manual_expanded2/dataset_dict",
+      "created_at": "2026-01-17T21:11:51.215257Z"
+    },
+    "is_recipe_page": true,
+    "recipe_confidence": 0.6295
+  },
+  "meta": {
+    "model": "layoutlmv3",
+    "overall_conf": 0.8226581810352703,
+    "created_at": "2026-01-17T21:14:06.450Z"
+  }
+}
